@@ -14,3 +14,5 @@ github_username:  marek5050
 markdown: kramdown
 #highlighter: true
 pygments: true
+collections:
+ - my_resume
