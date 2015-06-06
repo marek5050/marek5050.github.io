@@ -12,4 +12,5 @@ github_username:  marek5050
 
 # Build settings
 markdown: kramdown
-highlighter: true
+#highlighter: true
+pygments:true
