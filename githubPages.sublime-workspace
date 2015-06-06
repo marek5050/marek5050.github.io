@@ -1,0 +1,1209 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hw2_",
+				"hw2_routines"
+			],
+			[
+				"object",
+				"Object"
+			],
+			[
+				"Thum",
+				"ThumbnailImage"
+			],
+			[
+				"Add",
+				"AddToCartURL"
+			],
+			[
+				"Image",
+				"ImageSet"
+			],
+			[
+				"Item",
+				"ItemSearchResponse"
+			],
+			[
+				"amazon",
+				"amazonProductSchema"
+			],
+			[
+				"User",
+				"UserModel"
+			],
+			[
+				"_en",
+				"_entityModel"
+			],
+			[
+				"en",
+				"entity"
+			],
+			[
+				"retwee",
+				"retweeted_status"
+			],
+			[
+				"_t",
+				"_tupleModel"
+			],
+			[
+				"path",
+				"path_info"
+			],
+			[
+				"curr",
+				"current_dir"
+			],
+			[
+				"ftb",
+				"ftbl_array"
+			],
+			[
+				"BITM",
+				"BITMAP_ERROR"
+			],
+			[
+				"page",
+				"page_cnt"
+			],
+			[
+				"ftbl",
+				"ftbl_btmp"
+			],
+			[
+				"bitmap_",
+				"bitmap_scan_and_flip"
+			],
+			[
+				"NULL",
+				"null"
+			],
+			[
+				"sys",
+				"sys_stack"
+			],
+			[
+				"allocate_",
+				"allocate_process"
+			],
+			[
+				"waiting",
+				"waitingthread"
+			],
+			[
+				"deny",
+				"deny_write"
+			],
+			[
+				"exec",
+				"executable"
+			],
+			[
+				"strc",
+				"strcpy"
+			],
+			[
+				"cmd",
+				"cmdline"
+			],
+			[
+				"SIGSTP",
+				"SIGTSTP"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"output",
+				"outputREQ"
+			],
+			[
+				"out",
+				"outputREQ"
+			],
+			[
+				"async",
+				"asyncCallback"
+			],
+			[
+				"_",
+				"_clientID"
+			],
+			[
+				"number_of",
+				"number_of_ways"
+			],
+			[
+				"memo",
+				"memory_address"
+			],
+			[
+				"victim",
+				"victim_address"
+			],
+			[
+				"cache_entr",
+				"cache_entry_index"
+			],
+			[
+				"find",
+				"Find_Victim_by_Replacement_Policy"
+			],
+			[
+				"swap",
+				"swap_cache_lines"
+			],
+			[
+				"cache_add",
+				"cache_address"
+			],
+			[
+				"simula",
+				"Simulate_Victim_Cache"
+			],
+			[
+				"cache",
+				"cache_entry2"
+			],
+			[
+				"cac",
+				"cache_entry_index"
+			],
+			[
+				"number_of_",
+				"number_of_memory_reference"
+			],
+			[
+				"upda",
+				"Update_Replacement_Policy_Data"
+			],
+			[
+				"vict",
+				"victim_line"
+			],
+			[
+				"Sim",
+				"Simulate_Reference_to_Victim_Cache_Line"
+			],
+			[
+				"cach",
+				"cache_address"
+			],
+			[
+				"swa",
+				"swap_cache_lines"
+			],
+			[
+				"number",
+				"number_of_ways"
+			],
+			[
+				"block",
+				"block_num"
+			],
+			[
+				"block_",
+				"block_length"
+			],
+			[
+				"jm",
+				"jumpTo"
+			],
+			[
+				"is",
+				"is_jmp"
+			],
+			[
+				"is_",
+				"is_halt"
+			],
+			[
+				"pc",
+				"pcval"
+			],
+			[
+				"coun",
+				"memoryCount"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"MEM",
+				"MEMORY_"
+			],
+			[
+				"esp",
+				"espval"
+			],
+			[
+				"currento",
+				"currentOP"
+			],
+			[
+				"des",
+				"destA"
+			],
+			[
+				"fe",
+				"s_fetch"
+			],
+			[
+				"s_",
+				"s_fetch"
+			],
+			[
+				"MemoryRefe",
+				"Memory_Reference"
+			],
+			[
+				"question",
+				"questionFiles"
+			],
+			[
+				"que",
+				"questionFiles"
+			],
+			[
+				"Facts",
+				"factsFileNotFound"
+			],
+			[
+				"print",
+				"printArray"
+			],
+			[
+				"bitsIn",
+				"bitsInNew"
+			],
+			[
+				"valu",
+				"VALUE"
+			],
+			[
+				"prin",
+				"printBinary"
+			],
+			[
+				"count",
+				"countNewCharacters"
+			],
+			[
+				"chara",
+				"characterPtr"
+			],
+			[
+				"chc",
+				"characterPtr"
+			],
+			[
+				"charac",
+				"characterPtr"
+			],
+			[
+				"encode",
+				"encodeBuffer"
+			],
+			[
+				"printBi",
+				"printBinaryInt"
+			],
+			[
+				"encoded",
+				"encodedCharacter"
+			],
+			[
+				"enco",
+				"encodeBuffer"
+			],
+			[
+				"over",
+				"overFlow"
+			],
+			[
+				"buffer",
+				"encodeBuffer"
+			],
+			[
+				"cha",
+				"characterPtr"
+			],
+			[
+				"printB",
+				"printBinaryInt"
+			],
+			[
+				"char",
+				"character"
+			],
+			[
+				"rever",
+				"reverseIt"
+			],
+			[
+				"shi",
+				"shiftIt"
+			],
+			[
+				"or",
+				"orIt"
+			],
+			[
+				"inve",
+				"inverseItAgain"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2015-06-06-SE_Week1.markdown",
+			"settings":
+			{
+				"buffer_size": 1275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2015-06-06-STL_Week1.markdown",
+			"settings":
+			{
+				"buffer_size": 1278,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/C.sublime-build",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"csv",
+				"DataConverter: to JSON"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"prettyf",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"pretty",
+				"Pretty JSON: JSON 2 XML"
+			],
+			[
+				"syntax htl",
+				"Set Syntax: HTML"
+			],
+			[
+				"data",
+				"DataConverter: to JSON"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Run"
+			],
+			[
+				"haske",
+				"SublimeHaskell: Run"
+			],
+			[
+				"Haskell",
+				"SublimeHaskell: Switch Cabal/Cabal-Dev"
+			],
+			[
+				"sublime",
+				"SublimeHaskell: Clean"
+			],
+			[
+				"instal",
+				"SublimeHaskell: Install"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package control",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublimeMerge",
+			"package control",
+			"install console",
+			"install",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marekbejda/Desktop/marek5050.github.io/resume.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/work-5-army.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/work-4-ng.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/work-1-sotera.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/work-2-cat.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/work-3-jpm.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/personal-2-amodernstory.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/personal-1-1xcloud.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_config.yml",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/personal-3-cors.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/index.html",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_layouts/default.html",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_includes/footer.html",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/education-1-ut.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/work-4-army.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/card-5.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_my_resume/card-2.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/css/main.scss",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-08-card-8.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-09-card-9.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-07-card-7.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-06-card-6.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-05-card-5.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-04-card-4.md",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-03-card-3.markdown",
+		"/Users/marekbejda/Desktop/marek5050.github.io/_resume/2015-01-02-card-2.md",
+		"/Users/marekbejda/Downloads/NODEJS_Example/modules/A.js",
+		"/Users/marekbejda/Downloads/NODEJS_Example/modules/B.js",
+		"/Users/marekbejda/Downloads/NODEJS_Example/node_modules/include.js",
+		"/Users/marekbejda/Downloads/NODEJS_Example/main.js",
+		"/Users/marekbejda/Downloads/NODEJS_Example/modules/include.js",
+		"/Users/marekbejda/Downloads/NODEJS_Example/A.js",
+		"/Users/marekbejda/Downloads/MBN_FAILED",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/controller/UserGroupController.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/controller/EnrollController.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/controller/FormFolderController.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/UserMultiGarrisonsRole.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/util/ServiceUtil.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/AllSoldierFamily.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/AllUser.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesApplicationRequest.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesCONUSByCountry.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesCONUSLoadReport.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesOCONUSByCountry.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesOCONUSLoadReport.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesPACIFICByCountry.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesPACIFICLoadReport.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRegistrationRequest.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRegistrationRequestByMonth.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessCONUS.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessOCONUS.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessPACIFIC.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessRegional.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRespiteCare.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesServiceExp.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesSpecialNeedsAccommodation.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesSystemsNavigation.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Attachment.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Attchment.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CareType.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CaseEnrolleeDependent.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CaseNote.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CaseNoteView.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CaseTable.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CompletedRespiteCare.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CONUSCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/CONUSLoadReportCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Country.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Dependent.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/DependentGarrison.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/EfmpUserGarrison.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Enrollee.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/FamilyFolder.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Folder.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/FolderType.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Form.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/FormActivity.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Garrison.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/MilitaryRank.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/OCONUSCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/OCONUSLoadReportCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/PacificCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/PACIFICLoadReportCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Region.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegionalGarrisonForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegionMultiGarrisonRole.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegisteredSoldierByGarrison.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegisteredSoldiersByState.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegisteredSoldiersDependentCase.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Relation.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Role.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/State.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/StateForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Status.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/UserAdminRole.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/UserMultiGarrisonsRole.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/AllSoldierFamily.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/AllUser.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesApplicationRequest.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesCONUSByCountry.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesCONUSLoadReport.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesOCONUSByCountry.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesOCONUSLoadReport.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesPACIFICByCountry.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesPACIFICLoadReport.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRegistrationRequest.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRegistrationRequestByMonth.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessCONUS.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessOCONUS.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessPACIFIC.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRequestForAccessRegional.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesRespiteCare.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesServiceExp.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesSpecialNeedsAccommodation.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/ArmedForcesSystemsNavigation.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/Attachment.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/Attchment.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CareType.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CaseEnrolleeDependent.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CaseNote.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CaseNoteView.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CaseTable.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CompletedRespiteCare.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CONUSCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/CONUSLoadReportCountryForList.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/Country.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/Dependent.java",
+		"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model/DependentGarrison.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model",
+			"/Users/marekbejda/Desktop/EFMP/EFMP/src/mil/army/ecms/efmp/model",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/model",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model",
+			"/Users/marekbejda/Desktop/EFMP/EFMP_II",
+			"SphereCollatz.c++",
+			"temp",
+			"SphereCollatz.c++",
+			"temp",
+			"SphereCollatz.c++",
+			"temp",
+			"untitled",
+			"",
+			"Selection",
+			"SphereCollatz.c++",
+			"Collatz.c++",
+			"<open folders>",
+			"<open files>",
+			"TwitterEmails copy.csv",
+			"TwitterEmails2.csv",
+			"TwitterEmailsREGGED.csv",
+			"dataSet9Impressions.txt",
+			"gistfile1.txt",
+			"<open files>",
+			"/Users/marekbejda/Desktop/1xcloud/views",
+			"mvvm.js",
+			"gaApi.js",
+			"testing",
+			"mvvm.js",
+			"google_req.",
+			"mvvm.js",
+			"",
+			"google_req.js",
+			"<OPEN FILES>",
+			"/Users/marekbejda/Desktop/1xcloud/views",
+			"<open files>",
+			"app.js",
+			"Open files",
+			"",
+			"/Users/marekbejda/Desktop/orange",
+			"",
+			"/Library/WebServer/Documents/app7",
+			"/Library/WebServer/Documents/app2",
+			"/Users/marekbejda/Desktop/ReebokCrossfit",
+			"PagesController.js",
+			"single.html.ejs",
+			"ProductsController.js",
+			"product.js",
+			"productscontroller.js",
+			"productcontroller",
+			"datafeed.csv",
+			"twitsController.js",
+			"entitiesController.js",
+			"UsersController.js",
+			"/Users/marekbejda/Desktop/TwitterScrap",
+			"",
+			"/Users/marekbejda/Desktop/orange/private/Dolphin",
+			"/Users/marekbejda/Desktop/orange/private/439/src_2",
+			"/Users/marekbejda/Desktop/orange/private/439/src_4",
+			"/Users/marekbejda/Desktop/orange/private/439/src_2",
+			"/Users/marekbejda/mounts/orange/private/439/src_2",
+			"/Users/marekbejda/Desktop/School/CS439/Pintos",
+			"/Users/marekbejda/Desktop/School/CS439/PROJ1/shproj-handout",
+			"pair_programming_log.txt",
+			"/Users/marekbejda/Desktop/School/CS439/PROJ1/shproj-handout",
+			"/Users/marekbejda/Documents/Websites/Analytico/",
+			"",
+			"/Users/marekbejda/Desktop/School/CS429/6/new_cache",
+			"/Users/marekbejda/Desktop/School/CS429/6/new_cache -DEBUG_LOG",
+			"/Users/marekbejda/Desktop/School/CS429/6/new_cache",
+			"/Users/marekbejda/Desktop/School/CS429/PROJ6/Working,-DEBUG_LOG",
+			"/Users/marekbejda/Desktop/School/CS429/PROJ6/Working,-DEBUG.LOG",
+			"/Users/marekbejda/Desktop/School/CS429/PROJ6/Working",
+			"/Users/marekbejda/Desktop/School/CS429/HW/asm8",
+			"test.asm",
+			"open files",
+			"/Users/marekbejda/Desktop/School/CS429/HW/asm8",
+			"*",
+			"prime.asm",
+			"./",
+			"*.c",
+			"",
+			"_connecting: false,",
+			"index.js",
+			"",
+			".css",
+			"",
+			"index.jade",
+			"main.styl",
+			"bootstrap.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Participantdao",
+			"ERROR",
+			"FAILED",
+			"ERROR",
+			"searchText",
+			"/formsLibrary",
+			"formsLibrary",
+			"/formsLibrary",
+			"/home",
+			"Please confirm ",
+			"System unable to authenticate Mar's AKO ID. Please confirm the AKO ID is an active username.",
+			"tem unable to authenticate Mar's AKO ID. Please confirm the AKO ID is an active u",
+			".ADMIN",
+			"name=\"EFMP.",
+			"EFMP.",
+			"/addUser",
+			"addUser",
+			"db2jcc",
+			"DB2SQLJCustomizer",
+			"apply",
+			"FUN",
+			"mapred",
+			"rhm",
+			"rm",
+			"rmr",
+			"stream",
+			"string",
+			"-r",
+			"wYXaGVCD",
+			"sorted",
+			"wYXaGVCD",
+			"qxKFFNMd",
+			"AECanuFN",
+			"oEuQGBHo",
+			"tegUKNdH",
+			"netfnKEc",
+			"JAVA_HOME",
+			"doxy",
+			"collatz_solve",
+			"eval",
+			"a,",
+			"main",
+			"unsign",
+			"unsi",
+			"nsign",
+			"pair<pair<int,int>,int>\\(pair<int,int>\\(([0-9]+),([0-9]+)\\),([0-9]+)",
+			"collatz_cache",
+			");",
+			"pair<int,int>(",
+			"}",
+			"pair<pair",
+			"\\{pair<int,int>\\(([0-9]+),([0-9]+)\\),([0-9]+)\\},",
+			"{pair<int,int>\\(([0-9]+),([0-9]+)\\),([0-9]+)},",
+			"{pair<int,int>\\(([0-9]+),([0-9]+)\\),([0-9]+)\\)},",
+			"mini_cache",
+			"minic_cac",
+			"mini_cache1",
+			"pair<int,int>\\(([0-9]+),([0-9]+)\\),([0-9]+)\\);",
+			"pair<int,int>\\(([0-9]+),([0-9]+)),([0-9]+)\\);",
+			"pair<int,int>\\(([0-9]+),([0-9]+),([0-9]+)\\);",
+			"pair<int,int>\\(.+\\);",
+			"pair<int,int>(*);",
+			"pair<int,int>\\(*\\);",
+			"pair<int,int>(*);",
+			"mini_cache1",
+			"([0-9]+),([0-9]+),([0-9]+)",
+			"mini_cache1",
+			"([0-9]+),([0-9]+),([0-9]+)",
+			"([0-9]+),([0-9]+),([0-9]+",
+			"([0-9]+) ([0-9]+) ([0-9]+",
+			"),",
+			"},",
+			"{pair<int,int>(",
+			"([0-9]+) ([0-9]+) ([0-9]+)",
+			"500",
+			"mini_cache",
+			"[i,j",
+			"mini_cache[",
+			"([0-9]+) ([0-9]+) ([0-9]+)",
+			"(0-9)+ (0-9)+ (0-9)+",
+			"(0-9) (0-9) (0-9)",
+			"cache",
+			"max c",
+			" max cycle length of the ran",
+			"collatz_ev",
+			"collatz",
+			"PROJECT",
+			"ENABLE_PREPR",
+			"HTML",
+			"collatz_sol",
+			"main",
+			"suite",
+			"eval_7",
+			"winston",
+			"-core-",
+			"jar",
+			"hadoop",
+			"\\E",
+			".com\",\"msg\":\"RT @barraza",
+			"\\\\ [^,]",
+			"\\\\\\s[^,]",
+			"\\ [^,]",
+			"\\ W",
+			",\"msg\":\"RT @nac",
+			"com\",\"msg\":\"'@MarielSando:Bono!",
+			"/n",
+			"m\",\"msg\":\"'@MarielSa",
+			"\\c",
+			"\\N",
+			"asa.gov\",\"msg\":\"@JaceMacro Can yo",
+			"msg\":\"@J",
+			"\"msg\":\"i is ",
+			"	",
+			" 	",
+			"om\",\"msg\":\"@baddxamp",
+			"\\0/",
+			"([^\"])\"([^:])\"([^\"])",
+			"([^\"])([^:])([^\"])",
+			"omic,\"Gre",
+			"r us :\"",
+			"ng:\"B",
+			":\"Mom:\"You'r",
+			"p\\",
+			"\\s",
+			"p\\s",
+			"p\\su",
+			" \\m/",
+			"\",\"msg\":\"Send your metal pet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"name=\"",
+			"",
+			"make_pair(make_pair($1,$2),$3",
+			"make_pair(make_pair($1,$2),$3));",
+			"));",
+			"pair<pair<int,int>,int>(pair<int,int>(",
+			"mini_cache1.insert(pair<pair",
+			"pair<pair<int,int>,int>(pair<int,int>($1,$2),$3));",
+			"pair<pair<int,int>,int>(pair<int,int>($1,$2),$3);",
+			"pair<pair<int,int>,int>(pair<int,int>($1,$2),$3)",
+			"mini_cache2",
+			"mini_cache1.insert(pair<int,int>($1,$2),$3);",
+			"mini_cache2",
+			"mini_cache1.insert(pair<int,int>(1,500),144);",
+			"mini_cache1.insert(pair<int,int>(1,500),144),",
+			",",
+			"",
+			"{pair<int,int>($1,$2),$3},",
+			"",
+			"%1: @",
+			"ts: @No",
+			"$1$2",
+			"%1 %2",
+			"👉 @Ch",
+			"x: A",
+			"T @b",
+			"'",
+			"' ",
+			"s @",
+			"s @O",
+			"m @",
+			",\"email\":",
+			"\"msg\":",
+			"\"msg\"",
+			"\"handle\"",
+			"\",msg:\"",
+			"\",email:\"",
+			"\"},{handle: \"",
+			",msg:\"",
+			",email:\"",
+			"},{handle:\"",
+			"},{handle:\" ",
+			"$1",
+			"",
+			"1000000",
+			"${1}\\t${2}",
+			"${1} ${2}",
+			"${0} ${0}",
+			"${0} ${2}",
+			"${0} ${1}",
+			"${0} $",
+			"${0} ${1}",
+			"${0}",
+			"${0} ${1}",
+			"${0} \\t",
+			"${1} \\t",
+			"{1}\\t",
+			"double",
+			"options",
+			"res",
+			"req",
+			"\"$1\",",
+			"$2,",
+			"$1",
+			"\"",
+			"{\"",
+			"{",
+			"oauth2Client.",
+			".get",
+			"c(",
+			"SERIES",
+			"type: \"SERIEL\"",
+			"type: \"PARALLEL\"",
+			"tasks:",
+			"children:",
+			"tasks:",
+			"children:",
+			"tasks:",
+			"taskID:",
+			"\"\"",
+			",\"medium\"]\\n",
+			"[\n\"http://shopcrossfitreebok.com/men/new-gear/reebok-crossfit-cupron-ss-tee.html\",\"Reebok CrossFit Cupron SS Tee\",\"$35.00\",\"Our second generation premier performance tee features softer hand Cupron yarns that help provide odor control benefits that won't wash away. Ergonomic flatlock seams help reduce irritation during workouts. Graphic placements at front and back. Reflective logo at sleeve.\",\"\"\n﻿\"http://shopcrossfitreebok.com/men/new-gear/reebok-crossfit-performance-tri-blend-ss-tee.html\",\"Reebok CrossFit Performance Tri-Blend SS Tee\",\"$32.00\",\"Our performance tri-blend tee features a softer hand and is ergonomically designed to perform during all types of workouts. Side and shoulder seams are rolled forward to decrease bulk and chafing while performing shoulder workouts. Flat-lock stitching to help reduce rub and irritation. PlayDry and anti-microbial.\",\"\"\n﻿\"http://shopcrossfitreebok.com/men/graphic-tees/21-15-9-tee.html\",\"21-15-9 Tee\",\"$28.00\",\"Screenprint on soft, worn-in 100% combed cotton jersey tee. Color: Military Green\",\"\"\n﻿\"http://shopcrossfitreebok.com/men/graphic-tees/handstand-pushups-suck-tee.html\",\"Handstand Pushups Suck Tee\",\"$28.00\",\"Screenprint on soft, worn-in 100% combed cotton jersey tee.Color: Black\",\"\"\n﻿\"http://shopcrossfitreebok.com/women/graphic-tees/women-reebok-crossfit-fran-graphic-tee.html\",\"Women CrossFit Fran Graphic Tee \",\"$28.00\",\"True color screenprint on a soft, worn-in tri-blend short sleeve tee.\",\"\"\n﻿\"http://shopcrossfitreebok.com/women/graphic-tees/2014-reebok-crossfit-regionals-road-to-the-fittest-tee.html\",\"2014 Reebok CrossFit Regionals Road to the Fittest Tee\",\"$30.00\",\"True color screenprint on a soft, worn-in tri-blend short sleeve tee.Color: Bright Cadmium\",\"\"\n﻿\"http://shopcrossfitreebok.com/women/bottoms/women-reebok-crossfit-intensify-short-2.html\",\"Women Reebok CrossFit Intensify Short \",\"$55.00\",\"Our women's boardshorts are built specifically for functional movement.  Lycra gusseted fly with adjustable drawstring closure. Stretch woven fabric with dolphin hem allows full range of motion. Back Cordura fabric for added durability. Concealed security pocket at external waistband. Inner brief with moisture-wicking fabric helps minimize odor. 2\"\" inseam.\",\"\"\n﻿\"http://shopcrossfitreebok.com/men/bottoms/reebok-crossfit-core-training-short-3.html\",\"Reebok CrossFit Core Training Short\",\"$70.00\",\"Offered in different prints and colors, our core board short features a 2-way stretch water resistant woven fabric and stretch gusset. Zippered stash pocket at side. Lycra fly gusset closure with drawstring provides a customizable fit. UV protective. 3\"\" side slit for added mobility.\",\"\"\n﻿\"http://shopcrossfitreebok.com/footwear/mens-footwear/mens-reebok-crossfit-sprint-tr-4.html\",\"Mens Reebok CrossFit Sprint TR\",\"$114.99\",\"Introducing the Reebok CrossFit Sprint TR, constructed specifically for fast workouts. Built for enhanced durability, this shoe features DuraCage, a PU protective indestructible upper with a lightweight feel and response. Built with a Monomesh protection wrap outsole for optimum bite and support against rope climbs. 3mm heel to toe drop and Metasplit grooves enable foot splay for a natural running feel.Color: Steel/Tin Grey/Ultimate Yellow/Gravel\",\"\"\n﻿\"http://shopcrossfitreebok.com/footwear/womens-footwear/womens-reebok-crossfit-sprint-tr-1.html\",\"Womens Reebok CrossFit Sprint TR\",\"$114.99\",\"Introducing the Reebok CrossFit Sprint TR, constructed specifically for fast workouts. Built for enhanced durability, this shoe features DuraCage, a PU protective indestructible upper with a lightweight feel and response. Built with a Monomesh protection wrap outsole for optimum bite and support against rope climbs. 3mm heel to toe drop and Metasplit grooves enable foot splay for a natural running feel.Color: Steel/Green Smash/Reebok Navy/White\",\"\"\n﻿\"http://shopcrossfitreebok.com/footwear/mens-footwear/nano-3/mens-reebok-crossfit-nano-3-11.html\",\"Mens Reebok CrossFit Nano 3.0\",\"$119.99\",\"Introducing the Nano 3.0, our most versatile training shoe ever constructed. The evolution continues with a Dual Density platform that provides the perfect combination of forefoot cushioining and heel stabilization. We added more flexibility and protection to the outsole with Metasplit grooves and RopePro wraps on the medial and lateral sides. We carried the innovation into the upper with a new DuraCage construction for the ultimate in protection and lightweight support. Now, you are ready to take on the toughest workouts. Color:  Vital Blue/Stadium Red\",\"\"\n﻿\"http://shopcrossfitreebok.com/footwear/womens-footwear/womens-reebok-crossfit-sprint-tr-3.html\",\"Womens Reebok CrossFit Sprint TR\",\"$114.99\",\"Introducing the Reebok CrossFit Sprint TR, constructed specifically for fast workouts. Built for enhanced durability, this shoe features DuraCage, a PU protective indestructible upper with a lightweight feel and response. Built with a Monomesh protection wrap outsole for optimum bite and support against rope climbs. 3mm heel to toe drop and Metasplit grooves enable foot splay for a natural running feel.Color: Conrad Blue/Blue Bomb/Ultimate Yellow\",\"\"\n﻿\"http://shopcrossfitreebok.com/games-gear/regionals/2014-reebok-crossfit-regionals-road-to-the-fittest-tee.html\",\"2014 Reebok CrossFit Regionals Road to the Fittest Tee\",\"$30.00\",\"Screenprint on a soft, worn-in 100% combed cotton jersey tee.Color: Black\",\"\"\n]",
+			",\"medium\"]\\n",
+			"\"medium\"",
+			"/img",
+			"image",
+			"=",
+			", self.",
+			"ProductController",
+			"ProductsController",
+			": String \\n ,",
+			",",
+			"productsController",
+			"ProductsController",
+			"\\t",
+			",",
+			"twitsController",
+			"entitiesController",
+			"usersController",
+			"entityController",
+			"EntityController",
+			"entity",
+			"Item.",
+			"frame_allocator",
+			"",
+			"modal-dialog1",
+			"\"",
+			"//",
+			":",
+			"//",
+			",",
+			"storevalue(0x&$)",
+			",",
+			"esp",
+			",0x",
+			"(0x",
+			",0x",
+			",",
+			"},{",
+			"$&,\"$&\"",
+			"AND,TAD,ISZ,DCA,JMS,JMP,NOOP,NOOP},\n				  {CLA,CLL,CMA,CML,RAR,RAL,RTL,IAC},\n				  {CLA,SMA,SZA,SNL,RSS,OSR,HLT,NOOP},\n				  {IO1,IO2,NOOP,NOOP,NOOP,NOOP,NOOP}},",
+			"\",\"",
+			"F $&: character_set=EBCIC \\nF $&: address-size=21 \\nF $&: opcode_bits=8",
+			" width=\"200\" height=\"210\" ",
+			"ContentSpinner.us",
+			"Marek Brown",
+			"ContentSpinner.us",
+			"<img alt=\"star\" src=\"http://thetop10webhosts.com/wp-content/uploads/2013/08/star.jpg\" width=\"20\" height=\"20\" />"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2015-06-06-SE_Week1.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2015-06-06-STL_Week1.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 27.0
+	},
+	"project": "githubPages.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sim",
+				"simulate.c"
+			],
+			[
+				"",
+				"cds.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 494.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

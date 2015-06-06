@@ -4,6 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
+
 ### Work Experience
 {% for item in site.my_resume %}
 {% if item.type == "Work Experience" %}
