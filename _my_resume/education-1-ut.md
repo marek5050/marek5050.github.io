@@ -1,9 +1,11 @@
 ---
 type: "Education"
 heading: "University of Texas"
-subheading: "B.S Computer Science"
-duration: "September 2011 – current"
+subheading: "Bachelor of Science in Computer Science"
+duration: "09/2011 – 12/2015"
 location: "Austin, TX"
+link: "http://utexas.edu"
+gpa: "3.1"
 ---
 
-After graduating from college, I worked as a sales associate at a B2B payments startup in Tokyo for 1 year. After that, I taught myself to code for ~6 months.
+Hello

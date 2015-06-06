@@ -10,8 +10,11 @@
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
-      </div>
-
+   <div> 
+    <span><strong> Google </strong></span> 
+    <div id="ticker">  </div>
+  </div>
+ </div>
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
           {% if site.github_username %}
@@ -53,3 +56,55 @@
   </div>
 
 </footer>
+
+ <script type="text/javascript">
+$(document).ready(function(){
+  $.ajax({
+        type: 'GET',
+        url: "http://www.cors.ninja/api/request",
+        data:{url: "https://www.google.com/finance?q=GOOG&ei=jyJzVYjEIMG7rgGHt4HgDQ", method: "GET"},
+        async: true,
+        contentType: "application/json"
+     }).success(function(data){
+          var html = $.parseHTML(data.body);
+          var price_panel = $(html).find("#price-panel");
+          $(price_panel).find(".mdata-dis").remove();
+          $("#ticker").append(price_panel);
+     });
+function replaceAll(find, replace, str) {
+  return str.replace(new RegExp(find, 'g'), replace);
+}
+
+$.ajax({
+        type: 'GET',
+        url: "http://www.cors.ninja/api/request",
+        data:{url: "http://amodernstory.com/rss", method: "GET"},
+        contentType: "application/text"
+     }).success(function(data){      
+          // console.log(data);
+          data=data.body.substring(data.body.indexOf("<rss version"),data.body.indexOf("</rss>")+6);
+          data = replaceAll("&nbsp;","", data);
+          var xml = $.parseXML(data);
+          var $xml = $(xml);
+          var html = "<li> <a href='URL'> TITLE</a> (DATE)</li>";
+          var html1 = "";
+
+          // for(a in xml){ console.log(a) }
+          $xml.find('item',xml).each(function(idx, item){
+            // console.log(item);
+            // console.log($(item).find('title').first().text());
+            // console.log($(item).find('link').first().text());
+            // console.log($(item).find('pubDate').first().text());
+            var title = $(item).find('title').first().text();
+            var url = $(item).find('link').first().text();
+            var date = new Date($(item).find('pubdate').first().text());
+
+             html1 = html.replace("URL", url).replace("TITLE", title).replace("DATE",date.toDateString());
+             $("#amodernblog").append(html1);
+          })
+                  debugger    
+
+     }); 
+})
+</script>
+

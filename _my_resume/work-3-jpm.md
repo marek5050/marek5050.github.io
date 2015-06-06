@@ -2,7 +2,7 @@
 type: "Work Experience"
 heading: "JPMorgan"
 subheading: "Software Engineering Intern"
-duration: "June 2014 – August 2014"
+duration: "06/2014 – 08/2014"
 location: "Dallas, TX"
 link: "http://jpmorgan.com"
 ---

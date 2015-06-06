@@ -1,8 +1,8 @@
 ---
 type: "Personal Project"
 heading: "1xCloud.com"
-subheading: ""
-duration: "October 2013 – current"
+subheading: "Website"
+duration: "2013 – current"
 location: "Austin, TX"
 link: "http://1xcloud.com"
 ---

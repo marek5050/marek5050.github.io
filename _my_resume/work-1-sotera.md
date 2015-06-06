@@ -2,7 +2,7 @@
 type: "Work Experience"
 heading: "Sotera Defense"
 subheading: "Software Engineering Intern"
-duration: "October 2013 – current"
+duration: "01/2015 – current"
 location: "Austin, TX"
 link: "http://soteradefense.com/"
 ---

@@ -9,9 +9,8 @@ permalink: /resume/
 ## Work Experience
 {% for item in site.my_resume %}
 {% if item.type == "Work Experience" %}
-**{{item.subheading}}** <span class='pull-right'>( {{item.duration}} , {{item.location}})</span>
+**{{item.subheading}}** at [{{item.heading}}]({{item.link}}) <span class='pull-right'>( {{item.duration}} , {{item.location}})</span>
 
-[{{item.heading}}]({{item.link}})
 
 {{item.content}}
 
@@ -21,13 +20,10 @@ permalink: /resume/
 
 ## Personal Projects
 {% for item in site.my_resume %}
-{{item.type}}
 {% if item.type == "Personal Project" %}
-{{item.title}}
-{{item.heading}}
-{{item.subheading}}
-{{item.duration}}
-{{item.location}}
+
+**[{{item.heading}}]({{item.link}})** -- {{item.subheading}}
+
 {{item.content}}
 {% endif %}
 {% endfor %}
@@ -35,11 +31,10 @@ permalink: /resume/
 ## Education
 {% for item in site.my_resume %}
 {% if item.type == "Education" %}
-{{item.title}}
-{{item.heading}}
-{{item.subheading}}
-{{item.duration}}
-{{item.location}}
+**{{item.subheading}}** <span class='pull-right'>( {{item.duration}} , {{item.location}})</span>
+
+[{{item.heading}}]({{item.link}})
+
 {{item.content}}
 {% endif %}
 {% endfor %}
