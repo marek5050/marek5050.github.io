@@ -9,8 +9,9 @@ twitter_username: marek5050
 github_username:  marek5050
 
 # Build settings
+# markdown: kramdown
+# highlighter: true
 markdown: kramdown
-#highlighter: true
 pygments: true
 collections:
  - my_resume
