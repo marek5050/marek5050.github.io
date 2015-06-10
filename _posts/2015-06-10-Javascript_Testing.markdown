@@ -6,7 +6,7 @@ date:   2015-06-10 21:50:51
 categories: javascript testing mocha istanbul
 ---
 
-You can download NodeJs on the home page, using Brew, or MacPorts, relatively simple and straight forward.
+You can download NodeJs on the [home page][https://nodejs.org/download/], using [Homebrew][http://brew.sh], or [MacPorts][http://macports.org], relatively simple and straight forward.
  
 {% highlight bash %}
 % sudo npm install mocha --global
