@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Javascript Testing using Mocha and Istanbul"
+subtitle: "Test what??"
+date:   2015-06-10 21:50:51
+categories: javascript testing mocha istanbul
+---
 #Configuring the Javascript Testing on Mac OS
 
 You can download NodeJs on the home page, using Brew, or MacPorts, relatively simple and straight forward.
