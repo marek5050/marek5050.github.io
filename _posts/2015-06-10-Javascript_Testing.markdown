@@ -5,15 +5,14 @@ subtitle: "Test what??"
 date:   2015-06-10 21:50:51
 categories: javascript testing mocha istanbul
 ---
-#Configuring the Javascript Testing on Mac OS
 
 You can download NodeJs on the home page, using Brew, or MacPorts, relatively simple and straight forward.
  
-   % sudo npm install mocha --global
-   % sudo npm install istanbul --global
- 
-   % which node
-   /opt/local/bin/node
+     % sudo npm install mocha --global
+     % sudo npm install istanbul --global
+   
+     % which node
+     /opt/local/bin/node
  
 
 Now we can create three files, the core module ( sum.js ), the run harness ( run.js ), and the  test( test.js ).
@@ -22,13 +21,13 @@ Now we can create three files, the core module ( sum.js ), the run harness ( run
  
 **sum.js**
 
-   Calculator = {
-   sum: function(a,b){
-     return a+b;
-     }
-   }
+     Calculator = {
+     sum: function(a,b){
+       return a+b;
+      }
+     }  
 
-   module.exports = Calculator;
+     module.exports = Calculator;
 
 
 **run.js**
