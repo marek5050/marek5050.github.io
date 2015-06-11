@@ -97,6 +97,7 @@ $.ajax({
             // console.log($(item).find('pubDate').first().text());
             var title = $(item).find('title').first().text();
             var url = $(item).find('link').first().text();
+            console.log(url, $(item).find("link"));
             var date = new Date($(item).find('pubdate').first().text());
 
              html1 = html.replace("URL", url).replace("TITLE", title).replace("DATE",date.toDateString());
