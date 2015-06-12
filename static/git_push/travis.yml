@@ -1,0 +1,33 @@
+# This file is named "travis.sample.yml".
+# Rename it ".travis.yml".
+# http://docs.travis-ci.com/user/build-configuration/
+
+language: python
+sudo: required
+python:
+    - "3.4"
+
+before_install:
+    - sudo apt-get update
+
+install:
+    - pip install --upgrade pip
+    - pip install coverage
+    - sudo apt-get install python-numpy
+
+before_script:
+    - uname -a
+    - set
+    - pip3 -V
+    - pip3 freeze
+    - python3 -V
+    - coverage3 help | grep version
+    - python3 -c "import numpy; print(numpy.__version__)"
+
+script:
+    - make collatz-tests
+    - make Collatz.html
+    - make Collatz.log
+    - make test
+    - make check
+    - make push
