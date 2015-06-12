@@ -6,7 +6,7 @@ date:   2015-06-11 21:50:51
 categories: git branches travisci
 ---
 
-I've edited the makefile to fail on whenever make check fails. On a missing file it just creates a .failed file and at the end checks for its existence and continues appropriately. 
+In the courses I'm taking we were given a .travis.yml and a makefile to help us automate our project deployment. By default even thought the makefile would notice missing files, the TravisCi testing would pass. So I ended up modifying the makefile to have it fail and force the TravisCI announce the broken build. I also added a new step which on an succesful deployment would automatically merge the Dev and Master branches. 
 
 {% highlight bash %}
 check:
