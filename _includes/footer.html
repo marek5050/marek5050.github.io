@@ -91,13 +91,13 @@ $.ajax({
 
           // for(a in xml){ console.log(a) }
           $xml.find('item',xml).each(function(idx, item){
-            // console.log(item);
+            console.log(item);
             // console.log($(item).find('title').first().text());
             // console.log($(item).find('link').first().text());
             // console.log($(item).find('pubDate').first().text());
             var title = $(item).find('title').first().text();
-            var url = $(item).find('link').first().text();
-            console.log("URL: " + url, $(item));
+            var url = $(item).find('guid').text();
+            // console.log("URL: " + url, $(item).find('guid').text);
             var date = new Date($(item).find('pubdate').first().text());
 
              html1 = html.replace("URL", url).replace("TITLE", title).replace("DATE",date.toDateString());
