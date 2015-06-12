@@ -36,7 +36,7 @@ module.exports = Calculator;
 **run.js**
 
 {% highlight javascript %}
-#!/opt/local/bin/node#!/opt/local/bin/node 
+#!/opt/local/bin/node
 
 var Calc = require('./sum.js');
 
