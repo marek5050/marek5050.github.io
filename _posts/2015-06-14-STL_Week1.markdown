@@ -14,7 +14,9 @@ First week of Generic Programming has been pretty much a repeat of OOP (Object O
  cout << " Hello World " << endl;
 {% endhighlight %}
 
-We can find both the [schedule][schedule] and the [syllabus][syllabus] on [Downing's UT website][downing]. From the schedule and rumors it seems the first two projects and most of the readings will be identical. This might overall be a good thing since I have both of them already completed. Atleast I'll be able to focus a little more on Physics and the part-time jobs I have.
+We can find both the [schedule][schedule] and the [syllabus][syllabus] on [Downing's UT website][downing]. From the schedule and rumors it seems the first two projects and most of the readings will be identical. Atleast I'll be able to focus a little more on Physics and the part-time jobs I have.
+
+Overall I love the fact we started using Github Pages and Jekyll for blogging. It's another one of those things I would have never touched on my own, just like Travis CI. Another reason why these classes are so valuable. 
 
 ## Tip of the week
 __[Configuring GTest on Mac][gtest]__ a guide I put together this week about the configuration of GTest. 
