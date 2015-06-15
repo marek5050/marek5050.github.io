@@ -1,0 +1,29 @@
+---
+layout: post
+title: "CS378 Summer 2015: Marek Bejda"
+subtitle:  "CS N378 Generic Programming and the STL Library Week 1"
+date:   2015-06-14 21:50:51
+categories: stl c++ 
+---
+
+First week of Generic Programming has been pretty much a repeat of OOP (Object Oriented Programming) that I took last semester. Hopefully taking an identical course will only reinforce my C++ capabilities! Go Longhorns! 
+![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+
+{% highlight c++ %}
+ using namespace std;
+ cout << " Hello World " << endl;
+{% endhighlight %}
+
+We can find both the [schedule][schedule] and the [syllabus][syllabus] on [Downing's UT website][downing]. From the schedule and rumors it seems the first two projects and most of the readings will be identical. This might overall be a good thing since I have both of them already completed. Atleast I'll be able to focus a little more on Physics and the part-time jobs I have.
+
+## Tip of the week
+[Jekyll Cheatsheet][jekyll] has been an extremely useful reference while putting together the Jekyll github page. It has a very good variety of information and also a couple of guides on the bottom. 
+[Markdown Reference][markdown] I'd also recommend this __Markdown__ reference which has been my go to source of information ever since I started blogging using Markdown. 
+
+[markdown]: http://daringfireball.net/projects/markdown/syntax
+[jekyll]: 	http://ricostacruz.com/cheatsheets/jekyll.html
+[schedule]: 	https://www.cs.utexas.edu/users/downing/cs378/Schedule.html 
+[downing]:	   https://www.cs.utexas.edu/users/downing/
+[syllabus]:    https://www.cs.utexas.edu/users/downing/cs378/index.html
+[travisci]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
