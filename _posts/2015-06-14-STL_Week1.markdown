@@ -17,9 +17,14 @@ First week of Generic Programming has been pretty much a repeat of OOP (Object O
 We can find both the [schedule][schedule] and the [syllabus][syllabus] on [Downing's UT website][downing]. From the schedule and rumors it seems the first two projects and most of the readings will be identical. This might overall be a good thing since I have both of them already completed. Atleast I'll be able to focus a little more on Physics and the part-time jobs I have.
 
 ## Tip of the week
-[Jekyll Cheatsheet][jekyll] has been an extremely useful reference while putting together the Jekyll github page. It has a very good variety of information and also a couple of guides on the bottom. 
-[Markdown Reference][markdown] I'd also recommend this __Markdown__ reference which has been my go to source of information ever since I started blogging using Markdown. 
+__[Configuring GTest on Mac][gtest]__ a guide I put together this week about the configuration of GTest. 
 
+[Jekyll Cheatsheet][jekyll] has been an extremely useful reference while putting together the Jekyll github page. It has a very good variety of information and also a couple of guides on the bottom. 
+
+I'd also recommend this __[Markdown reference][markdown]__ which has been my go to source of information ever since I started blogging using Markdown. 
+
+
+[gtest]: http://marek5050.github.io/cs378/stl/2015/06/14/ConfiguringGTestOnMac.html
 [markdown]: http://daringfireball.net/projects/markdown/syntax
 [jekyll]: 	http://ricostacruz.com/cheatsheets/jekyll.html
 [schedule]: 	https://www.cs.utexas.edu/users/downing/cs378/Schedule.html 
