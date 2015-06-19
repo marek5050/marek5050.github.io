@@ -18,6 +18,16 @@ When I first started interning at Sotera I was introduced to the iPython Noteboo
 [Viewing using nbViewer](#viewing)  
 [Loading Python Notebooks from the Web](#loading)  
 
+
+Notebook Collections
+[A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)  
+[NBViewer](http://nbviewer.ipython.org)  
+[Notebook Gallery: Links to the best IPython and Jupyter Notebooks.](http://nb.bianp.net/sort/views/)  
+[My Github](http://github.com/marek5050/Notebooks)  
+
+
+
+
 ## How to install...
 {: #install}
 
