@@ -38,5 +38,3 @@ print(new_d)
 
 ##Tip of the Week:
 __Team up!__ This semester I ended up taking the professors advice and found a partner for the project. Gosh ! It helped alot and made the projects so much more enjoyable and less stressful. If I was to work on both of the projects (Software Engineering & STL) alone I would have been stressing all weekend. At first I was little skeptical because my partner wasn't very familiar with C++ and I'm generally pretty pessimistic. But this Saturday we started working on the PFDEP project and were about 65% done, just needed to have it accepted by Sphere. Then my other project partner showed up and I had to go work on Software Engineering, so I said goodbyes and left to a computer a couple of rows down thinking we'll just have to finish it Sunday. But my partner stayed there at the computer lab for about an hour and a half longer and then yelled out "Marek dude it's working!" 
-
-![Python Notebook]({{% site.url %}}/static/python_notebook.png)
