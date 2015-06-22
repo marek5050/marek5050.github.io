@@ -12,7 +12,7 @@ So one of the biggest parts of the project was reading the 2GB dataset of 18k fi
 
 Python has this amazing module called __pickle__ which serializes and deserialized an entire datastructure for you with nothing more than __pickle.dump__ and __pickle.load__ . 
 
-{% hightlight python %}
+{% highlight python %}
 import pickle
 import os
 from pprint import pprint
@@ -26,7 +26,7 @@ pprint(movies)
 movies=()
 {% endhighlight %}
  
-{% hightlight python %}
+{% highlight python %}
 file2 = open(r'./movie_cache', 'rb')
 new_d = pickle.load(file2)
 file2.close()
