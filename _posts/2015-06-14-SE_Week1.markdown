@@ -3,7 +3,7 @@ layout: post
 title: "CS373 Summer 2015: Marek Bejda"
 subtitle:  "CS N373 Software Engineering Week 1"
 date:   2015-06-14 21:50:51
-categories: jekyll update
+categories: python software_engineering
 ---
 
 CS373 Software Engineering is a class I've been looking forward to ever since I first entered Computer Science at UT Austin. ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg ){:.some-css-class style="width: 50px"} The [syllabus](https://www.cs.utexas.edu/users/downing/cs373/) and description sounds very promising. I've learned so much already (Jekyll, Travis CI, and Python) and we are just entering week 2! 

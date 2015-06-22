@@ -1,0 +1,42 @@
+---
+layout: post
+title: "CS373 Summer 2015: Marek Bejda"
+subtitle:  "CS N373 Software Engineering Week 2"
+date:   2015-06-21 21:50:51
+categories: python software_engineering
+---
+
+Software Engineering has been very enjoyable because I've learned so much about Python. We turned in Collatz last week and started a new project right away based on a Netflix dataset from a contest they ran a couple of years back. After processing the dataset we are supposed to predict the rating a user would give to a movie if they were to watch it, save our predictions, and run a Root Square Mean Error computation on it. The final program needs to run under 1 minute! 
+
+So one of the biggest parts of the project was reading the 2GB dataset of 18k files. On my Macbook it takes about an hour to read the files and build the datastructures. So one priority was building a cache, because that's one process you don't want to repeat. Many people posted cache's in a variety of formats, csv, json, tab delimited. But for the most part they all required manual parsing. 
+
+Python has this amazing module called __pickle__ which serializes and deserialized an entire datastructure for you with nothing more than __pickle.dump__ and __pickle.load__ . 
+
+{% hightlight python %}
+import pickle
+import os
+from pprint import pprint
+
+movies=((1,2003,"Dinosaur Planet"),(13,2003,"Lord of the Rings: The Return of the King: Extended Edition: Bonus Material"),("14,1982,Nature: Antarctica"))
+
+afile=open(r'./movie_cache',"wb")
+pickle.dump(movies, afile)
+afile.close()
+pprint(movies)
+movies=()
+{% endhighlight %}
+ 
+{% hightlight python %}
+file2 = open(r'./movie_cache', 'rb')
+new_d = pickle.load(file2)
+file2.close()
+
+#print dictionary object loaded from file
+print(new_d)
+{% endhighlight %}
+
+
+##Tip of the Week:
+__Team up!__ This semester I ended up taking the professors advice and found a partner for the project. Gosh ! It helped alot and made the projects so much more enjoyable and less stressful. If I was to work on both of the projects (Software Engineering & STL) alone I would have been stressing all weekend. At first I was little skeptical because my partner wasn't very familiar with C++ and I'm generally pretty pessimistic. But this Saturday we started working on the PFDEP project and were about 65% done, just needed to have it accepted by Sphere. Then my other project partner showed up and I had to go work on Software Engineering, so I said goodbyes and left to a computer a couple of rows down thinking we'll just have to finish it Sunday. But my partner stayed there at the computer lab for about an hour and a half longer and then yelled out "Marek dude it's working!" 
+
+![Python Notebook]({{% site.url %}}/static/python_notebook.png)

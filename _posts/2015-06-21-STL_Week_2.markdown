@@ -1,0 +1,54 @@
+---
+layout: post
+title: "CS378 Summer 2015: Marek Bejda"
+subtitle:  "CS N378 Generic Programming and the STL Library Week 2"
+date:   2015-06-21 21:50:51
+categories: stl c++ 
+---
+
+The second week of Generic Programming the lectures started to diverge from Object Oriented Programming, we finished off the first Collatz project, and started a new project called BFP [PFDEP - Project File Dependencies][sphere]. The path we are taking seems more focused on [containers][containers] and algorithms. 
+
+![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+
+We covered the different flavors or iterators and it's pretty hard to see the point or connect with the idea until one reads throught the cplusplus site.
+
+'''
+std::priority_queue
+...
+The underlying container may be any of the standard container class templates or some other specifically designed container class. The container shall be accessible through random access iterators and support the following operations:
+	empty()
+	size()
+	front()
+	push_back()
+	pop_back()
+...
+Support of random access iterators is required to keep a heap structure internally at all times. This is done automatically by the container adaptor by automatically calling the algorithm functions make_heap, push_heap and pop_heap when needed.
+
+'''
+
+Going through the containers we can find the 5 main containers,
+Array, Vector, Forward_list, Deque, and List. 
+
+Then there are 3 default "Container Adaptors"
+Stack, Queue, Priority Queue.
+
+'''
+Queue
+The standard container classes __deque__ and __list__ fulfill these requirements. By default, if no container class is specified for a particular queue class instantiation, the standard container deque is used.
+''' 
+
+{% highlight c++ %}
+template <class T, class Container = deque<T> > class stack;
+template <class T, class Container = deque<T> > class queue;
+template <class T, class Container = vector<T>,
+  class Compare = less<typename Container::value_type> > class priority_queue;
+{% endhighlight %}
+
+
+
+## Tip of the week
+__Team up!__ This semester I ended up taking the professors advice and found a partner for the project. Gosh ! It helped alot and made the projects so much more enjoyable and less stressful. If I was to work on both of the projects (Software Engineering & STL) alone I would have been stressing all weekend. At first I was little skeptical because my partner wasn't very familiar with C++ and I'm generally pretty pessimistic. But this Saturday we started working on the PFDEP project and were about 65% done, just needed to have it accepted by Sphere. Then my other project partner showed up and I had to go work on Software Engineering, so I said goodbyes and left to a computer a couple of rows down thinking we'll just have to finish it Sunday. But my partner stayed there at the computer lab for about an hour and a half longer and then yelled out "Marek dude it's working!" 
+
+
+[sphere]: http://www.spoj.com/problems/PFDEP/
+[containers]: http://www.cplusplus.com/reference/stl/
