@@ -1,0 +1,35 @@
+---
+layout: post
+title: "CS373 Summer 2015: Marek Bejda"
+subtitle:  "CS N373 Software Engineering Week 3"
+date:   2015-06-28 21:50:51
+categories: python software_engineering
+---
+
+ ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"} This week we teamed up for the project that's supposed to follow us for the rest of the semester. Our team name will be __ninjaPenguins__. A brutal and note worthy name. We ended up meeting Sunday for a little study session for this upcoming exam and I should be over prepared for this exam. We discussed so many different aspects of Python. Everything from generator functions to iterable classes and even inheritance and lambda functions. 
+
+We even discovered how to embed lambda functions within a list comprehension [(lambda x: x**2)(x) for x in [1,2,3] ].  To help the clas study I put together a [list of questions][list] that I feel are very likely to be on the test. Just my opinion but it extremely helped me study. Especially trying to write the map function from scratch was an amazing learning experience. 
+
+
+{% highlight python %}
+def _map(f,list1,*list2):
+    if len(list2) > 0:
+        zipper = zip(list1,*list2)
+        return (f(*a) for a in zipper)
+    else:
+        return (f(a) for a in list1)
+{% endhighlight %}
+
+
+##Tip of the Week:
+Group study sessions are great! Especially when you find a great group of people to study with! 
+
+
+This week I definitely recommend  
+
+[![](/static/ArtofCharm.png){:.some-css-class style="width: 150px"}the Art of Charm Podcast list to Brand and Stand out][art]
+
+
+[sphere]: http://www.spoj.com/problems/PFDEP/
+[list]:http://nbviewer.ipython.org/gist/marek5050/deeeb7bd2215a68dc298
+[art]:https://itunes.apple.com/us/podcast/419-dorie-clark-brand-stand/id212382281?i=345528538&mt=2

@@ -1,0 +1,30 @@
+---
+layout: post
+title: "CS378 Summer 2015: Marek Bejda"
+subtitle:  "CS N378 Generic Programming and the STL Library Week 3"
+date:   2015-06-28 21:50:51
+categories: stl c++ 
+---
+
+ ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+Last week's project went great, it also seemed too easy. This weeks project we're gonna create a huge integer, which doesn't necessarily sound extremely challenging either. It might be because I'm finally feeling comfortable with C++. Even thought sadly, I've only been learning Python for about 2 months compared to almost a year of C++, I very much feel more proficient in Python. I think it's because as a web developer I'm having a hard time finding practical uses with C++. 
+
+I've talked to a couple of student that work on video games and they use C++ for OpenGL and the other graphical libraries. I can see how that would work, maybe I can try picking it up too eventually :) For right now I'll just have to grind out the C stuff. The Professor Downing has been amazing as always, it's just me building the mental connections that's been lacking. 
+
+Maybe this week during my free time I'll try using one of the web server technologies for C++ like [Wt][wt]. Maybe even checkout and mess with the [NodeJS source code][node] or [Ogre3D engine][ogre] some graphics. These items sound like fun so we'll see and I'll update you all this coming week! 
+
+
+## Tip of the week
+Group study sessions are great! Especially when you find a great group of people to study with! 
+  
+This week I definitely recommend  
+
+[![](/static/ArtofCharm.png){:.some-css-class style="width: 150px"}the Art of Charm Podcast list to Brand and Stand out][art]
+
+
+
+[sphere]: http://www.spoj.com/problems/PFDEP/
+[art]:https://itunes.apple.com/us/podcast/419-dorie-clark-brand-stand/id212382281?i=345528538&mt=2
+[wt]:http://www.webtoolkit.eu/wt
+[node]:https://github.com/joyent/node/tree/master/src
+[ogre]:http://www.ogre3d.org
