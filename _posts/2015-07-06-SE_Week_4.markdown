@@ -8,12 +8,26 @@ categories: python software_engineering
 
  ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"} 
 
-This week we started working on the class project. We put together a great team, with plenty of excitement, brains, and initiative! The project we are building is a Crossfit website! Right now if you Google crossfit you don't get much besides the hundreds of disjoint crossfit gyms. We are about to change that by creating a crossfit hub! 
+This week we started working on the class project. We put together a great team, with plenty of excitement, brains, and initiative! The project we are building is a Crossfit website! Right now if you Google crossfit you don't get much besides the hundreds of disjoint crossfit gyms. We are about to change that by creating a __crossfit hub__! 
 
 So this week we started off strong working almost the whole weekend and most of the week. 
 We started off with absolutely no knowledge of __Django__, but I ended up reading the amazing [__Django tutorials!__][tutorial] We then met up and everybody started working on their parts with the tutorials open :D because they have almost everything a beginner to Django needs!
 
 Before we began reading the tutorials Django seemed like this cryptic framework full of magical things happening left and right, but the tutorials definitly shed some light on the little creatures!
+
+Update on the progress:
+
++ We have created the database models Athlete, Region, and Events  
++ We have the main page and templates!   
++ We have a cute little logo :D  
++ The unit tests are 40% done  
++ The server is running and we are using the super catchy domain name crossfit.social!!   
++ Twitter integration mostly complete 99%!!  
++ Angular configured and running, admin mode and regular. 
++ Need to scrape more data :D 
+
+- We still need to setup a stable virtual machine to prevent the django server from dying   
+- We still need to integrate Flickr Google+ and other social networks   
 
 
 ##Tip of the Week:
