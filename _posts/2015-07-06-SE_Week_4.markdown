@@ -15,7 +15,7 @@ We started off with absolutely no knowledge of __Django__, but I ended up readin
 
 Before we began reading the tutorials Django seemed like this cryptic framework full of magical things happening left and right, but the tutorials definitly shed some light on the little creatures!
 
-Update on the progress:
+__Update on the progress__
 
 + We have created the database models Athlete, Region, and Events  
 + We have the main page and templates!   
@@ -26,8 +26,10 @@ Update on the progress:
 + Angular configured and running, admin mode and regular. 
 + Need to scrape more data :D 
 
-- We still need to setup a stable virtual machine to prevent the django server from dying   
-- We still need to integrate Flickr Google+ and other social networks   
+ __Need:__
++ __Need to setup a stable virtual machine to prevent the django server from dying__   
++ Need to integrate Flickr Google+ and other social networks   
++ Need to integrate TravisCI and automate pushes
 
 
 ##Tip of the Week:
