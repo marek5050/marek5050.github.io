@@ -1,0 +1,34 @@
+---
+layout: post
+title: "CS378 Summer 2015: Marek Bejda"
+subtitle:  "CS N378 Generic Programming and the STL Library Week 4"
+date:   2015-07-06 21:50:51
+categories: stl c++ 
+---
+
+ ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+
+This week in the course we did a little bit more work on with containers and talked about the most recent assignment. __Big Integer__. We approached it in a pretty straight forward way, by creating a container of ints and each int represented a single digit. Which might be a little expensive since we could have probably used a __short__ to represent the single digit, but it didn't matter in the end. 
+
+The hardest problem we encountered during the whole project was multiplication, which grew to over 25 lines. But once that was finished it was on to implementing shifts and pow, which pretty much cap the whole project. The main test was to calculate the 30th Mersenne prime, which would be like __2^4423 -1__. Which ended up being a pretty darn long string of characters. We ended up using [Wolfram Alpha ][wolfram]to help us test the code. It was the only site that offered all of the digits. Most of the other sites truncate the center and just output the ends. 
+
+The first time we tried calculating the 2^4424 prime we got some horrible time that made my partner and I dissapointed running at around 20seconds. So we ended up spending [5 minutes reading up n gprof][gprof] to help us profile the application. I used the tool in the SDS course two semesters ago to profile some C code and knew it could help us find flaws in our code. So at first we made small optimizations like deleting a few lines, switching out i++ with ++i and removing extra variables. The firs time around we brought it down to about 15seconds, which was way over our 300msec benchmark limit. 
+
+Next we ended up looking at GPROF output a little more closely and noticed the massive creation of Integers. So we started searching for all the places that might convert ints to Big Integers and cause extra delays. We ended up removing them from all kinds of places like -=, <, and /=. 
+Shedding another 5 seconds. Yay down to 10seconds of run time! 
+
+We then went on to the most executed function __*=__. We did a couple of print statements and found out all of our carryover values we two digits.. none of the actually went more than two digits. We used a Big Integer to hold these carryover values, for no reason! So we went through and transformed the Big Integer we to a regular int and wallah! down to 140msec runtime. It dropped almost 98%!!! 
+
+We were super excited and ran the bonus test! 2^132049 or the 40th Mersenne prime, the professor gave us a 4minute time limit.. We destroyed it ! __2minutes and some change!__
+
+We ended up having around 75 test cases at the end of the project. They kept us in check and prevented us from destroying and randomly changing code. We were very grateful for them. 
+
+
+## Tip of the week
+From my experience working on this project I have to strongly recommend 
+[Gprof Code analyzer][gprof] for analyzing code and branches! 
+
+
+
+[wolfra]:http://www.wolframalpha.com/input/?i=2%5E4423
+[gprof]:http://choorucode.com/2013/06/24/how-to-profile-c-or-c-code-using-gprof/
