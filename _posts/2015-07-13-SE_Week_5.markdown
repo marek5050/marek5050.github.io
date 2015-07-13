@@ -17,18 +17,18 @@ Last week I missed Wednesday because of Physics homework and lab reports that we
 
 In the [official specification][specification] we can also find 
 
-		ClassElement[Yield] :
-			MethodDefinition[?Yield]
-			static MethodDefinition[?Yield]
-		;
+	ClassElement[Yield] :
+		MethodDefinition[?Yield]
+		static MethodDefinition[?Yield]
+	;
 
-		semantics isStatic:
-		ClassElement : MethodDefinition
-			Return false.
-		ClassElement : static MethodDefinition
-			Return true.
-		ClassElement : ;
-			Return false.
+	semantics isStatic:
+	ClassElement : MethodDefinition
+		Return false.
+	ClassElement : static MethodDefinition
+		Return true.
+	ClassElement : ;
+		Return false.
 
 so isStatic will return us a true if used on a method declared using the 'static' modifier. 
 We should also be able to retrieve static properties using StaticPropertyNameList method.
@@ -37,54 +37,54 @@ The features list for one of the biggest changes in Javscript is actually quite 
 
 [Copied from Stackoverflow][ecmafeatures]
 '''
-Features without --harmony flag:
+	Features without --harmony flag:
 
-"for-of" loop
-Map, Set, WeakMap, WeakSet (already specified in question)
-Symbol (already specified in question)
-Promise (already specified in question)
-Array methods:
-.keys()
-.values()
-.entries()
-[Symbol.iterator]
-Object:
-.observe() (actually it's ES7) (http://bocoup.com/weblog/javascript-object-observe/)
-.is()
-.setPrototypeOf()
-.getOwnPropertySymbols()
-.getNotifier() (not es6, example here)
-.apply() and .call() (not es6, same purpose as Funciton.prototype.call and Function.prototype.apply)
-Number properties and methods (already specified in question)
-.isInteger()
-.isSafeInteger()
-.isNaN()
-.isFinite()
-EPSILON
-MIN_SAFE_INTEGER
-MAX_SAFE_INTEGER
-Math methods (a lot of them) (already specified in question)
-constants
-I thinks that's all that we have without --harmony flag.
+	"for-of" loop
+	Map, Set, WeakMap, WeakSet (already specified in question)
+	Symbol (already specified in question)
+	Promise (already specified in question)
+	Array methods:
+	.keys()
+	.values()
+	.entries()
+	[Symbol.iterator]
+	Object:
+	.observe() (actually it's ES7) (http://bocoup.com/weblog/javascript-object-observe/)
+	.is()
+	.setPrototypeOf()
+	.getOwnPropertySymbols()
+	.getNotifier() (not es6, example here)
+	.apply() and .call() (not es6, same purpose as Funciton.prototype.call and Function.prototype.apply)
+	Number properties and methods (already specified in question)
+	.isInteger()
+	.isSafeInteger()
+	.isNaN()
+	.isFinite()
+	EPSILON
+	MIN_SAFE_INTEGER
+	MAX_SAFE_INTEGER
+	Math methods (a lot of them) (already specified in question)
+	constants
+	I thinks that's all that we have without --harmony flag.
 
-Features with --harmony flag:
+	Features with --harmony flag:
 
-generators
-arrow functions (without need of --harmony_arrow_functions flag in contrast to io.js)
-let variables - only in strict mode
-Binary and octal literals
-String methods:
+	generators
+	arrow functions (without need of --harmony_arrow_functions flag in contrast to io.js)
+	let variables - only in strict mode
+	Binary and octal literals
+	String methods:
 
-.contains() (was replaced by includes() in actual ES6 specification)
-.startsWith()
-.endsWith()
-.codePointAt()
-.repeat()
-.normalize()
-String.fromCodePoint
-Proxy (behind the --harmony-proxies flag)
+	.contains() (was replaced by includes() in actual ES6 specification)
+	.startsWith()
+	.endsWith()
+	.codePointAt()
+	.repeat()
+	.normalize()
+	String.fromCodePoint
+	Proxy (behind the --harmony-proxies flag)
 
-I think that's all. Maybe if I forgot something - I'll add it later to the list.
+	I think that's all. Maybe if I forgot something - I'll add it later to the list.
 
 '''
 
