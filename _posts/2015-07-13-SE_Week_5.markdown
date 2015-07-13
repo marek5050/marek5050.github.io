@@ -89,9 +89,8 @@ The features list for one of the biggest changes in Javscript is actually quite 
 '''
 
 
-
-__Update on the project progress__
-
+##[Crossfit.Social][social]
+###__Update on the project progress__
 + We have created the database models Athlete, Region, Tweet, Instagram, and Events  
 + We have the main page and templates!   
 + We have a cute little logo :D  
@@ -103,11 +102,11 @@ __Update on the project progress__
 + Semi stable virtual machine with Django running
 + Integrated TravisCI and automated pushes
 
- __Need:__
-+ Need to integrate Flickr, Instagram, Google+ and other social networks   
-+ Need to stabilize TravisCI tests (Currently they fail because of make migrate)
-+ Need to improve and organize the front page.
-+ Need more pagination, since now we have data
+ ###__Need:__  
++ Need to integrate Flickr, Instagram, Google+ and other social networks.
++ Need to stabilize TravisCI tests (Currently they fail because of make migrate).
++ Need to improve and organize the front page.  
++ Need more pagination, since now we have data.
 
 
 ##Tip of the Week:
@@ -118,3 +117,4 @@ __Update on the project progress__
 [featuresOne]:https://github.com/lukehoban/es6features/blob/master/README.md
 [specification]: http://www.ecma-international.org/ecma-262/6.0/
 [ecmafeatures]: http://stackoverflow.com/questions/28388885/ecmascript-6-features-available-in-node-js-0-12
+[social]:http://crossfit.social
