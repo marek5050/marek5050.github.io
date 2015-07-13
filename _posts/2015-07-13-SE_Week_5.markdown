@@ -44,22 +44,22 @@ The features list for one of the biggest changes in Javscript is actually quite 
 	Symbol (already specified in question)
 	Promise (already specified in question)
 	Array methods:
-	.keys()
-	.values()
-	.entries()
+		.keys()
+		.values()
+		.entries()
 	[Symbol.iterator]
 	Object:
-	.observe() (actually it's ES7) (http://bocoup.com/weblog/javascript-object-observe/)
-	.is()
-	.setPrototypeOf()
-	.getOwnPropertySymbols()
-	.getNotifier() (not es6, example here)
-	.apply() and .call() (not es6, same purpose as Funciton.prototype.call and Function.prototype.apply)
+		.observe() (actually it's ES7) (http://bocoup.com/weblog/javascript-object-observe/)
+		.is()
+		.setPrototypeOf()
+		.getOwnPropertySymbols()
+		.getNotifier() (not es6, example here)
+		.apply() and .call() (not es6, same purpose as Funciton.prototype.call and Function.prototype.apply)
 	Number properties and methods (already specified in question)
-	.isInteger()
-	.isSafeInteger()
-	.isNaN()
-	.isFinite()
+		.isInteger()
+		.isSafeInteger()
+		.isNaN()
+		.isFinite()
 	EPSILON
 	MIN_SAFE_INTEGER
 	MAX_SAFE_INTEGER
@@ -69,19 +69,19 @@ The features list for one of the biggest changes in Javscript is actually quite 
 
 	Features with --harmony flag:
 
-	generators
+	__generators__
 	arrow functions (without need of --harmony_arrow_functions flag in contrast to io.js)
 	let variables - only in strict mode
 	Binary and octal literals
 	String methods:
-
-	.contains() (was replaced by includes() in actual ES6 specification)
-	.startsWith()
-	.endsWith()
-	.codePointAt()
-	.repeat()
-	.normalize()
+		.contains() (was replaced by includes() in actual ES6 specification)
+		.startsWith()
+		.endsWith()
+		.codePointAt()
+		.repeat()
+		.normalize()
 	String.fromCodePoint
+
 	Proxy (behind the --harmony-proxies flag)
 
 	I think that's all. Maybe if I forgot something - I'll add it later to the list.
