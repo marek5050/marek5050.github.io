@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "CS373 Summer 2015: Marek Bejda"
-subtitle:  "CS N373 Software Engineering Week 5"
+title: "Week 5 SE: Javascript Harmony"
+subtitle:  "Harmony? Awesome how do I use it?"
 date:   2015-07-12 21:50:51
 categories: python software_engineering
 ---
+
+##CS373 Summer 2015: Marek Bejda
+##CS N373 Software Engineering Week 5
 
  ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"} 
 
