@@ -1,0 +1,117 @@
+---
+layout: post
+title: "CS373 Summer 2015: Marek Bejda"
+subtitle:  "CS N373 Software Engineering Week 5"
+date:   2015-07-12 21:50:51
+categories: python software_engineering
+---
+
+ ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"} 
+
+Last week I missed Wednesday because of Physics homework and lab reports that were due. But Monday we went over some javascript functionality. Mostly over array iteration and some nice points were brought up. I imagined when you call Object.keys({'key':'value'}) "Object.keys" could be identical to a static method call. But supposedly we can't have static functionality without classes. So with that claim my __Tip of the Week__ is [ECMAScript 6 features][featuresOne] __Classes support prototype-based inheritance, super calls, instance and static methods and constructors.__ . 
+
+###Javascript Harmony 
+
+In the [official specification][specification] we can also find 
+
+		ClassElement[Yield] :
+			MethodDefinition[?Yield]
+			static MethodDefinition[?Yield]
+		;
+
+		semantics isStatic:
+		ClassElement : MethodDefinition
+			Return false.
+		ClassElement : static MethodDefinition
+			Return true.
+		ClassElement : ;
+			Return false.
+
+so isStatic will return us a true if used on a method declared using the 'static' modifier. 
+We should also be able to retrieve static properties using StaticPropertyNameList method.
+
+The features list for one of the biggest changes in Javscript is actually quite long. They even include the creation of generator functions which we have been studying in Python. 
+
+[Copied from Stackoverflow][ecmafeatures]
+'''
+Features without --harmony flag:
+
+"for-of" loop
+Map, Set, WeakMap, WeakSet (already specified in question)
+Symbol (already specified in question)
+Promise (already specified in question)
+Array methods:
+.keys()
+.values()
+.entries()
+[Symbol.iterator]
+Object:
+.observe() (actually it's ES7) (http://bocoup.com/weblog/javascript-object-observe/)
+.is()
+.setPrototypeOf()
+.getOwnPropertySymbols()
+.getNotifier() (not es6, example here)
+.apply() and .call() (not es6, same purpose as Funciton.prototype.call and Function.prototype.apply)
+Number properties and methods (already specified in question)
+.isInteger()
+.isSafeInteger()
+.isNaN()
+.isFinite()
+EPSILON
+MIN_SAFE_INTEGER
+MAX_SAFE_INTEGER
+Math methods (a lot of them) (already specified in question)
+constants
+I thinks that's all that we have without --harmony flag.
+
+Features with --harmony flag:
+
+generators
+arrow functions (without need of --harmony_arrow_functions flag in contrast to io.js)
+let variables - only in strict mode
+Binary and octal literals
+String methods:
+
+.contains() (was replaced by includes() in actual ES6 specification)
+.startsWith()
+.endsWith()
+.codePointAt()
+.repeat()
+.normalize()
+String.fromCodePoint
+Proxy (behind the --harmony-proxies flag)
+
+I think that's all. Maybe if I forgot something - I'll add it later to the list.
+
+'''
+
+
+
+__Update on the project progress__
+
++ We have created the database models Athlete, Region, Tweet, Instagram, and Events  
++ We have the main page and templates!   
++ We have a cute little logo :D  
++ The unit tests are 40% done   (again)
++ The server is running and we are using the super catchy domain name crossfit.social!!   
++ Twitter integration mostly complete 99.9%!!  
++ Angular configured and running, admin mode and regular. 
++ Need to scrape more data :D (Thanks NeoReach!)
++ Semi stable virtual machine with Django running
++ Integrated TravisCI and automated pushes
+
+ __Need:__
++ Need to integrate Flickr, Instagram, Google+ and other social networks   
++ Need to stabilize TravisCI tests (Currently they fail because of make migrate)
++ Need to improve and organize the front page.
++ Need more pagination, since now we have data
+
+
+##Tip of the Week:
+[ECMAscript 6 features 1][featuresOne] provides a quick introduction to the new features of the soon to come update to Javascript. 
+[ECMAScript 6 features 2][featuresTwo] same just written by someone else. 
+
+[featuresTwo]:https://github.com/lukehoban/es6features#classes
+[featuresOne]:https://github.com/lukehoban/es6features/blob/master/README.md
+[specification]: http://www.ecma-international.org/ecma-262/6.0/
+[ecmafeatures]: http://stackoverflow.com/questions/28388885/ecmascript-6-features-available-in-node-js-0-12

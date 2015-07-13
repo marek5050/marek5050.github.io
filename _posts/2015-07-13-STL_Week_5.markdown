@@ -1,0 +1,60 @@
+---
+layout: post
+title: "CS378 Summer 2015: Marek Bejda"
+subtitle:  "CS N378 Generic Programming and the STL Library Week 5"
+date:   2015-07-12 21:50:51
+categories: stl c++ 
+---
+
+ ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+
+This week the project was to create a Deque a 'double ended queue'. So pretty much a list with two ends so we can push and pop. So I've kindof realized that this whole semester we have been talking about containers and Professor Downing kept mentioning all these containers and I actually had no idea how they worked. Well for the most part. We have these lists, arrays, vectors, doubly linked lists, deques,  and then we got some sets. So the project was to implement a __deque__. Before my partner showed up Friday morning I read up on [what a deque actually is ][deq_what] and [some performance study][deq_per]. To get my head wrapped around this mystical double ended queue. 
+
+With the partner then we talked about how to implement it for about 4 hours and set off to work. We pretty much got done at 9pm a good 12 hour programming Friday session and were about 90% done. We implemented our deque with two dynamic arrays, it pretty much resembles a matrix.
+with the center row being what the user originally requested and one "empty" allocated row above and below. This gives us a change to insert items right off the start. This was decided because later on our algorithm just doubles the size of the matrix and centers on every resize. 
+
+'''
+--------------------
+|
+|xxxxxxxxxxxxxxxxxxx
+|
+--------------------
+resize -> 
+--------------------
+|
+|
+|xxxxxxxxxxxxxxxxxxx
+|
+|
+--------------------
+'''
+So these discontinuous rows need to be tracked so we have an outer or 'tracking' array that has pointers to these rows. We also kept pair(int, T*) to the beginning and end, for pushing and popping. 
+
+We went about it the wrong way thought, we implemented the container functionality first before even thinking about the iterators. We implemented size, push_front, pop_front, push_back, pop_back, and most of the methods, but then we found ourselves rewriting boundary checks. So when we started working on the iterators, implemented the boundary checks, and ++ --. I had an idea! Why should our __begin and end__ have to be a pair if it just can be a __iterator__!! So we replaced the __begin and end pair__ with a __iterator begin, end__ and now we were able to replace most of our container logic. It actually cut down most of our code down to one line! Even pop and push became __--begin__ and __++begin; *begin=v__ 
+
+Then the next hurdle that popped up was how do we implement const iterator without having to rewrite ALL of the logic. Code re-use is one of the most important idea in CS.  So there has to be a way, we know __static_cast__ can remove constantness. Our constant deque will use a regular iterator for it's begin and end. We just have to return a begin and end with a const cast on it. So we did. 
+
+'''
+	const_iterator begin () const {
+            return const_iterator(_begin);}
+	 const_reference back () const {
+            return const_cast<my_deque*>(this)->back();}
+'''
+
+This way we were able to reuse our regular iterator behaviour. 
+
+With iterator in place everything else was a breeze. 
+
+
+
+##Tip of the Week:
+[ECMAscript 6 features 1][featuresOne] provides a quick introduction to the new features of the soon to come update to Javascript. 
+[ECMAScript 6 features 2][featuresTwo] same just written by someone else. 
+
+
+
+[featuresTwo]:https://github.com/lukehoban/es6features#classes
+[featuresOne]:https://github.com/lukehoban/es6features/blob/master/README.md
+[deq_per]: http://www.codeproject.com/Articles/5425/An-In-Depth-Study-of-the-STL-Deque-Container
+[deq_code]:http://en.cppreference.com/w/cpp/container/deque
+[deq_what]:http://stackoverflow.com/questions/6292332/what-really-is-a-deque-in-stl
