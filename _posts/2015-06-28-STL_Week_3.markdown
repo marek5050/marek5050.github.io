@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CS378 Summer 2015: Marek Bejda"
-subtitle:  "CS N378 Generic Programming and the STL Library Week 3"
+title: "Week 3 STL: Getting lost in C++, what do we need it for?"
+subtitle:  "ech what else to say? "
 date:   2015-06-28 21:50:51
 categories: stl c++ 
 ---
