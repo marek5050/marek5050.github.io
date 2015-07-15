@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 4: Building a Large Integer"
+title: "Week 4 STL: Building a Large Integer"
 subtitle:  "Define large?"
 date:   2015-07-06 21:50:51
 categories: stl c++ 

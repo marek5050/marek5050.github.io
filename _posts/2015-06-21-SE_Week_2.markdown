@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CS373 Summer 2015: Marek Bejda"
-subtitle:  "CS N373 Software Engineering Week 2"
+title: "Week 2 SE: Using Python Pickle"
+subtitle:  "We can store a bunch of pickles in a binary."
 date:   2015-06-21 21:50:51
 categories: python software_engineering
 ---

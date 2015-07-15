@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CS378 Summer 2015: Marek Bejda"
-subtitle:  "CS N378 Generic Programming and the STL Library Week 2"
+title: "Week 2 STL: Playing with the priority queue"
+subtitle:  "So now we give preferential treatment? "
 date:   2015-06-21 21:50:51
 categories: stl c++ 
 ---
