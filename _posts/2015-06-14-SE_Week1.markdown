@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CS373 Summer 2015: Marek Bejda"
-subtitle:  "CS N373 Software Engineering Week 1"
+title: "Week 1 SE: Introduction to Software Engineering"
+subtitle:  "A 50/50 mixture of engineering and software..."
 date:   2015-06-14 21:50:51
 categories: python software_engineering
 ---

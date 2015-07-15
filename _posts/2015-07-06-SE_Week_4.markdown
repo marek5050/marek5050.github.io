@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CS373 Summer 2015: Marek Bejda"
-subtitle:  "CS N373 Software Engineering Week 4"
+title: "Week 4 SE: Starting out with Django"
+subtitle:  "ddddddddjango? like the movie? "
 date:   2015-07-06 21:50:51
 categories: python software_engineering
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CS373 Summer 2015: Marek Bejda"
-subtitle:  "CS N373 Software Engineering Week 3"
+title: "Week 3 SE: Study guide for exam #1"
+subtitle:  "Because we always have atleast one exam..."
 date:   2015-06-28 21:50:51
 categories: python software_engineering
 ---

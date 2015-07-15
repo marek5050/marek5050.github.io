@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 5 STL with Deque"
+title: "Week 5 STL: Let's make a Deque"
 subtitle:  "What the heck is a deque!"
 date:   2015-07-12 21:50:51
 categories: stl c++ 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "CS378 Summer 2015: Marek Bejda"
-subtitle:  "CS N378 Generic Programming and the STL Library Week 1"
-date:   2015-06-14 21:50:51
+title: "Week 1 STL: Introduction to the Standard Templating Library"
+subtitle: "That C++ STL library people talk about."
+date: 2015-06-14 21:50:51
 categories: stl c++ 
 ---
 
