@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Week 6 SE: Django Models"
+subtitle:  "Almost like OOP for Databases"
+date:   2015-07-20 21:50:51
+categories: python software_engineering
+---
+
+##CS373 Summer 2015: Marek Bejda
+##CS N373 Software Engineering Week 6
+
+![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked
+This last week we went pretty easy, while Phase 3 isn't dramatically tough, I think most of us are a little tired out and ready to enjoy the summer break. We have one more week of classes left and next Monday the final exam. I'm definitly looking forward to it. I have some ideas on what will be on the test, for example SQL Join statements and decoration functions. Later on this week I'll write up some sample questions that can be used as a study guide. Last exam my questions were pretty spot on and I'm sure whoever studied them got about a 85% on the test. 
+
+On the side during my free time I've been trying to do some photography. I'm finally reaching the end of the introductory stage, where I'm a little familiar and comfortable with the Camera settings. I've been taking pictures of the University of Texas statues and architecture. My goal is to get a picture of most of them by the end of the Fall semester. From my obserations there are about 20 metal statues spread out throughout campus. So far I've taken a picture of about 5. So about 15 more to go, about 1 a week should land me home. 
+
+
+![Martin Luther King](/static/mlk_.png){:.some-css-class style="width: 150px"}
+![The family group](/static/family_group.jpg){:.some-css-class style="width: 150px"}
+![Gates and Dell Center](/static/gdc_.JPG){:.some-css-class style="width: 150px"}
+
+
+##[Crossfit.Social][social]
+###__Update on the project progress__   
++ We have created the database models Athlete, Region, Tweet, Instagram, and Events  
++ We have the main page and templates  
++ We have a cute little logo   
++ The unit tests are 90%   
++ Server up with catchy domain name crossfit.social!!    
++ Twitter & Instagram integration mostly complete 99.9%!!  
++ Need to scrape more data (Google Search)
++ Semi stable virtual machine with Django running   
++ Integrated TravisCI and automated pushes   
++ Pagination, search, and filter
+
+ ###__Need:__  
++ Need to integrate Flickr, Google+ and other social networks.  
++ Need to stabilize TravisCI tests (Currently they fail because of make migrate).  
++ Need to improve and organize the front page.    
+
+##Tip of the Week:
+Start using TravisCI without Sudo to access their new infrastructure and have faster build times! [Sample .travis.yml](sampleTravis)
+
+
+
+[sampleTravis]:	/static/sample.travis.yml

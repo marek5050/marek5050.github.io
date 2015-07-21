@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Week 6 STL: Let's make a Deque"
+subtitle:  "What the heck is a deque!"
+date:   2015-07-20 21:50:51
+categories: stl c++ 
+---
+
+##CS378 Summer 2015: Marek Bejda
+##CS N378 Generic Programming and the STL Library Week 6
+
+![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+
+We are finally reaching the end of the semester, with only about a week left. I'm finally seeing where the class is heading. We are diving deeper into iterators and building our iterator wrappers. It's actually pretty neat building outputsreamiterators and reverseiterators. Yet it's very sensitive and still confusing. When asked in class to build something simple as a constructor I went completely blank, even thought during the discussion I had a pretty good idea. During discussion I imagined the iterator using an index, which actually might be a little demanding. The solution that was brought up was using a temporary variable to hold the value, until the user accesses the value. Which now seems, clever since ++ is a much less demanding action than indexing via []. 
+
+The project, Graph, was pretty straight forward once we wrapped our heads around the data structure we were building. It became even easier once we started using little helper vertexes, one for vertices and one for edges. After that most method lines were about 2 lines.  
+
+
+##Tip of the Week:  
+Start using TravisCI without Sudo to access their new infrastructure and have faster build times! [Sample .travis.yml](sampleTravis)  
+
+[sampleTravis]:	/static/sample.travis.yml
+
