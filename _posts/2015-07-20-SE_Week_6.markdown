@@ -21,7 +21,9 @@ On the side during my free time I've been trying to do some photography. I'm fin
 
 
 ##[Crossfit.Social][social]
-###__Update on the project progress__   
+
+### __Update on the project progress__   
+
 + We have created the database models Athlete, Region, Tweet, Instagram, and Events  
 + We have the main page and templates  
 + We have a cute little logo   
@@ -33,7 +35,7 @@ On the side during my free time I've been trying to do some photography. I'm fin
 + Integrated TravisCI and automated pushes   
 + Pagination, search, and filter
 
- ###__Need:__  
+### __Need:__  
 + Need to integrate Flickr, Google+ and other social networks.  
 + Need to stabilize TravisCI tests (Currently they fail because of make migrate).  
 + Need to improve and organize the front page.    
