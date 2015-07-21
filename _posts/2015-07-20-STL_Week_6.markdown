@@ -17,6 +17,8 @@ The project, Graph, was pretty straight forward once we wrapped our heads around
 
 
 ##Tip of the Week:  
-Start using TravisCI without Sudo to access their new infrastructure and have faster build times! [Sample .travis.yml](sampleTravis)  
+Start using TravisCI without Sudo to access their new infrastructure and have faster build times! [Sample .travis.yml][sampleTravis]
 
-[sampleTravis]: "/static/sample.travis.yml"
+
+
+[sampleTravis]: /static/sample.travis.yml
