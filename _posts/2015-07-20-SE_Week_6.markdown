@@ -15,7 +15,7 @@ This last week we went pretty easy, while Phase 3 isn't dramatically tough, I th
 On the side during my free time I've been trying to do some photography. I'm finally reaching the end of the introductory stage, where I'm a little familiar and comfortable with the Camera settings. I've been taking pictures of the University of Texas statues and architecture. My goal is to get a picture of most of them by the end of the Fall semester. From my obserations there are about 20 metal statues spread out throughout campus. So far I've taken a picture of about 5. So about 15 more to go, about 1 a week should land me home. 
 
 
-![Martin Luther King](/static/mlk_.png){:.some-css-class style="width: 150px"}
+![Martin Luther King](/static/mlk_.JPG){:.some-css-class style="width: 150px"}
 ![The family group](/static/family_group.jpg){:.some-css-class style="width: 150px"}
 ![Gates and Dell Center](/static/gdc_.JPG){:.some-css-class style="width: 150px"}
 
@@ -42,5 +42,5 @@ On the side during my free time I've been trying to do some photography. I'm fin
 Start using TravisCI without Sudo to access their new infrastructure and have faster build times! [Sample .travis.yml](sampleTravis)
 
 
-
+[social]: http://crossfit.social
 [sampleTravis]:	/static/sample.travis.yml
