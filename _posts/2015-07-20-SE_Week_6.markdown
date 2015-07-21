@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Week 6 SE: Django Models"
-subtitle:  "Almost like OOP for Databases"
+title: "Week 6 SE: Final and Photography"
+subtitle:  "We take pictures!"
 date:   2015-07-20 21:50:51
 categories: python software_engineering
 ---
