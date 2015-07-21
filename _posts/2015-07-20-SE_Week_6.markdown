@@ -16,7 +16,7 @@ On the side during my free time I've been trying to do some photography. I'm fin
 
 
 ![Martin Luther King](/static/mlk_.JPG){:.some-css-class style="width: 150px"}
-![The family group](/static/familyGroup.jpg){:.some-css-class style="width: 150px"}
+![The family group](/static/familyGroup.JPG){:.some-css-class style="width: 150px"}
 ![Gates and Dell Center](/static/gdc_.JPG){:.some-css-class style="width: 150px"}
 
 
