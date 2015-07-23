@@ -43,6 +43,34 @@ On the side during my free time I've been trying to do some photography. I'm fin
 ##Tip of the Week:
 Start using TravisCI without Sudo to access their new infrastructure and have faster build times! [Sample .travis.yml][sampleTravis]
 
+{% highlight bash %}
+language: python
+python:
+   - "3.4"
+sudo: false
+addons:
+  apt: 
+   sources: 
+      - ubuntu-toolchain-r-test
+   packages:
+      - python-numpy
+
+before_script:
+    - uname -a
+    - set
+    - pip -V
+    - pip freeze
+    - python -V
+    - coverage3 help | grep version
+    - python -c "import numpy; print(numpy.__version__)"
+
+script:
+    - make collatz-tests
+    - make Collatz.html
+    - make Collatz.log
+    - make test
+    - make check
+{% endhighlight %}
 
 [social]: http://crossfit.social
 [sampleTravis]: /static/se.sample.travis.yml
