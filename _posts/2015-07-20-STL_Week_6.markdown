@@ -21,4 +21,4 @@ Start using TravisCI without Sudo to access their new infrastructure and have fa
 
 
 
-[sampleTravis]: /static/sample.travis.yml
+[sampleTravis]: /static/stl.sample.travis.yml

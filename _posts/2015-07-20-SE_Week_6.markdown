@@ -45,4 +45,4 @@ Start using TravisCI without Sudo to access their new infrastructure and have fa
 
 
 [social]: http://crossfit.social
-[sampleTravis]: /static/sample.travis.yml
+[sampleTravis]: /static/se.sample.travis.yml
