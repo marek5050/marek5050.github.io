@@ -11,6 +11,7 @@ categories: stl c++
 
 ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
 
+
 So a couple of weeks back I wrote about finding something to do with C++. As a web developer I couldn't see many uses on the front end or serving content, but that's because I wasn't asking the right questions. (True Detectives) So a couple of days ago I realized NodeJS supports C++ modules and ever since I've been hooked. Stumbled across this super useful Github repo [node-cpp-modules][modulesrepo]. It starts off from the basics, a hello world module, but goes pretty deep even objects and threads very quick. 
 
 So the barebones code for a C++ node module goes like: 
