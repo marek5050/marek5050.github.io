@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Week 7 STL: C++? Whats the point?"
-subtitle:  "NodeJS packages!"
+title: "Week 7 STL: C++ NodeJS Modules"
+subtitle:  "NodeJS binary packages!"
 date:   2015-07-26 21:50:51
 categories: stl c++ 
 ---
