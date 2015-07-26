@@ -1,0 +1,163 @@
+---
+layout: post
+title: "Week 7 STL: C++? Whats the point?"
+subtitle:  "NodeJS packages!"
+date:   2015-07-26 21:50:51
+categories: stl c++ 
+---
+
+##CS378 Summer 2015: Marek Bejda
+##CS N378 Generic Programming and the STL Library Week 7
+
+![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+
+So a couple of weeks back I wrote about finding something to do with C++. As a web developer I couldn't see many uses on the front end or serving content, but that's because I wasn't asking the right questions. (True Detectives) So a couple of days ago I realized NodeJS supports C++ modules and ever since I've been hooked. Stumbled across this super useful Github repo [node-cpp-modules][modulesrepo]. It starts off from the basics, a hello world module, but goes pretty deep even objects and threads very quick. 
+
+So the barebones code for a C++ node module goes like: 
+
+{% highlight c++ %}
+#Source  https://github.com/kkaefer/node-cpp-modules/blob/master/01_bare_minimum/modulename.cpp 
+#include <node.h>
+
+void RegisterModule(v8::Handle<v8::Object> target) {
+    // You can add properties to the module in this function. It is called
+    // when the module is required by node.
+}
+
+// Register the module with node. Note that "modulename" must be the same as
+// the basename of the resulting .node file. You can specify that name in
+// binding.gyp ("target_name"). When you change it there, change it here too.
+NODE_MODULE(modulename, RegisterModule);
+{% endhighlight %}
+
+So cool but why use C++ if we can just write the same stuff in Javascript? 
+Well performance of course! For comparison I took our Collatz code from Week 1 and easily transformed it into a module. And also translated it into Javascript. 
+
+modulename.cpp
+{% highlight c++ %}
+#include <node.h>    
+#include <cassert>   // assert
+#include <algorithm> // max,min
+
+using namespace v8;
+
+
+int collatz_eval (int min, int max) {
+  using namespace std;
+  int min_val = min;
+  int _max = -99;
+  int steps = 1;
+    long long cur  = min_val;
+
+    for(int i=min_val;i<=max;i++, cur=i, steps=1){
+        while(cur!=1){
+            if(cur % 2 == 0){
+                cur=cur>>1;
+            }else{
+                cur=cur+ (cur>>1) + 1;
+                ++steps;
+            }
+            ++steps;
+        }
+        if(steps > _max) _max = steps;
+    }
+    return _max;
+}
+
+Handle<Value> Collatz(const Arguments& args) {
+    HandleScope scope;
+
+    Local<Integer> integer = args[0]->ToInteger();
+    Local<Integer> integer2 = args[1]->ToInteger();
+
+    int32_t seq = integer->Value();
+    int32_t last = integer2->Value();
+    if (seq < 0) {
+        return ThrowException(Exception::TypeError(String::New(
+            "Fibonacci sequence number must be positive")));
+    }
+
+    // The actual algorithm.
+    int32_t current = collatz_eval(seq,last);
+
+    return scope.Close(Integer::New(current));
+}
+
+void RegisterModule(Handle<Object> target) {
+    target->Set(String::NewSymbol("Collatz"),
+        FunctionTemplate::New(Collatz)->GetFunction());
+}
+
+NODE_MODULE(modulename, RegisterModule);
+{% endhighlight %}
+
+
+To compile the C++ module we just need to do __npm build .__ then we have a runner script called __run.js__ 
+
+{% highlight javascript %}
+var modulename = require('./build/Release/modulename');
+console.warn(modulename.Collatz(100000,410000));
+{% endhighlight %}
+
+now to run the module we just __node run.js__
+
+
+collatz.js
+{% highlight javascript %}
+function collatz(min_val,max_val){
+var _max=0;
+var cur = min_val;
+var steps=1;
+
+for(i=min_val; i<=max_val;i++, cur=i, steps=1){
+        while(cur!=1){
+            if(cur % 2 == 0){
+                cur=cur>>1;
+            }else{
+                cur=cur+ (cur>>1) + 1;
+                ++steps;
+            }
+            ++steps;
+        }
+
+        if(steps > _max){
+        _max = steps;
+       }
+   }
+ return _max;
+}
+
+console.log(collatz(100000,410000))
+{% endhighlight %}
+
+to run the native module we just __node collatz.js__. 
+
+Okay with the two scripts ready to go we can time them.
+
+{% highlight bash %}
+$ time node collatz.js 
+443
+
+real  0m0.511s
+user  0m0.490s
+sys 0m0.021s
+
+$ time node run.js
+443
+
+real  0m0.118s
+user  0m0.100s
+sys 0m0.015s
+{% endhighlight %}
+
+From the results we can clearly see that the C++ version is much faster at finding the max cycle length from 100000 to 410000. Javascript is almost 5 times slower.
+
+
+
+##Tip of the Week:  
+For this week I have like 20 tips, but to keep it simple I'll just share 2. Well the first one was above I strongly recommend checking out the [C++ modules repo][modulesrepo]. I also recommend playing with [emcscripten][emscripten]. 
+
+__Emscripten is an LLVM-to-JavaScript compiler. It takes LLVM bitcode - which can be generated from C/C++, using llvm-gcc (DragonEgg) or clang, or any other language that can be converted into LLVM - and compiles that into JavaScript, which can be run on the web (or anywhere else JavaScript can run).__
+
+[modulesrepo]: https://github.com/kkaefer/node-cpp-modules
+[emscripten]: https://github.com/kripken/emscripten
