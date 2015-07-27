@@ -1,0 +1,118 @@
+---
+layout: post
+title: "Week 7 SE: Project Presentation and Practice for Final"
+subtitle:  "Practice Practice Practice, @CrossfitGames!"
+date:   2015-07-26 21:50:51
+categories: python software_engineering
+---
+
+##CS373 Summer 2015: Marek Bejda
+##CS N373 Software Engineering Week 7
+
+![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}
+Almost there, slowly passing the finish line. With the project finished we only have the final exam Monday. Today we had a great team study session in which we discussed almost everything refactoring, SQL, decorator functions, and much much more. 
+
+To prepare for this exam I focused on decorators. They seemed like the most confusing part of the last couple of weeks. So I rewrote Collatz max cycle length into using decorators. Mostly just extracting the for loop portion.
+
+[Pyhthon notebook][notebook]
+{% highlight python %}
+def pre( fun ):
+    def check_preconditions(a,b):
+        print("pre: ", a,b)
+        assert(a > 0)
+        assert(b > 0)
+        return fun(a,b)
+    return check_preconditions
+
+def forloop ( fun ):
+    def collatz(a,b):
+        for i in range(a,b):            
+            print("forloop: ", a,b)
+            maxCycleLength = 0
+            currentValue = a
+            minValue = a
+            maxValue = b
+            value = a
+            cycleLength=0
+            for currentValue in range(minValue,maxValue+1):
+                cycleLength = fun(currentValue)
+                print("Cycle length: ", cycleLength)
+                if cycleLength > maxCycleLength:
+                    maxCycleLength = cycleLength
+                    
+            assert (maxCycleLength > 0)
+            return maxCycleLength
+    return collatz
+
+def post(fun):
+    def check_collatz(v):
+        v =  fun(a,b)
+        assert(v > 0)
+        print("Checking V", v)
+    return check_collatz
+
+@pre
+@forloop
+@post
+def collatz_eval(a):
+    cycleLength = 1
+    value = a
+    while value != 1:
+        if(value % 2 == 0):
+            value //= 2
+            cycleLength+=1
+        else:
+            value = value + (value>>1) + 1
+            cycleLength+=2
+                
+    return cycleLength
+ 
+a = collatz_eval(1,10)
+print(a)
+pre:  1 10
+forloop:  1 10
+Cycle length:  1
+Cycle length:  2
+Cycle length:  8
+Cycle length:  3
+Cycle length:  6
+Cycle length:  9
+Cycle length:  17
+Cycle length:  4
+Cycle length:  20
+Cycle length:  7
+20
+{% endhighlight %}
+
+
+
+<script async class="speakerdeck-embed" data-id="7a703ebf2e1148788e1650d7ed697f2a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+##[Crossfit.Social][social]
+
+### __Update on the project progress__   
+
++ Database models for Athlete, Instagram, Twitter, Facebook  
++ Main pages and templates  
++ The unit tests are still at 90%   
++ Server up with catchy domain name crossfit.social!!  
++ Twitter, Instagram, Facebook integration mostly complete 99.9%!!  
++ Scraped Google for handles and accounts  
++ Semi stable virtual machine with Django running   
++ Integrated TravisCI and automated pushes   
+
+### __Need:__  
++ Need to revamp the front end into pure bootstrap, replace current template  
++ Need to stabilize tests and server  
++ Need more information on front page and fix footer  
+
+##Tip of the Week  
+For this week I have like 20 tips, but to keep it simple I'll just share 2. Well the first one was above I strongly recommend checking out the [C++ modules repo][modulesrepo]. I also recommend playing with [emcscripten][emscripten]. 
+
+__Emscripten is an LLVM-to-JavaScript compiler. It takes LLVM bitcode - which can be generated from C/C++, using llvm-gcc (DragonEgg) or clang, or any other language that can be converted into LLVM - and compiles that into JavaScript, which can be run on the web (or anywhere else JavaScript can run).__
+
+[notebook]: https://gist.github.com/marek5050/86e4148923750be82dba
+[modulesrepo]: https://github.com/kkaefer/node-cpp-modules
+[emscripten]: https://github.com/kripken/emscripten
+[social]: http://crossfit.social/
