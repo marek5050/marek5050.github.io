@@ -176,6 +176,10 @@ textarea {
     background: transparent !important;
     box-shadow: none !important;
   }
+  .wrapper{
+  margin:0px;
+  padding:0px;
+ }
   a,
   a:visited {
     text-decoration: underline;
@@ -760,10 +764,6 @@ h6 small {
   color: #999999;
 }
 
-.wrapper{
-  margin:0px;
-  padding:0px;
-}
 h1,
 h2,
 h3 {
