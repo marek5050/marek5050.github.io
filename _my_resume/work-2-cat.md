@@ -1,12 +1,12 @@
 ---
 type: "Work Experience"
 heading: "University of Texas, Center for Agile Technology"
-subheading: "Web Developer"
+subheading: "Quality Assurance Lead"
 duration: "01/2015 – current"
 location: "Austin, TX"
 link: "http://www.cat.utexas.edu/"
 ---
 
-+ Website transformation from a proprietary stack to open source running on Java, MySQL, and Angular JS. 
-+ Configuring Application Servers Wildfly and Tomcat. 
-+ Application recovery from abandoned code. 
++ Create unit and integration tests using Selenium, Serenity, and JBehave. 
++ Configured Gitlab and Continuous Integration testing. 
++ Jbehave user stories and scenarios.

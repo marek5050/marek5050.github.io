@@ -180,9 +180,12 @@ textarea {
   a:visited {
     text-decoration: underline;
   }
-  a[href]:after {
-    content: " (" attr(href) ")";
+  .page-content{
+    margin: 0 !important;
+    padding: 0 !important;
   }
+
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -757,6 +760,10 @@ h6 small {
   color: #999999;
 }
 
+.wrapper{
+  margin:0px;
+  padding:0px;
+}
 h1,
 h2,
 h3 {
@@ -796,7 +803,7 @@ h2 small {
 }
 
 h3 small {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 h4 small {
@@ -823,7 +830,7 @@ ol ul {
 }
 
 li {
-  line-height: 20px;
+  line-height: 18px;
 }
 
 ul.unstyled,
@@ -894,7 +901,7 @@ dd {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
