@@ -4,7 +4,7 @@ title:
 permalink: /resume/
 ---
 
-###Marek Bejda <small>![email](/static/email.PNG){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 20px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 20px"} AModernStory.com </small>
+###Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 20px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 20px"} AModernStory.com </small>
 
 ----
 
