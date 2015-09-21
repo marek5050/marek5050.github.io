@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-###Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 20px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 20px"} AModernStory.com </small>
+### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 20px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 20px"} AModernStory.com </small>
 
 ----
 
@@ -12,10 +12,8 @@ permalink: /resume/
 
 {% for item in site.my_resume %}
 {% if item.type == "Work Experience" %}
-**{{item.subheading}}** at [{{item.heading}}]({{item.link}}){: target="_blank"} <span class='pull-right'>( {{item.duration}} , {{item.location}})</span>
-
+**{{item.subheading}}** at [{{item.heading}}]({{item.link}}){: target="_blank"} <span class='pull-right'><small>( {{item.duration}}, {{item.location}})</small></span>
 {{item.content}}
-
 
 {% endif %}
 {% endfor %}
@@ -39,22 +37,32 @@ permalink: /resume/
 
 {% for item in site.my_resume %}
 {% if item.type == "Education" %}
-**{{item.subheading}}** <span class='pull-right'>( {{item.duration}} , {{item.location}})</span>
+**{{item.heading}} from {{item.subheading}}** <span class='pull-right'><small>(GPA {{item.gpa}}, {{item.duration}}, {{item.location}})</small></span>
 
-[{{item.heading}}]({{item.link}}){: target="_blank"}
+<!-- [{{item.heading}}]({{item.link}}){: target="_blank"} -->
 {% endif %}
 {% endfor %}
 
 ----
 
-#### Reports
+#### Other
 
 {% for item in site.my_resume %}
 {% if item.type == "Report" %}
-<span class='pull-right'>( {{item.duration}} , {{item.location}})</span>
+<span class='pull-right'><small>( {{item.duration}}, {{item.location}})</small></span>
 
 [{{item.heading}}]({{item.link}}){: target="_blank"}
 {{item.content}}
 
 {% endif %}
 {% endfor %}
+
+#### Skills
+**Languages**	Javascript, C++, Java,  Python, HTML, CSS
+**Frameworks**	Ext, Knockout, Bootstrap, jQuery, Angular
+**Systems**	VMWare, Windows, Mac OSX, Linux, MySQL, MongoDB, Hadoop
+**Tools**		WebStorm, IntelliJ, TravisCI, git, vim
+
+<span class="pull-right">Interactive and more detailed version of this resume can be found at marek5050.github.io/resume</span>
+
+
