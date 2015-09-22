@@ -5,6 +5,7 @@ permalink: /resume/
 ---
 
 ### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 20px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 20px"} AModernStory.com </small>
+Graduating student seeking a **full time** web development or data science position.
 
 ----
 
@@ -58,11 +59,11 @@ permalink: /resume/
 {% endfor %}
 
 #### Skills
-**Languages**	Javascript, C++, Java,  Python, HTML, CSS
+**Languages**	Javascript, C++, Java,  Python
 **Frameworks**	Ext, Knockout, Bootstrap, jQuery, Angular
 **Systems**	VMWare, Windows, Mac OSX, Linux, MySQL, MongoDB, Hadoop
 **Tools**		WebStorm, IntelliJ, TravisCI, git, vim
 
-<span class="pull-right">Interactive and more detailed version of this resume can be found at marek5050.github.io/resume</span>
+<span class="pull-right">An interactive version of this resume can be found at marek5050.github.io/resume</span>
 
 
