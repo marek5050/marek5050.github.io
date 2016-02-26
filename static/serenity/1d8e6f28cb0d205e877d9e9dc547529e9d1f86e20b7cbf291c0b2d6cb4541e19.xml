@@ -1,0 +1,40 @@
+<acceptance-test-run title="The user opens up the main page and searches for crossfit.social" name="The user opens up the main page and searches for crossfit.social" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17880" timestamp="2016-02-26T00:58:23.309Z" session-id="af0f24fa-9358-4c24-a130-b8011f9dc9e6">
+  <user-story id="google_login" name="Google login" path="stories/google/google_login.story"/>
+  <tags>
+    <tag name="Google" type="feature"/>
+    <tag name="Google/Google login" type="story"/>
+  </tags>
+  <test-group name="Given the user accesses the google landing page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="daf5e97ea7d2f191259cc4fea369f091.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5082">
+      <screenshots>
+        <screenshot image="daf5e97ea7d2f191259cc4fea369f091.png"/>
+      </screenshots>
+      <description>Open landing page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When when they type in {crossfit.social}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8f16e0640793b389cf8b78e1b6df59a5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="248">
+      <screenshots>
+        <screenshot image="90b3a93c959b3204b862ae578e2f89e9.png"/>
+      </screenshots>
+      <description>Search for keyword: &lt;span class=&apos;step-parameter&apos;&gt;crossfit.social&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then we should see {crossfit.social}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8f16e0640793b389cf8b78e1b6df59a5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5446">
+      <screenshots>
+        <screenshot image="8f16e0640793b389cf8b78e1b6df59a5.png"/>
+      </screenshots>
+      <description>Find in results: &lt;span class=&apos;step-parameter&apos;&gt;crossfit.social&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
