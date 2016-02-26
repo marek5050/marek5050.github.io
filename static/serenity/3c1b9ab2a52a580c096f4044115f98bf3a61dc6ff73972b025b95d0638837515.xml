@@ -1,4 +1,4 @@
-<acceptance-test-run title="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" steps="6" successful="1" failures="1" skipped="4" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="7168" timestamp="2016-02-26T15:26:05.526Z" session-id="2265a55e-277e-4af5-9ed3-c80ddce064a1">
+<acceptance-test-run title="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" steps="6" successful="1" failures="1" skipped="4" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="7619" timestamp="2016-02-26T15:40:32.511Z" session-id="f0a290e1-57d8-4031-85f0-c36095544d4d">
   <user-story id="github_login" name="Github login" path="stories/github/github_login.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -11,16 +11,16 @@
     <screenshots>
       <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="4215">
+    <test-step result="SUCCESS" duration="4650">
       <screenshots>
         <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
       </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-step result="FAILURE" duration="156">
+  <test-step result="FAILURE" duration="180">
     <screenshots>
-      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png" source="pagesource8899796536456308184.html.txt"/>
+      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png" source="pagesource2530273078025766456.html.txt"/>
     </screenshots>
     <description>When when they login as user</description>
     <error>java.lang.AssertionError</error>
@@ -30,13 +30,13 @@
   <test-step result="SKIPPED" duration="1">
     <description>And search for {selenium-serenity-jbehave-base}</description>
   </test-step>
-  <test-step result="SKIPPED" duration="1">
+  <test-step result="SKIPPED" duration="0">
     <description>Then we should see {selenium-serenity-jbehave-base}</description>
   </test-step>
-  <test-step result="SKIPPED" duration="0">
+  <test-step result="SKIPPED" duration="2">
     <description>And we should be on the main gitrepo page</description>
   </test-step>
-  <test-step result="SKIPPED" duration="7">
+  <test-step result="SKIPPED" duration="0">
     <description>Then click the star</description>
   </test-step>
 </acceptance-test-run>

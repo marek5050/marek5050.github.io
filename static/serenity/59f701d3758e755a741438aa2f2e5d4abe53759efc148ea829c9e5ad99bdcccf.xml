@@ -1,4 +1,4 @@
-<acceptance-test-run title="The user then attempts to login with valid / invalid credentials" name="The user then attempts to login with valid / invalid credentials" steps="6" successful="0" failures="0" skipped="5" ignored="1" pending="0" annotated-result="FAILURE" result="FAILURE" duration="161" timestamp="2016-02-26T15:26:23.315Z">
+<acceptance-test-run title="The user then attempts to login with valid / invalid credentials" name="The user then attempts to login with valid / invalid credentials" steps="6" successful="0" failures="0" skipped="5" ignored="1" pending="0" annotated-result="FAILURE" result="FAILURE" duration="151" timestamp="2016-02-26T15:40:52.788Z">
   <user-story id="twitter_login" name="Twitter login" path="stories/twitter/twitter_login.story"/>
   <tags>
     <tag name="Twitter" type="feature"/>
@@ -9,7 +9,7 @@
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-step result="SKIPPED" duration="7">
+  <test-step result="SKIPPED" duration="6">
     <description>When they login as user</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
@@ -18,7 +18,7 @@
   <test-step result="SKIPPED" duration="0">
     <description>And there will be a tweet box</description>
   </test-step>
-  <test-step result="SKIPPED" duration="1">
+  <test-step result="SKIPPED" duration="0">
     <description>And write a message {@marek5050 Hello !}</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
