@@ -1,0 +1,42 @@
+<acceptance-test-run title="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" steps="6" successful="1" failures="1" skipped="4" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="7223" timestamp="2016-02-26T01:17:09.222Z" session-id="0b6d4457-5495-4ecb-b793-95f9340bd5aa">
+  <user-story id="github_login" name="Github login" path="stories/github/github_login.story"/>
+  <issues>
+    <issue>THEB-2</issue>
+  </issues>
+  <tags>
+    <tag name="Github" type="feature"/>
+    <tag name="Github/Github login" type="story"/>
+  </tags>
+  <test-group name="Given the user accesses the github landing page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4295">
+      <screenshots>
+        <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
+      </screenshots>
+      <description>Open landing page</description>
+    </test-step>
+  </test-group>
+  <test-step result="FAILURE" duration="144">
+    <screenshots>
+      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png" source="pagesource8099087050136125240.html.txt"/>
+    </screenshots>
+    <description>When when they login as user</description>
+    <error>java.lang.AssertionError</error>
+    <exception>java.lang.AssertionError:null
+[social.selenium.definitions.githubDefinitions.login_as_user(githubDefinitions.java:34)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>And search for {selenium-serenity-jbehave-base}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then we should see {selenium-serenity-jbehave-base}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And we should be on the main gitrepo page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then click the star</description>
+  </test-step>
+</acceptance-test-run>

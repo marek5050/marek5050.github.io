@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Twitter login" skipped="0" tests="1" time="0.14" timestamp="2016-02-57 01:17:27"><testcase name="The user then attempts to login with valid / invalid credentials"><failure type="java.lang.AssertionError"/><system-err>null
+social.selenium.definitions.twitterDefinitions.login_with_user(twitterDefinitions.java:42)
+</system-err></testcase></testsuite>
