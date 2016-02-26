@@ -1,3 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Github login" skipped="0" tests="1" time="5.9" timestamp="2016-02-57 03:23:21"><testcase name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!"><failure type="java.lang.AssertionError"/><system-err>null
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Github login" skipped="0" tests="1" time="11.63" timestamp="2016-02-57 03:25:09"><testcase name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!"><failure type="java.lang.AssertionError"/><system-err>null
 social.selenium.definitions.githubDefinitions.login_as_user(githubDefinitions.java:34)
 </system-err></testcase></testsuite>
