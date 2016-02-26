@@ -1,15 +1,15 @@
-<acceptance-test-run title="The user then attempts to login with valid / invalid credentials" name="The user then attempts to login with valid / invalid credentials" steps="6" successful="0" failures="0" skipped="5" ignored="1" pending="0" annotated-result="FAILURE" result="FAILURE" duration="213" timestamp="2016-02-26T15:25:33.779Z">
+<acceptance-test-run title="The user then attempts to login with valid / invalid credentials" name="The user then attempts to login with valid / invalid credentials" steps="6" successful="0" failures="0" skipped="5" ignored="1" pending="0" annotated-result="FAILURE" result="FAILURE" duration="161" timestamp="2016-02-26T15:26:23.315Z">
   <user-story id="twitter_login" name="Twitter login" path="stories/twitter/twitter_login.story"/>
   <tags>
     <tag name="Twitter" type="feature"/>
     <tag name="Twitter/Twitter login" type="story"/>
   </tags>
   <test-group name="Given the user accesses the twitter landing page" result="SKIPPED">
-    <test-step result="IGNORED" duration="2">
+    <test-step result="IGNORED" duration="1">
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-step result="SKIPPED" duration="6">
+  <test-step result="SKIPPED" duration="7">
     <description>When they login as user</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
