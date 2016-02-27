@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Github login","The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!","FAILURE","2016-02-27T20:03:57.625Z","0.0","6.68"
+"Github","Github user searches and stars a repo.","SUCCESS","2016-02-27T21:04:39.638Z","0.0","25.07"

@@ -1,27 +1,44 @@
-<acceptance-test-run title="The user then attempts to login with valid / invalid credentials" name="The user then attempts to login with valid / invalid credentials" steps="6" successful="0" failures="0" skipped="5" ignored="1" pending="0" annotated-result="FAILURE" result="FAILURE" duration="410" timestamp="2016-02-27T20:04:21.920Z">
+<acceptance-test-run title="The user then attempts to login with valid / invalid credentials" name="The user then attempts to login with valid / invalid credentials" steps="6" successful="1" failures="1" skipped="4" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="6535" timestamp="2016-02-27T21:05:42.332Z" session-id="e41edbfb-ae11-431a-9d87-4eded445d4c4">
   <user-story id="twitter_login" name="Twitter login" path="stories/twitter/twitter_login.story"/>
   <tags>
     <tag name="Twitter" type="feature"/>
     <tag name="Twitter/Twitter login" type="story"/>
+    <tag name="1" type="twitter"/>
   </tags>
-  <test-group name="Given the user accesses the twitter landing page" result="SKIPPED">
-    <test-step result="IGNORED" duration="2">
+  <test-group name="Given the user accesses the twitter landing page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2acb51b225bc3062c47386c0abef38c5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4277">
+      <screenshots>
+        <screenshot image="2acb51b225bc3062c47386c0abef38c5.png"/>
+      </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-step result="SKIPPED" duration="38">
+  <test-step result="FAILURE" duration="158">
+    <screenshots>
+      <screenshot image="2acb51b225bc3062c47386c0abef38c5.png" source="pagesource2880433702591304392.html.txt"/>
+    </screenshots>
     <description>When they login as user</description>
+    <error>java.lang.AssertionError: 
+Expected: not &quot;??&quot;
+     but: was &quot;??&quot;</error>
+    <exception>java.lang.AssertionError:
+Expected: not &quot;??&quot;
+     but: was &quot;??&quot;
+[social.selenium.definitions.twitterDefinitions.login_with_user(twitterDefinitions.java:34)]</exception>
   </test-step>
-  <test-step result="SKIPPED" duration="0">
+  <test-step result="SKIPPED" duration="1">
     <description>Then login should succeed</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
     <description>And there will be a tweet box</description>
   </test-step>
-  <test-step result="SKIPPED" duration="1">
+  <test-step result="SKIPPED" duration="0">
     <description>And write a message {@marek5050 Hello !}</description>
   </test-step>
-  <test-step result="SKIPPED" duration="1">
+  <test-step result="SKIPPED" duration="0">
     <description>Then send the tweet</description>
   </test-step>
 </acceptance-test-run>

@@ -1,0 +1,44 @@
+<acceptance-test-run title="The user attempts to visit Crossfit.social" name="The user attempts to visit Crossfit.social" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26807" timestamp="2016-02-27T21:05:04.865Z" session-id="b632dc59-3757-48c8-9b64-31930783b459">
+  <user-story id="crossfit" name="Crossfit" path="stories/crossfitSocial/crossfit.story"/>
+  <tags>
+    <tag name="Crossfit social" type="feature"/>
+    <tag name="Crossfit" type="story"/>
+    <tag name="Crossfit social/Crossfit.social landing page" type="story"/>
+    <tag name="1" type="twitter"/>
+  </tags>
+  <test-group name="Given the user accesses the crossfit.social landing page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="827e1c687e078ac852a76ba7a9b132e5.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8099">
+      <screenshots>
+        <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
+      </screenshots>
+      <description>Open landing page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When they select Athletes" result="SUCCESS">
+    <screenshots>
+      <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
+      <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1220">
+      <screenshots>
+        <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
+        <screenshot image="eff000eca16e4789473e31ba703b464c.png"/>
+      </screenshots>
+      <description>Navigate to athletes</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then we should see {a list of athletes}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7362">
+      <screenshots>
+        <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
+      </screenshots>
+      <description>Find in results: &lt;span class=&apos;step-parameter&apos;&gt;a list of athletes&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

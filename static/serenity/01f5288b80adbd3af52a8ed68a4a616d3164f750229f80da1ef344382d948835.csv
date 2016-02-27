@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Google login","The user opens up the main page and searches for crossfit.social","SUCCESS","2016-02-27T20:04:22.383Z","0.0","18.6"
-"Ibm login","so I try logging in...","SUCCESS","2016-02-27T20:04:04.574Z","0.0","17.19"
+"Github","Github user searches and stars a repo.","SUCCESS","2016-02-27T21:04:39.638Z","0.0","25.07"
+"Ibm login","IBM BlueMix current user login","SUCCESS","2016-02-27T21:05:31.960Z","0.0","10.26"
+"Crossfit","The user attempts to visit Crossfit.social","SUCCESS","2016-02-27T21:05:04.865Z","0.0","26.81"
+"Google","User searches for Crossfit on Google","SUCCESS","2016-02-27T21:05:49.025Z","0.0","16.54"

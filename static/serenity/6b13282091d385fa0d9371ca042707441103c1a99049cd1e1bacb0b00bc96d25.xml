@@ -1,0 +1,43 @@
+<acceptance-test-run title="IBM BlueMix current user login" name="IBM BlueMix current user login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10263" timestamp="2016-02-27T21:05:31.960Z" session-id="f33290a4-78f2-48a4-9e43-57a9b956dadb">
+  <user-story id="ibm_login" name="Ibm login" path="stories/IBM/ibm_login.story"/>
+  <issues>
+    <issue>THEB-2</issue>
+  </issues>
+  <tags>
+    <tag name="Ibm" type="feature"/>
+    <tag name="Ibm/Ibm login" type="story"/>
+  </tags>
+  <test-group name="Given the user accesses the ibm registration page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="177c188afe61cdde070c759050decf27.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2284">
+      <screenshots>
+        <screenshot image="177c188afe61cdde070c759050decf27.png"/>
+      </screenshots>
+      <description>Open landing page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When when they click the Log in button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1327">
+      <screenshots>
+        <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+      </screenshots>
+      <description>Login as existing user</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then we should get to some page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="112">
+      <screenshots>
+        <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+      </screenshots>
+      <description>Some page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

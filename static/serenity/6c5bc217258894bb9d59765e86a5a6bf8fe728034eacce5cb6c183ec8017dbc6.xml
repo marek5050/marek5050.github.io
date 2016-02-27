@@ -1,0 +1,66 @@
+<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="25066" timestamp="2016-02-27T21:04:39.638Z" session-id="9de872d7-1bcb-43e0-add8-0479afa1f9ac">
+  <user-story id="github" name="Github" path="stories/github/github.story"/>
+  <issues>
+    <issue>THEB-2</issue>
+  </issues>
+  <tags>
+    <tag name="Github" type="feature"/>
+    <tag name="Github" type="story"/>
+    <tag name="Github/Staring a repo on github" type="story"/>
+  </tags>
+  <test-group name="Given the user accesses the github landing page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5079">
+      <screenshots>
+        <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
+      </screenshots>
+      <description>Open landing page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When when they login as user" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1195">
+      <screenshots>
+        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+      </screenshots>
+      <description>Login as user</description>
+    </test-step>
+  </test-group>
+  <test-group name="And search for {selenium-serenity-jbehave-base}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2162">
+      <screenshots>
+        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+      </screenshots>
+      <description>Search for keyword: &lt;span class=&apos;step-parameter&apos;&gt;selenium-serenity-jbehave-base&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then we should see {selenium-serenity-jbehave-base}" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5135">
+      <screenshots>
+        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+      </screenshots>
+      <description>Find in results: &lt;span class=&apos;step-parameter&apos;&gt;selenium-serenity-jbehave-base&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then click the star" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="189">
+      <screenshots>
+        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+      </screenshots>
+      <description>Click on the star</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
