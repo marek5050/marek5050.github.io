@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Github login","The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!","FAILURE","2016-02-27T20:00:44.569Z","0.0","8.32"
-"Twitter login","The user then attempts to login with valid / invalid credentials","FAILURE","2016-02-27T20:01:04.996Z","0.0","0.17"
+"Github login","The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!","FAILURE","2016-02-27T20:02:23.733Z","0.0","6.54"
+"Twitter login","The user then attempts to login with valid / invalid credentials","FAILURE","2016-02-27T20:02:41.036Z","0.0","0.42"
