@@ -1,4 +1,4 @@
-<acceptance-test-run title="so I try logging in..." name="so I try logging in..." steps="3" successful="0" failures="0" skipped="0" ignored="3" pending="0" result="SUCCESS" duration="3108" timestamp="2016-02-27T19:55:56.400Z">
+<acceptance-test-run title="so I try logging in..." name="so I try logging in..." steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11701" timestamp="2016-02-27T20:00:53.170Z" session-id="6bdb14f5-e316-4734-91ae-f908df46f7bd">
   <user-story id="ibm_login" name="Ibm login" path="stories/IBM/ibm_login.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -8,17 +8,35 @@
     <tag name="Ibm/Ibm login" type="story"/>
   </tags>
   <test-group name="Given the user accesses the ibm registration page" result="SUCCESS">
-    <test-step result="IGNORED" duration="18">
+    <screenshots>
+      <screenshot image="177c188afe61cdde070c759050decf27.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2903">
+      <screenshots>
+        <screenshot image="177c188afe61cdde070c759050decf27.png"/>
+      </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
   <test-group name="When when they click the Log in button" result="SUCCESS">
-    <test-step result="IGNORED" duration="4">
+    <screenshots>
+      <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1806">
+      <screenshots>
+        <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+      </screenshots>
       <description>Login as existing user</description>
     </test-step>
   </test-group>
   <test-group name="Then we should get to some page" result="SUCCESS">
-    <test-step result="IGNORED" duration="0">
+    <screenshots>
+      <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="100">
+      <screenshots>
+        <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+      </screenshots>
       <description>Some page</description>
     </test-step>
   </test-group>
