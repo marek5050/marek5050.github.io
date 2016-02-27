@@ -1,0 +1,9 @@
+<acceptance-test-run title="Crossfit Athlete Jason Khalipa details" name="testCrossfitAthleteSearch" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20774" timestamp="2016-02-27T22:16:03.742Z">
+  <user-story id="exports.CrossfitAthleteSearch" name="Crossfit athlete search" path="exports"/>
+  <issues>
+    <issue>THEB-3</issue>
+  </issues>
+  <tags>
+    <tag name="Crossfit athlete search" type="story"/>
+  </tags>
+</acceptance-test-run>

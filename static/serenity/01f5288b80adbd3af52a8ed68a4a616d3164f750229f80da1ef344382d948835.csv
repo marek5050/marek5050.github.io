@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Ibm login","IBM BlueMix current user login","SUCCESS","2016-02-27T21:10:00.658Z","0.0","11.36"
-"Crossfit","The user attempts to visit Crossfit.social","SUCCESS","2016-02-27T21:09:31.310Z","0.0","29.25"
-"Google","User searches for Crossfit on Google","SUCCESS","2016-02-27T21:10:19.655Z","0.0","16.74"
+"Crossfit athlete search","Crossfit Athlete Jason Khalipa details","SUCCESS","2016-02-27T22:16:03.742Z","0.0","20.77"
+"Ibm login","IBM BlueMix current user login","SUCCESS","2016-02-27T22:15:16.669Z","0.0","11.74"
+"Crossfit","The user attempts to visit Crossfit.social","SUCCESS","2016-02-27T22:14:50.245Z","0.0","26.25"
+"Google","User searches for Crossfit on Google","SUCCESS","2016-02-27T22:15:35.807Z","0.0","18.97"

@@ -1,4 +1,4 @@
-<acceptance-test-run title="IBM BlueMix current user login" name="IBM BlueMix current user login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11360" timestamp="2016-02-27T21:10:00.658Z" session-id="d711fb11-da89-400e-85a0-46eb0c89c3dd">
+<acceptance-test-run title="IBM BlueMix current user login" name="IBM BlueMix current user login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11744" timestamp="2016-02-27T22:15:16.669Z" session-id="1cef0aac-337d-481c-b289-3df233c6a135">
   <user-story id="ibm_login" name="Ibm login" path="stories/IBM/ibm_login.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -9,33 +9,33 @@
   </tags>
   <test-group name="Given the user accesses the ibm registration page" result="SUCCESS">
     <screenshots>
-      <screenshot image="177c188afe61cdde070c759050decf27.png"/>
+      <screenshot image="c30316447c8eb9a4c4012a5086a06f0f.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="3120">
+    <test-step result="SUCCESS" duration="2739">
       <screenshots>
-        <screenshot image="177c188afe61cdde070c759050decf27.png"/>
+        <screenshot image="c30316447c8eb9a4c4012a5086a06f0f.png"/>
       </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
   <test-group name="When when they click the Log in button" result="SUCCESS">
     <screenshots>
-      <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+      <screenshot image="88466e683b55267accaefe0068997d05.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1223">
+    <test-step result="SUCCESS" duration="2063">
       <screenshots>
-        <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+        <screenshot image="88466e683b55267accaefe0068997d05.png"/>
       </screenshots>
       <description>Login as existing user</description>
     </test-step>
   </test-group>
   <test-group name="Then we should get to some page" result="SUCCESS">
     <screenshots>
-      <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+      <screenshot image="88466e683b55267accaefe0068997d05.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="101">
+    <test-step result="SUCCESS" duration="152">
       <screenshots>
-        <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
+        <screenshot image="88466e683b55267accaefe0068997d05.png"/>
       </screenshots>
       <description>Some page</description>
     </test-step>

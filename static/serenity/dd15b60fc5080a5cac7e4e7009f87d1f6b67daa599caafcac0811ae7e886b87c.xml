@@ -1,4 +1,4 @@
-<acceptance-test-run title="The user attempts to visit Crossfit.social" name="The user attempts to visit Crossfit.social" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29245" timestamp="2016-02-27T21:09:31.310Z" session-id="37cbda1d-c71f-47c3-ba95-3fe9437ac7ec">
+<acceptance-test-run title="The user attempts to visit Crossfit.social" name="The user attempts to visit Crossfit.social" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26250" timestamp="2016-02-27T22:14:50.245Z" session-id="94314a6b-9b3c-44ef-b5ef-ae60df6c9a84">
   <user-story id="crossfit" name="Crossfit" path="stories/crossfitSocial/crossfit.story"/>
   <tags>
     <tag name="Crossfit social" type="feature"/>
@@ -8,33 +8,33 @@
   </tags>
   <test-group name="Given the user accesses the crossfit.social landing page" result="SUCCESS">
     <screenshots>
-      <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
+      <screenshot image="c10d29254160abbe7af6120b5722ef32.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="10569">
+    <test-step result="SUCCESS" duration="7808">
       <screenshots>
-        <screenshot image="827e1c687e078ac852a76ba7a9b132e5.png"/>
+        <screenshot image="c10d29254160abbe7af6120b5722ef32.png"/>
       </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
   <test-group name="When they select Athletes" result="SUCCESS">
     <screenshots>
-      <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
+      <screenshot image="949ac35fe64c8ec3925d256322d681ed.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1156">
+    <test-step result="SUCCESS" duration="1315">
       <screenshots>
-        <screenshot image="eff000eca16e4789473e31ba703b464c.png"/>
+        <screenshot image="a9bd08db8018ea1da6ccb495b88830b3.png"/>
       </screenshots>
       <description>Navigate to athletes</description>
     </test-step>
   </test-group>
   <test-group name="Then we should see {a list of athletes}" result="SUCCESS">
     <screenshots>
-      <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
+      <screenshot image="09074cfea33f9f461a943a417a387d1d.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7210">
+    <test-step result="SUCCESS" duration="7062">
       <screenshots>
-        <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
+        <screenshot image="09074cfea33f9f461a943a417a387d1d.png"/>
       </screenshots>
       <description>Find in results: &lt;span class=&apos;step-parameter&apos;&gt;a list of athletes&lt;/span&gt;</description>
     </test-step>

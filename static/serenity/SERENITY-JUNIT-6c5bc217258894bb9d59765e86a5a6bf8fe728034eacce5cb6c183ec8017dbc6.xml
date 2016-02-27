@@ -1,3 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Github" skipped="0" tests="1" time="7.39" timestamp="2016-02-58 09:09:23"><testcase name="Github user searches and stars a repo."><failure type="java.lang.AssertionError"/><system-err>null
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Github" skipped="0" tests="1" time="7.82" timestamp="2016-02-58 10:14:41"><testcase name="Github user searches and stars a repo."><failure type="java.lang.AssertionError"/><system-err>null
 social.selenium.definitions.githubDefinitions.login_as_user(githubDefinitions.java:29)
 </system-err></testcase></testsuite>
