@@ -38,13 +38,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0],
+                ['Failing', 1],
                 
                 ['Errors',  0],
                 ['Compromised',  0]
@@ -77,10 +77,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 1 tests passed' },
+                {label: '0 / 1 tests passed' },
                 {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
-                {label: '0 / 1 tests failed'},
+                {label: '1 / 1 tests failed'},
                 {label: '0 / 1 errors'},
                 {label: '0 / 1 compromised tests'}
             ]
@@ -88,13 +88,13 @@
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0],
+                ['Failing', 1],
                 
                 ['Errors', 0],
                 ['Compromised', 0],
@@ -128,10 +128,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 1 tests passed (1% of all test steps)' },
+                {label: '0 / 1 tests passed (0% of all test steps)' },
                 {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
-                {label: '0 / 1 tests failed (0% of all test steps)'},
+                {label: '1 / 1 tests failed (1% of all test steps)'},
                 {label: '0 / 1 errors (0% of all test steps)'}
             ]
         });
@@ -204,7 +204,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-02-2016 21:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-02-2016 21:10</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -223,17 +223,17 @@
                 <div>
 
                 <span class="test-count">
-                    1
-                        <a href="9e1c5c583f36928acf6ad91f1d94aa693843e8cd10dced420118be5e7dabbea1.html">passed</a>
-                    ,
+                    0
+passed,
                 </span>
                 <span class="test-count">
                     0
 pending,
                 </span>
                 <span class="test-count">
-                    0
-failed,
+                    1
+                        <a href="10d71b21ce0d72074976006ba4ef0752bec0623cfca1e13b4e4719a768d619bd.html">failed</a>
+                    ,
                 </span>
                 <span class="test-count">
                     0
@@ -296,8 +296,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -312,14 +312,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">23 seconds</td>
+                <td colspan="5">7 seconds</td>
         </tr>
         </body>
     </table>
@@ -342,7 +342,7 @@ skipped
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="SUCCESS-text ellipsis">
+                        <span class="FAILURE-text ellipsis">
                                 <a href="bc66b1a5a14060962c00c30556ff8ee90370105c9680bef71f0150d5519405dc.html" title="Staring A Repo On Github">Staring A Repo On Github</a>
                         </span>
                     </td>
@@ -351,7 +351,7 @@ skipped
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 1 tests (10 steps) passing">100%</span></td>
+                                <td class="related-tag-percentage"><span title="0 out of 1 tests (0 steps) passing">0%</span></td>
                                 <td width="150px">
                                     <a href="bc66b1a5a14060962c00c30556ff8ee90370105c9680bef71f0150d5519405dc.html">
                                         <div class="percentagebar"
@@ -368,10 +368,10 @@ skipped
                                                          title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 150px;"
-                                                             title="0 out of 1 tests (0 steps) failing">
+                                                             title="1 out of 1 tests (6 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 150px;"
-                                                                 title="1 out of 1 tests (10 steps) passing">
+                                                                 style="width: 0px;"
+                                                                 title="0 out of 1 tests (0 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -395,7 +395,7 @@ skipped
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 10) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 6) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -428,8 +428,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -444,14 +444,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">23 seconds</td>
+                <td colspan="5">7 seconds</td>
         </tr>
         </body>
     </table>
@@ -474,7 +474,7 @@ skipped
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="SUCCESS-text ellipsis">
+                        <span class="FAILURE-text ellipsis">
                                 <a href="bc66b1a5a14060962c00c30556ff8ee90370105c9680bef71f0150d5519405dc.html" title="Staring A Repo On Github">Staring A Repo On Github</a>
                         </span>
                     </td>
@@ -483,7 +483,7 @@ skipped
 
                         <table>
                             <tr>
-                                <td class="related-tag-percentage"><span title="1 out of 1 tests (10 steps) passing">100%</span></td>
+                                <td class="related-tag-percentage"><span title="0 out of 1 tests (0 steps) passing">0%</span></td>
                                 <td width="150px">
                                     <a href="bc66b1a5a14060962c00c30556ff8ee90370105c9680bef71f0150d5519405dc.html">
                                         <div class="percentagebar"
@@ -500,10 +500,10 @@ skipped
                                                          title="0 out of 1 tests (0 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 150px;"
-                                                             title="0 out of 1 tests (0 steps) failing">
+                                                             title="1 out of 1 tests (6 steps) failing">
                                                             <div class="passingbar"
-                                                                 style="width: 150px;"
-                                                                 title="1 out of 1 tests (10 steps) passing">
+                                                                 style="width: 0px;"
+                                                                 title="0 out of 1 tests (0 steps) passing">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -547,20 +547,20 @@ skipped
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <a href="6c5bc217258894bb9d59765e86a5a6bf8fe728034eacce5cb6c183ec8017dbc6.html" class="ellipsis" title="">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <a href="6c5bc217258894bb9d59765e86a5a6bf8fe728034eacce5cb6c183ec8017dbc6.html" class="ellipsis" title="Assertion error">
                                     Github user searches and stars a repo. (<a target="_blank" href="https://thebigrun.atlassian.net/browse/THEB-2">THEB-2</a>)
                                     </a>
                                 </td>
 
-                                <td class="lightgreentext">10</td>
+                                <td class="lightgreentext">6</td>
 
 
-                                <td class="lightgreentext">23.08</td>
+                                <td class="lightgreentext">7.39</td>
                             </tr>
                         </tbody>
                     </table>

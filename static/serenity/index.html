@@ -38,13 +38,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.8],
+                ['Passing', 0.6],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.2],
+                ['Failing', 0.4],
                 
                 ['Errors',  0],
                 ['Compromised',  0]
@@ -77,10 +77,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 5 tests passed' },
+                {label: '3 / 5 tests passed' },
                 {label: '0 / 5 tests pending'},
                 {label: '0 / 5 tests not executed'},
-                {label: '1 / 5 tests failed'},
+                {label: '2 / 5 tests failed'},
                 {label: '0 / 5 errors'},
                 {label: '0 / 5 compromised tests'}
             ]
@@ -88,13 +88,13 @@
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.8],
+                ['Passing', 0.580645],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.2],
+                ['Failing', 0.419355],
                 
                 ['Errors', 0],
                 ['Compromised', 0],
@@ -128,10 +128,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 5 tests passed (0.8% of all test steps)' },
+                {label: '3 / 5 tests passed (0.580645% of all test steps)' },
                 {label: '0 / 5 tests pending'},
                 {label: '0 / 5 tests not executed'},
-                {label: '1 / 5 tests failed (0.2% of all test steps)'},
+                {label: '2 / 5 tests failed (0.419355% of all test steps)'},
                 {label: '0 / 5 errors (0% of all test steps)'}
             ]
         });
@@ -201,7 +201,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-02-2016 21:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-02-2016 21:10</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -220,7 +220,7 @@
                 <div>
 
                 <span class="test-count">
-                    4
+                    3
                         <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html">passed</a>
                     ,
                 </span>
@@ -229,7 +229,7 @@
 pending,
                 </span>
                 <span class="test-count">
-                    1
+                    2
                         <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html">failed</a>
                     ,
                 </span>
@@ -294,8 +294,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>5</td>
-            <td>4 (80%)</td>
-            <td>1 (20%)</td>
+            <td>3 (60%)</td>
+            <td>2 (40%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -310,14 +310,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>5</td>
-            <td>4 (80%)</td>
-            <td>1 (20%)</td>
+            <td>3 (60%)</td>
+            <td>2 (40%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 25 seconds</td>
+                <td colspan="5">1 minutes 11 seconds</td>
         </tr>
         </body>
     </table>
@@ -393,7 +393,7 @@ skipped
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 7) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 6.2) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -426,8 +426,8 @@ skipped
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>5</td>
-            <td>4 (80%)</td>
-            <td>1 (20%)</td>
+            <td>3 (60%)</td>
+            <td>2 (40%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -442,14 +442,14 @@ skipped
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>5</td>
-            <td>4 (80%)</td>
-            <td>1 (20%)</td>
+            <td>3 (60%)</td>
+            <td>2 (40%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 25 seconds</td>
+                <td colspan="5">1 minutes 11 seconds</td>
         </tr>
         </body>
     </table>
@@ -545,20 +545,20 @@ skipped
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <a href="6c5bc217258894bb9d59765e86a5a6bf8fe728034eacce5cb6c183ec8017dbc6.html" class="ellipsis" title="">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <a href="6c5bc217258894bb9d59765e86a5a6bf8fe728034eacce5cb6c183ec8017dbc6.html" class="ellipsis" title="Assertion error">
                                     Github user searches and stars a repo. (<a target="_blank" href="https://thebigrun.atlassian.net/browse/THEB-2">THEB-2</a>)
                                     </a>
                                 </td>
 
-                                <td class="lightgreentext">10</td>
+                                <td class="lightgreentext">6</td>
 
 
-                                <td class="lightgreentext">23.08</td>
+                                <td class="lightgreentext">7.39</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -574,7 +574,7 @@ skipped
                                 <td class="lightgreentext">6</td>
 
 
-                                <td class="lightgreentext">12.32</td>
+                                <td class="lightgreentext">11.36</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -590,7 +590,7 @@ skipped
                                 <td class="lightgreentext">6</td>
 
 
-                                <td class="lightgreentext">27.26</td>
+                                <td class="lightgreentext">29.25</td>
                             </tr>
 
                             <tr class="test-FAILURE">
@@ -606,7 +606,7 @@ skipped
                                 <td class="lightgreentext">7</td>
 
 
-                                <td class="lightgreentext">6.84</td>
+                                <td class="lightgreentext">6.61</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -622,7 +622,7 @@ skipped
                                 <td class="lightgreentext">6</td>
 
 
-                                <td class="lightgreentext">16.4</td>
+                                <td class="lightgreentext">16.74</td>
                             </tr>
                         </tbody>
                     </table>

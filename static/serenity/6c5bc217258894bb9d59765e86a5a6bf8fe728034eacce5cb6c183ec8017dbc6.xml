@@ -1,4 +1,4 @@
-<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23080" timestamp="2016-02-27T21:07:08.964Z" session-id="24cc5d13-02f3-438b-ba23-0746199e3c13">
+<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="1" failures="1" skipped="3" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="7388" timestamp="2016-02-27T21:09:23.623Z" session-id="65a77d07-5f69-4328-a6cc-68dea9440db2">
   <user-story id="github" name="Github" path="stories/github/github.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -12,55 +12,29 @@
     <screenshots>
       <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="3201">
+    <test-step result="SUCCESS" duration="4596">
       <screenshots>
         <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
       </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-group name="When when they login as user" result="SUCCESS">
+  <test-step result="FAILURE" duration="152">
     <screenshots>
-      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
+      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png" source="pagesource5560138405719987274.html.txt"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1211">
-      <screenshots>
-        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-      </screenshots>
-      <description>Login as user</description>
-    </test-step>
-  </test-group>
-  <test-group name="And search for {selenium-serenity-jbehave-base}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="2144">
-      <screenshots>
-        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-      </screenshots>
-      <description>Search for keyword: &lt;span class=&apos;step-parameter&apos;&gt;selenium-serenity-jbehave-base&lt;/span&gt;</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then we should see {selenium-serenity-jbehave-base}" result="SUCCESS">
-    <screenshots>
-      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="5137">
-      <screenshots>
-        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-      </screenshots>
-      <description>Find in results: &lt;span class=&apos;step-parameter&apos;&gt;selenium-serenity-jbehave-base&lt;/span&gt;</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then click the star" result="SUCCESS">
-    <screenshots>
-      <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="129">
-      <screenshots>
-        <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
-      </screenshots>
-      <description>Click on the star</description>
-    </test-step>
-  </test-group>
+    <description>When when they login as user</description>
+    <error>java.lang.AssertionError</error>
+    <exception>java.lang.AssertionError:null
+[social.selenium.definitions.githubDefinitions.login_as_user(githubDefinitions.java:29)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>And search for {selenium-serenity-jbehave-base}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then we should see {selenium-serenity-jbehave-base}</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then click the star</description>
+  </test-step>
 </acceptance-test-run>
