@@ -1,4 +1,4 @@
-<acceptance-test-run title="IBM BlueMix current user login" name="IBM BlueMix current user login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10263" timestamp="2016-02-27T21:05:31.960Z" session-id="f33290a4-78f2-48a4-9e43-57a9b956dadb">
+<acceptance-test-run title="IBM BlueMix current user login" name="IBM BlueMix current user login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12317" timestamp="2016-02-27T21:07:59.580Z" session-id="5831a0f3-af3a-4f37-b657-9212bf1db1ae">
   <user-story id="ibm_login" name="Ibm login" path="stories/IBM/ibm_login.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -11,7 +11,7 @@
     <screenshots>
       <screenshot image="177c188afe61cdde070c759050decf27.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2284">
+    <test-step result="SUCCESS" duration="2436">
       <screenshots>
         <screenshot image="177c188afe61cdde070c759050decf27.png"/>
       </screenshots>
@@ -22,7 +22,7 @@
     <screenshots>
       <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1327">
+    <test-step result="SUCCESS" duration="3394">
       <screenshots>
         <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
       </screenshots>
@@ -33,7 +33,7 @@
     <screenshots>
       <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="112">
+    <test-step result="SUCCESS" duration="86">
       <screenshots>
         <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
       </screenshots>

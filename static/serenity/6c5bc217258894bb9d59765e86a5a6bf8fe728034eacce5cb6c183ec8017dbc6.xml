@@ -1,4 +1,4 @@
-<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="25066" timestamp="2016-02-27T21:04:39.638Z" session-id="9de872d7-1bcb-43e0-add8-0479afa1f9ac">
+<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="23080" timestamp="2016-02-27T21:07:08.964Z" session-id="24cc5d13-02f3-438b-ba23-0746199e3c13">
   <user-story id="github" name="Github" path="stories/github/github.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -12,7 +12,7 @@
     <screenshots>
       <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="5079">
+    <test-step result="SUCCESS" duration="3201">
       <screenshots>
         <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
       </screenshots>
@@ -23,7 +23,7 @@
     <screenshots>
       <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1195">
+    <test-step result="SUCCESS" duration="1211">
       <screenshots>
         <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
       </screenshots>
@@ -34,7 +34,7 @@
     <screenshots>
       <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2162">
+    <test-step result="SUCCESS" duration="2144">
       <screenshots>
         <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
       </screenshots>
@@ -45,7 +45,7 @@
     <screenshots>
       <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="5135">
+    <test-step result="SUCCESS" duration="5137">
       <screenshots>
         <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
       </screenshots>
@@ -56,7 +56,7 @@
     <screenshots>
       <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="189">
+    <test-step result="SUCCESS" duration="129">
       <screenshots>
         <screenshot image="b7653ab2948e22819384b0a5ead0e757.png"/>
       </screenshots>

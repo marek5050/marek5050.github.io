@@ -1,4 +1,4 @@
-<acceptance-test-run title="The user attempts to visit Crossfit.social" name="The user attempts to visit Crossfit.social" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="26807" timestamp="2016-02-27T21:05:04.865Z" session-id="b632dc59-3757-48c8-9b64-31930783b459">
+<acceptance-test-run title="The user attempts to visit Crossfit.social" name="The user attempts to visit Crossfit.social" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="27258" timestamp="2016-02-27T21:07:32.195Z" session-id="b3000997-1742-4ec5-ba21-bff86e20321b">
   <user-story id="crossfit" name="Crossfit" path="stories/crossfitSocial/crossfit.story"/>
   <tags>
     <tag name="Crossfit social" type="feature"/>
@@ -8,9 +8,9 @@
   </tags>
   <test-group name="Given the user accesses the crossfit.social landing page" result="SUCCESS">
     <screenshots>
-      <screenshot image="827e1c687e078ac852a76ba7a9b132e5.png"/>
+      <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="8099">
+    <test-step result="SUCCESS" duration="8892">
       <screenshots>
         <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
       </screenshots>
@@ -19,12 +19,10 @@
   </test-group>
   <test-group name="When they select Athletes" result="SUCCESS">
     <screenshots>
-      <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
       <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1220">
+    <test-step result="SUCCESS" duration="896">
       <screenshots>
-        <screenshot image="17302d2671856b98aabd71e15d7e8d96.png"/>
         <screenshot image="eff000eca16e4789473e31ba703b464c.png"/>
       </screenshots>
       <description>Navigate to athletes</description>
@@ -34,7 +32,7 @@
     <screenshots>
       <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7362">
+    <test-step result="SUCCESS" duration="7150">
       <screenshots>
         <screenshot image="f599573cf1633d4d03f0b47e925f2833.png"/>
       </screenshots>
