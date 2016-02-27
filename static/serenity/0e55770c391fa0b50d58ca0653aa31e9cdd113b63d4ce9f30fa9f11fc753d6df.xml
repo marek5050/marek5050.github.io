@@ -1,4 +1,4 @@
-<acceptance-test-run title="so I try logging in..." name="so I try logging in..." steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="10444" timestamp="2016-02-27T20:02:30.473Z" session-id="cfa54e5a-c2d0-4184-9ed4-db865cfe626f">
+<acceptance-test-run title="so I try logging in..." name="so I try logging in..." steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17186" timestamp="2016-02-27T20:04:04.574Z" session-id="09810822-7373-4f5c-8c5a-99efe2fa920c">
   <user-story id="ibm_login" name="Ibm login" path="stories/IBM/ibm_login.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -11,7 +11,7 @@
     <screenshots>
       <screenshot image="177c188afe61cdde070c759050decf27.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2212">
+    <test-step result="SUCCESS" duration="3484">
       <screenshots>
         <screenshot image="177c188afe61cdde070c759050decf27.png"/>
       </screenshots>
@@ -22,7 +22,7 @@
     <screenshots>
       <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1435">
+    <test-step result="SUCCESS" duration="2231">
       <screenshots>
         <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
       </screenshots>
@@ -33,7 +33,7 @@
     <screenshots>
       <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="111">
+    <test-step result="SUCCESS" duration="141">
       <screenshots>
         <screenshot image="10065c1c9d777746b7ca649137f8e8d4.png"/>
       </screenshots>
