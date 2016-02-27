@@ -1,4 +1,4 @@
-<acceptance-test-run title="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" steps="6" successful="1" failures="1" skipped="4" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="7619" timestamp="2016-02-26T15:40:32.511Z" session-id="f0a290e1-57d8-4031-85f0-c36095544d4d">
+<acceptance-test-run title="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" name="The user finds a very good example called jbehave-social-media and clicks on it. They love it and star it!" steps="6" successful="0" failures="1" skipped="4" ignored="1" pending="0" annotated-result="FAILURE" result="FAILURE" duration="1318" timestamp="2016-02-27T19:55:54.859Z">
   <user-story id="github_login" name="Github login" path="stories/github/github_login.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -8,32 +8,23 @@
     <tag name="Github/Github login" type="story"/>
   </tags>
   <test-group name="Given the user accesses the github landing page" result="SUCCESS">
-    <screenshots>
-      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="4650">
-      <screenshots>
-        <screenshot image="14ecfd9720de19467fd089bea2d8385d.png"/>
-      </screenshots>
+    <test-step result="IGNORED" duration="10">
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-step result="FAILURE" duration="180">
-    <screenshots>
-      <screenshot image="14ecfd9720de19467fd089bea2d8385d.png" source="pagesource2530273078025766456.html.txt"/>
-    </screenshots>
+  <test-step result="FAILURE" duration="10">
     <description>When when they login as user</description>
     <error>java.lang.AssertionError</error>
     <exception>java.lang.AssertionError:null
 [social.selenium.definitions.githubDefinitions.login_as_user(githubDefinitions.java:34)]</exception>
   </test-step>
-  <test-step result="SKIPPED" duration="1">
+  <test-step result="SKIPPED" duration="0">
     <description>And search for {selenium-serenity-jbehave-base}</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
     <description>Then we should see {selenium-serenity-jbehave-base}</description>
   </test-step>
-  <test-step result="SKIPPED" duration="2">
+  <test-step result="SKIPPED" duration="0">
     <description>And we should be on the main gitrepo page</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
