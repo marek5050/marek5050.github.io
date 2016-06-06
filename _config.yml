@@ -12,6 +12,8 @@ github_username:  marek5050
 # markdown: kramdown
 # highlighter: true
 markdown: kramdown
-pygments: pygments
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 collections:
  - my_resume
