@@ -7,4 +7,4 @@ location: "Austin, TX"
 link: "http://amodernstory.com"
 ---
 
-Personal blog about my experiences with technology. Touching a broad range of languages and technologies such as Hadoop, Spark, NodeJS, and Java Spring.  
+Personal blog about my experiences with technology. Touching a broad range of languages and technologies such as Hadoop, Spark, NodeJS, and TravisCI.  

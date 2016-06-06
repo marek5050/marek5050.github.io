@@ -61,7 +61,7 @@ permalink: /resume/
 **Languages**	Javascript, C++, Java,  Python
 **Frameworks**	Ext, Knockout, Bootstrap, jQuery, Angular
 **Systems**	VMWare, Windows, Mac OSX, Linux, MySQL, MongoDB, Hadoop
-**Tools**		WebStorm, IntelliJ, TravisCI, git, vim
+**Tools**		JIRA, WebStorm, IntelliJ, Jenkins, TravisCI, git, vim
 
 <span class="pull-right">An interactive version of this resume can be found at marek5050.github.io/resume</span>
 

@@ -8,5 +8,5 @@ link: "http://www.cat.utexas.edu/"
 ---
 
 + Create unit and integration tests using Java frameworks Selenium, Serenity, and JBehave. 
-+ Configured Jenkins batching and parallel execution of tests.
++ Configure and maintaining Jenkins builds and parallel execution of tests.
 + Integrated Saucelabs for cross browser compatability.
