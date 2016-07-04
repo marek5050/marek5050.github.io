@@ -8,4 +8,4 @@ link: "http://veepworks.com/"
 ---
 
 + Maintaining the iOS application [DREAM](https://itunes.apple.com/us/app/dream-crowdsourced-situational/id1072213501?mt=8) with a focus on energy efficiency. 
-+ Introduced integration and unit tests into the development process.
++ Introduced testing into the development process.
