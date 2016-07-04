@@ -363,43 +363,16 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_posts/2015-06-28-SE_Week_3.markdown",
-			"settings":
-			{
-				"buffer_size": 1839,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2015-07-06-SE_Week_4.markdown",
-			"settings":
-			{
-				"buffer_size": 2187,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2015-07-06-STL_Week_4.markdown",
-			"settings":
-			{
-				"buffer_size": 3293,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/marekbejda/anaconda/lib/python3.4/site-packages/django/contrib/admin/templates/admin/base.html",
-			"settings":
-			{
-				"buffer_size": 3667,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/C.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 167.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -518,8 +491,19 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/marek5050/testing/marek5050.github.io"
+	],
 	"file_history":
 	[
+		"/Users/marek5050/PycharmProjects/stock_dataset/otherlisted.txt",
+		"/Users/marek5050/PycharmProjects/stock_dataset/nasdaqlisted.txt",
+		"/Users/marek5050/PycharmProjects/cs373-ninjaPenguins/crossfit/static/crossfit/js/buttons.js",
+		"/Users/marek5050/testing/marek5050.github.io/_posts/2015-07-06-STL_Week_4.markdown",
+		"/Users/marek5050/testing/marek5050.github.io/_posts/2015-07-06-SE_Week_4.markdown",
+		"/Users/marek5050/testing/marek5050.github.io/_posts/2015-06-28-SE_Week_3.markdown",
+		"/Users/marekbejda/anaconda/lib/python3.4/site-packages/django/contrib/admin/templates/admin/base.html",
 		"/Users/marekbejda/Desktop/marek5050.github.io/_posts/2015-06-28-STL_Week_3.markdown",
 		"/usr/local/Cellar/hadoop/hadoop-1.2.1/conf/core-site.xml",
 		"/usr/local/Cellar/hadoop/2.6.0/libexec/etc/hadoop/core-site.xml",
@@ -640,14 +624,7 @@
 		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/OCONUSLoadReportCountryForList.java",
 		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/PacificCountryForList.java",
 		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/PACIFICLoadReportCountryForList.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Region.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegionalGarrisonForList.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegionMultiGarrisonRole.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegisteredSoldierByGarrison.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegisteredSoldiersByState.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/RegisteredSoldiersDependentCase.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Relation.java",
-		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Role.java"
+		"/Users/marekbejda/Desktop/EFMP/EFMP_II/EFMP/src/mil/army/ecms/efmp/model/Region.java"
 	],
 	"find":
 	{
@@ -1040,121 +1017,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_posts/2015-06-28-SE_Week_3.markdown",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1839,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1741,
-								1839
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2015-07-06-SE_Week_4.markdown",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2187,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1754,
-								1754
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 86.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_posts/2015-07-06-STL_Week_4.markdown",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3293,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3017,
-								3017
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/marekbejda/anaconda/lib/python3.4/site-packages/django/contrib/admin/templates/admin/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3667
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1201,6 +1065,7 @@
 	{
 		"height": 27.0
 	},
+	"pinned_build_system": "",
 	"project": "githubPages.sublime-project",
 	"replace":
 	{
@@ -1210,6 +1075,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1226,6 +1092,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1234,11 +1101,13 @@
 	"select_symbol":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 392.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

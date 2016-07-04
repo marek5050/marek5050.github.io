@@ -7,5 +7,5 @@ location: "Austin, TX"
 link: "http://veepworks.com/"
 ---
 
-+ Fixing bugs and maintaining the iOS application [DREAM](https://itunes.apple.com/us/app/dream-crowdsourced-situational/id1072213501?mt=8) with a focus on energy efficiency. 
++ Maintaining the iOS application [DREAM](https://itunes.apple.com/us/app/dream-crowdsourced-situational/id1072213501?mt=8) with a focus on energy efficiency. 
 + Introduced integration and unit tests into the development process.
