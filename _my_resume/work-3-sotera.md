@@ -7,4 +7,4 @@ location: "Austin, TX"
 link: "http://soteradefense.com/"
 ---
 
-+ Website development using various technologies, Java, Node, AngularJS, and Twitter Bootstrap. 
++ Website development using various technologies, Node, AngularJS, and Twitter Bootstrap. 
