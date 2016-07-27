@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Twitter login" skipped="0" tests="1" time="6.85" timestamp="2016-02-58 10:15:28"><testcase name="The user then attempts to login with valid / invalid credentials"><failure message="&#10;Expected: not &quot;??&quot;&#10;     but: was &quot;??&quot;" type="java.lang.AssertionError">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Twitter login" skipped="0" tests="1" time="6.5" timestamp="2016-07-209 07:48:14"><testcase name="The user then attempts to login with valid / invalid credentials"><failure message="&#10;Expected: not &quot;??&quot;&#10;     but: was &quot;??&quot;" type="java.lang.AssertionError">
 Expected: not "??"
      but: was "??"</failure><system-err>
 Expected: not "??"

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="1" failures="1" skipped="3" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="7816" timestamp="2016-02-27T22:14:41.736Z" session-id="0eb8490a-40d5-4636-bee5-6f3aa538d19c">
+<acceptance-test-run title="Github user searches and stars a repo." name="Github user searches and stars a repo." steps="5" successful="1" failures="1" skipped="3" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="8450" timestamp="2016-07-27T19:46:55.481Z" session-id="84c5f00c-e0e2-4d8a-b90d-5a16e5763086">
   <user-story id="github" name="Github" path="stories/github/github.story"/>
   <issues>
     <issue>THEB-2</issue>
@@ -10,31 +10,31 @@
   </tags>
   <test-group name="Given the user accesses the github landing page" result="SUCCESS">
     <screenshots>
-      <screenshot image="0d3e3120beedc6f429a187eb6f328896.png"/>
+      <screenshot image="f870669694add1a890c70789b4ab763f.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="4978">
+    <test-step result="SUCCESS" duration="5657">
       <screenshots>
-        <screenshot image="0d3e3120beedc6f429a187eb6f328896.png"/>
+        <screenshot image="f870669694add1a890c70789b4ab763f.png"/>
       </screenshots>
       <description>Open landing page</description>
     </test-step>
   </test-group>
-  <test-step result="FAILURE" duration="171">
+  <test-step result="FAILURE" duration="116">
     <screenshots>
-      <screenshot image="0d3e3120beedc6f429a187eb6f328896.png" source="pagesource3672973690301211606.html.txt"/>
+      <screenshot image="f870669694add1a890c70789b4ab763f.png" source="pagesource8373767696022399775.html.txt"/>
     </screenshots>
     <description>When when they login as user</description>
     <error>java.lang.AssertionError</error>
     <exception>java.lang.AssertionError:null
 [social.selenium.definitions.githubDefinitions.login_as_user(githubDefinitions.java:29)]</exception>
   </test-step>
-  <test-step result="SKIPPED" duration="1">
+  <test-step result="SKIPPED" duration="0">
     <description>And search for {selenium-serenity-jbehave-base}</description>
   </test-step>
   <test-step result="SKIPPED" duration="0">
     <description>Then we should see {selenium-serenity-jbehave-base}</description>
   </test-step>
-  <test-step result="SKIPPED" duration="3">
+  <test-step result="SKIPPED" duration="1">
     <description>Then click the star</description>
   </test-step>
 </acceptance-test-run>
