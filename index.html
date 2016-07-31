@@ -2,25 +2,20 @@
 layout: default
 ---
 
-<div class="home">
-  <h1 class="page-heading">Posts</h1>
+<div class="container">
+<h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+<div class="list-group">
     {% for post in site.posts %}
-      <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="post-meta">{{ post.subtitle }}</span>
-      </li>
+      <a class="list-group-item  list-group-item-action" href="{{ post.url | prepend: site.baseurl }}" style="color:#1756a9" >
+          <span>{{ post.date | date: "%b %-d, %Y" }} - </span>
+          <span class="list-group-item-heading"> {{ post.title }}</span>
+          <small class="list-group-item-content">{{ post.subtitle }}</small>
+      </a>
     {% endfor %}
-  </ul>
+</div>
 
- <h2 class='page-heading'>AModernStory Posts </h2>
-  <ul id="amodernblog"> 
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  </ul>
-
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
 

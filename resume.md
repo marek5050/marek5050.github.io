@@ -1,20 +1,57 @@
 ---
-layout: page
+layout: resume
 title: Resume
 permalink: /resume/
 ---
 
-### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 20px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 20px"} AModernStory.com </small>
+##### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 19px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 18px"} AModernStory.com </small>
 
 ----
+<style  media="print">
+.container{
+        width:100%;
+        margin:0px!important;
+        padding:0px!important;
+        max-width:100%;
+}
+small{
+    font-size:60%;
+}
+*{
+font-size:95%;
+}
+p{
+margin-bottom:0px;
+}
+ul{
+margin-bottom:5px;
+}
+hr{
+margin:7px 0px;
+}
 
+h4{
+font-weight:700;
+}
+
+</style>
+<style>
+.pull-right{
+float:right}
+.post-content h4{
+ font-size:95%;
+ margin-bottom:2px;
+}
+h4{
+font-weight:700;
+}
+</style>
 #### Work Experience
 
 {% for item in site.my_resume %}
 {% if item.type == "Work Experience" %}
 **{{item.subheading}}** at [{{item.heading}}]({{item.link}}){: target="_blank"} <span class='pull-right'><small>( {{item.duration}}, {{item.location}})</small></span>
 {{item.content}}
-
 {% endif %}
 {% endfor %}
 
@@ -49,13 +86,15 @@ permalink: /resume/
 
 {% for item in site.my_resume %}
 {% if item.type == "Report" %}
+[{{item.heading}}]({{item.link}}){: target="_blank"}
 <span class='pull-right'><small>( {{item.duration}}, {{item.location}})</small></span>
 
-[{{item.heading}}]({{item.link}}){: target="_blank"}
 {{item.content}}
 
 {% endif %}
 {% endfor %}
+
+----
 
 #### Skills
 **Languages**	Javascript, C++, Java,  Python

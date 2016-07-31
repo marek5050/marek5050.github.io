@@ -7,7 +7,7 @@ location: "Austin, TX"
 link: "http://ngdeploy.com"
 ---
 
-A static hosting service leveraging Amazon AWS and other cloud technologies. Launching August 1st 2016.
+A static hosting service leveraging Amazon AWS and other cloud technologies.
 
 <details class="hidden-print">
 </details>
