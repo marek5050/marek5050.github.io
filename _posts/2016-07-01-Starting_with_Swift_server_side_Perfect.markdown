@@ -7,15 +7,13 @@ categories: swift,server
 ---
 
 ## Additional information
-WWDC Video
-https://developer.apple.com/videos/play/wwdc2016/415/
-
+[WWDC Video](https://developer.apple.com/videos/play/wwdc2016/415/)
 Perfect framework and links
-http://perfect.org
-https://github.com/PerfectlySoft/Perfect
+[Homepage](http://perfect.org)
+[Git Repository](https://github.com/PerfectlySoft/Perfect)
 
 
-[Digital Ocean](https://m.do.co/c/c1c4910901e6)
+## [Digital Ocean](https://m.do.co/c/c1c4910901e6)
 
 #### IMPORTANT Ubuntu 14.04!!!!!
 ```
