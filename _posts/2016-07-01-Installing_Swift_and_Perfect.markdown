@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Perfect and Swift on Digital Ocean"
+title: "Installing Swift and Perfect on Digital Ocean"
 subtitle:  "Perfect, it's all in the name."
 date:   2016-08-01
 categories: swift,server
