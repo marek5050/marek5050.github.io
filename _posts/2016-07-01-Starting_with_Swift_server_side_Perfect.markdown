@@ -6,16 +6,15 @@ date:   2016-08-01
 categories: swift,server
 ---
 
-## Additional information
-[WWDC Video](https://developer.apple.com/videos/play/wwdc2016/415/)
-Perfect framework and links
-[Homepage](http://perfect.org)
-[Git Repository](https://github.com/PerfectlySoft/Perfect)
-
-
 ## [Digital Ocean](https://m.do.co/c/c1c4910901e6)
+Login to Digital Ocean or register to create a brand new droplet. Create a droplet with Ubuntu 14.04 64bit. I tried many other combinations with no luck, so 14.04 seems to be the most reliable. 
 
-#### IMPORTANT Ubuntu 14.04!!!!!
+![Digital Ocean Droplet setup](http://res.cloudinary.com/ngdeploy/image/upload/v1471748807/Screen_Shot_2016-08-20_at_10.06.33_PM_rscmzd.png)
+
+After creating the droplet you'll be taken to main droplet screen. It'll have the ip address of the server. SSH into the box and run the below installation commands.  
+![Droplet Access](http://res.cloudinary.com/ngdeploy/image/upload/v1471748545/Screen_Shot_2016-08-20_at_10.02.07_PM_lwwxwp.png)
+
+#### IMPORTANT Only works with Ubuntu 14.04 !!!!!
 ```
 sudo apt-get update
 sudo apt-get install make git clang libicu-dev libmysqlclient-dev libpq-dev sqlite3 libsqlite3-dev apache2-dev pkg-config libssl-dev libsasl2-dev libcurl4-openssl-dev uuid-dev wget
@@ -31,5 +30,13 @@ swift build
 .build/debug/PerfectTemplate --port 80
 ```
 
-![Digital Ocean Droplet setup](http://res.cloudinary.com/ngdeploy/image/upload/v1471748100/Screen_Shot_2016-08-20_at_9.16.25_PM_ocbqhj.png)
+After everything above is successfully installed we should be able to access the website on the ip address of the server.
+
 ![Hello World](http://res.cloudinary.com/ngdeploy/image/upload/v1471748091/Screen_Shot_2016-08-20_at_9.35.20_PM_u8prel.png)
+
+
+## Additional information
+[WWDC Video](https://developer.apple.com/videos/play/wwdc2016/415/)  
+Perfect framework and links  
+- [Homepage](http://perfect.org)  
+- [Git Repository](https://github.com/PerfectlySoft/Perfect)  
