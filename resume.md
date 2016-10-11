@@ -32,18 +32,19 @@ margin:7px 0px;
 
 h4{
 font-weight:700;
+font-size:95%;
+ margin-bottom:2px;
 }
 
 </style>
 <style>
 .pull-right{
 float:right}
-.post-content h4{
- font-size:95%;
- margin-bottom:2px;
-}
 h4{
 font-weight:700;
+}
+strong{
+font-weight:600;
 }
 </style>
 #### Work Experience
@@ -97,10 +98,12 @@ font-weight:700;
 ----
 
 #### Skills
-**Languages**	Javascript, C++, Java,  Python
-**Frameworks**	Ext, Knockout, Bootstrap, jQuery, Angular
-**Systems**	VMWare, Windows, Mac OSX, Linux, MySQL, MongoDB, Hadoop
+**Languages**	Swift, Java, Javascript, C++, Python
+**Frameworks**	Angular, Knockout, Ext, Bootstrap, jQuery
+**Systems** 	Mac OSX, Linux, VMWare, Windows, Docker
 **Tools**		JIRA, WebStorm, IntelliJ, Jenkins, TravisCI, git, vim
+**Data**        MySQL, MongoDB, Hadoop, Spark
+**Other**       DNS, HTTP/s, Apache, nginx
 
 <span class="pull-right">An interactive version of this resume can be found at marek5050.github.io/resume</span>
 

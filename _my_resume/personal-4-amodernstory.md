@@ -1,7 +1,7 @@
 ---
 type: "Personal Project"
 heading: "Amodernstory.com"
-subheading: "Blog"
+subheading: "Blog - 5/2014"
 duration: "2012 – current"
 location: "Austin, TX"
 link: "http://amodernstory.com"

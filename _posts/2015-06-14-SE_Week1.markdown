@@ -16,4 +16,4 @@ We've already started going through Python and Javascript. While I'm very famili
 ##Tip of the Week:
 I'm loving Python Notebook for troubleshooting and general programming. It's so easy to debug code and run tests, compared to PyCharm or anything from the terminal. 
 
-![Python Notebook]({{% site.url %}}/static/python_notebook.png)
+![Python Notebook](/static/python_notebook.png)

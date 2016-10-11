@@ -35,7 +35,7 @@ The same person also told me that it's a pain in the a$$ to install and the best
 
 Once you download the PKG file, just open and install it. Then open up the terminal. 
 
-![dividing into code blocks]({{% site.url %}}/static/python_notebook/installation_succesful.png)
+![dividing into code blocks](/static/python_notebook/installation_succesful.png)
 
 {% highlight bash %}
 $ python --version
@@ -61,15 +61,15 @@ In a brand new folder the page will look lonely, so let's try to create a new on
 + Open up [Professor Downing's Python Exceptions page ][exceptions] 
 + Copy the Python code into the new Notebook.
 
-![new python notebook]({{% site.url %}}/static/python_notebook/new_notebook.png)
+![new python notebook](/static/python_notebook/new_notebook.png)
 
 To execute the script we can do two things __control+Enter__ or press the Play arrow up top. 
 
-![new python notebook]({{% site.url %}}/static/python_notebook/donefirsttime.png)
+![new python notebook](/static/python_notebook/donefirsttime.png)
 
 Okay to take advantage of the notebook let's divide the script into multiple code blocks. Scroll to the boottom, click on the last line, and hit __Option+Enter__ to create a new code block. Notice the __In [ ]: __ indicates code blocks and the number within the number of times it has been executed. Let's copy and paste the __print__ message and execute it. You'll notice it prints! 
 
-![new python notebook]({{% site.url %}}/static/python_notebook/donetwice.png)
+![new python notebook](/static/python_notebook/donetwice.png)
 
 Also notice the top blocks haven't changed and we can still see the Done. right above. Let's try to re-evaluate the top block again with __control+Enter__. Boom, no more Done. 
 
@@ -78,24 +78,24 @@ Also notice the top blocks haven't changed and we can still see the Done. right 
 
 Let's divide the document into multiple code blocks. 
 
-![dividing into code blocks]({{% site.url %}}/static/python_notebook/divided.png)
+![dividing into code blocks](/static/python_notebook/divided.png)
 
 I pretty much ended up seperating the initialization code, exception 1, exception 2, and asserts. Now we can move one by one and execute the blocks.
 Beginning with block one, we were told it won't raise an exception and it didn't. Let's try changing the False to True, just to experience the result.
 
-![execute the first code block]({{% site.url %}}/static/python_notebook/exception1.png)
+![execute the first code block](/static/python_notebook/exception1.png)
 
 
 So now it failed, with a pretty heavy stack trace. Good thing we could chunk our code and we actually have a pretty good understanding where it failed. Change it back to False and __control+Enter__. The stack trace disappears.
 
-![execute the first code block]({{% site.url %}}/static/python_notebook/exception1stacktrace.png)
+![execute the first code block](/static/python_notebook/exception1stacktrace.png)
 
 
 Same story happens with block number 2. Try running the block with __control+Enter__ the code block is executed without any problems. Change up True to False, and we get a pretty nice AssertionError once again. 
 
-![execute the second code block]({{% site.url %}}/static/python_notebook/exception1.png)
+![execute the second code block](/static/python_notebook/exception1.png)
 
-![execute the first code block]({{% site.url %}}/static/python_notebook/exception1stacktrace.png)
+![execute the first code block](/static/python_notebook/exception1stacktrace.png)
 
 If you by accident press __option+Enter__ and create a new cell, you can delete it by clicking on the scissors up on the main toolbar. 
 
@@ -106,7 +106,7 @@ Another wonderful feature of iPython Notebooks is the documentation, create a ne
 ---
 
 {% endhighlight %}
-![nbViewer exceptions]({{% site.url %}}/static/python_notebook/exceptions_rendered.png)
+![nbViewer exceptions](/static/python_notebook/exceptions_rendered.png)
 
 
 Just like regular cells execute the markdown cell. It will render the Markdown. To change it again just double click the cell. 
@@ -121,9 +121,9 @@ For sharing the Notebooks we have two options.
   * [Gist][gist] - just dump the Python Notebooks for the fun of it.
   * Github Repository - you actually want to use git version control. 
       * The Github Repositories will actually render the ipynb files. 
-      ![nbViewer exceptions]({{% site.url %}}/static/python_notebook/gist_example.png)
+      ![nbViewer exceptions](/static/python_notebook/gist_example.png)
 * Open the Notebook file with a text editor.
-	![Open the file with an editor]({{% site.url %}}/static/python_notebook/textedit.png)
+	![Open the file with an editor](/static/python_notebook/textedit.png)
 
 * Open up the browser and head to Github’s [Gist][gist]. 
 * Click on the __+__ on the top bar to open a new Gist.
@@ -148,7 +148,7 @@ Now go to [nbViewer][nbviewer] page.
 * Or the Github username if the Notebook is located in a public Github 	repository.
 	* Try __marek5050/Notebooks__ and selecting one, maybe __Factorials.ipynb__.  
 
-![nbViewer exceptions]({{% site.url %}}/static/python_notebook/nbviewer_exceptions.png)
+![nbViewer exceptions](/static/python_notebook/nbviewer_exceptions.png)
 
 The notebook will render within the browser and in the top right corner we have a couple of options. To Download the Notebook and to visit the Github/Gist page.
 
@@ -176,19 +176,19 @@ This will spin up the iPython Notebook server and you should be able to see the 
 
 * Open up timeseries.ipynb.
 
-![timeseries]({{% site.url %}}/static/python_notebook/timeseries.png)
+![timeseries](/static/python_notebook/timeseries.png)
 
 * Now execute the first cell.
 
-![time series loaded Bo library]({{% site.url %}}/static/python_notebook/firstblockbo.png)
+![time series loaded Bo library](/static/python_notebook/firstblockbo.png)
 
 * Execute the next cell..
 
-![Timeseries rendered first cell]({{% site.url %}}/static/python_notebook/timeseries1.png)
+![Timeseries rendered first cell](/static/python_notebook/timeseries1.png)
 
 and the next.
 
-![Timeseries rendered second cell]({{% site.url %}}/static/python_notebook/timeseries2.png)
+![Timeseries rendered second cell](/static/python_notebook/timeseries2.png)
 
  * Remember that cells might depend on the preceding cells. 
  * So it might not be possible to just jump to the last one and execute it. 

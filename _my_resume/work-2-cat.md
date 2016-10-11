@@ -7,6 +7,8 @@ location: "Austin, TX"
 link: "http://www.cat.utexas.edu/"
 ---
 
-+ Create unit and integration tests using Java frameworks Selenium, Serenity, and JBehave.  
-+ Configuration and maintainence of Jenkins builds and testing reports.  
-+ Integrated Saucelabs for cross browser compatability.   
+* Building a Java testing framework using Selenium, Serenity, and JBehave for a family of military websites, such as Family Advocacy System of Record (FASOR), Exceptional Family Member Program (eEFMP), and Army OneSource. 
+* Page Object mapping and user story development.
+* Continuous integration using Jenkins.
+* Cross Browser verification and validation using SauceLabs. 
+* Mobile (iOS and Android) testing using Appium.    
