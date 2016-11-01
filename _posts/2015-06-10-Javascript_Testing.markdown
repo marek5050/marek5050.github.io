@@ -4,6 +4,7 @@ title:  "Javascript Testing using Mocha and Istanbul"
 subtitle: "Test what??"
 date:   2015-06-10 21:50:51
 categories: javascript testing mocha istanbul
+status: publish
 ---
 
 You can download NodeJs on the [home page](https://nodejs.org/download/), using [Homebrew](http://brew.sh), or [MacPorts](http://macports.org), relatively simple and straight forward.

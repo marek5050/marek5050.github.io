@@ -4,6 +4,7 @@ title: "Debugging and deploying Swift Perfect server"
 subtitle:  "There might be an error or two."
 date:   2016-08-21
 categories: swift
+status: draft
 ---
 
 [Previously: Installing Swift and Perfect on Digital Ocean](http://marek5050.github.io/swift,server/2016/08/01/Installing_Swift_and_Perfect.html)

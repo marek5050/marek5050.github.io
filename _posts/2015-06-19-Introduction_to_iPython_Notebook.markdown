@@ -4,6 +4,7 @@ title: "Introduction to iPython Notebook"
 subtitle:  "CS N373 Software Engineering Week 2"
 date:   2015-06-19 21:50:51
 categories: ipython notebook
+status: publish
 ---
 
 ## Introduction to iPython Notebook

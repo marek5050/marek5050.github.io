@@ -4,6 +4,7 @@ title: "Week 6 STL: Graph and Week 6"
 subtitle:  "A little big of a graph"
 date:   2015-07-20 21:50:51
 categories: stl c++ 
+status: publish
 ---
 
 ##CS378 Summer 2015: Marek Bejda

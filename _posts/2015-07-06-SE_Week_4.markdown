@@ -4,6 +4,7 @@ title: "Week 4 SE: Starting out with Django"
 subtitle:  "ddddddddjango? like the movie? "
 date:   2015-07-06 21:50:51
 categories: python software_engineering
+status: publish
 ---
 
  ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"} 

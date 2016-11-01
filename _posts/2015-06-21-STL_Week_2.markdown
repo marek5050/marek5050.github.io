@@ -4,6 +4,7 @@ title: "Week 2 STL: Playing with the priority queue"
 subtitle:  "So now we give preferential treatment? "
 date:   2015-06-21 21:50:51
 categories: stl c++ 
+status: publish
 ---
 
 The second week of Generic Programming the lectures started to diverge from Object Oriented Programming, we finished off the first Collatz project, and started a new project called BFP [PFDEP - Project File Dependencies][sphere]. The path we are taking seems more focused on [containers][containers] and algorithms. 

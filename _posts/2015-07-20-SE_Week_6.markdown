@@ -4,6 +4,7 @@ title: "Week 6 SE: Final and Photography"
 subtitle:  "We take pictures!"
 date:   2015-07-20 21:50:51
 categories: python software_engineering
+status: publish
 ---
 
 ##CS373 Summer 2015: Marek Bejda

@@ -3,7 +3,8 @@ layout: post
 title: "Week 3 STL: Getting lost in C++, what do we need it for?"
 subtitle:  "ech what else to say? "
 date:   2015-06-28 21:50:51
-categories: stl c++ 
+categories: stl c++
+status: publish
 ---
 
  ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"}

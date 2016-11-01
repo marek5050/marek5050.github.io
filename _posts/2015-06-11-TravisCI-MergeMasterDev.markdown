@@ -4,6 +4,7 @@ title: "Automatic Dev -> Master merge and make check fail"
 subtitle:  "Tear down the walls! Between branches! "
 date:   2015-06-11 21:50:51
 categories: git branches travisci
+status: publish
 ---
 
 In the courses I'm taking we were given a .travis.yml and a makefile to help us automate our project deployment. By default even thought the makefile would notice missing files, the TravisCi testing would pass. So I ended up modifying the makefile to have it fail and force the TravisCI announce the broken build. I also added a new step which on an succesful deployment would automatically merge the Dev and Master branches. 

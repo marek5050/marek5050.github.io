@@ -4,6 +4,7 @@ title: "Week 7 SE: Project Presentation and Practice for Final"
 subtitle:  "Practice Practice Practice, @CrossfitGames!"
 date:   2015-07-26 21:50:51
 categories: python software_engineering
+status: publish
 ---
 
 ##CS373 Summer 2015: Marek Bejda

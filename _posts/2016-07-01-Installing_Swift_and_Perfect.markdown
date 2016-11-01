@@ -4,6 +4,7 @@ title: "Installing Swift and Perfect on Digital Ocean"
 subtitle:  "Perfect, it's all in the name."
 date:   2016-08-01
 categories: swift,server
+status: publish
 ---
 
 ## [Digital Ocean](https://m.do.co/c/c1c4910901e6)

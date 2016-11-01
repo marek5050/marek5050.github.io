@@ -4,6 +4,7 @@ title: "Week 3 SE: Study guide for exam #1"
 subtitle:  "Because we always have atleast one exam..."
 date:   2015-06-28 21:50:51
 categories: python software_engineering
+status: publish
 ---
 
  ![Utexas](https://www.utexas.edu/sites/default/files/images/Trademarked_Silhouette2.jpg){:.some-css-class style="width: 50px"} This week we teamed up for the project that's supposed to follow us for the rest of the semester. Our team name will be __ninjaPenguins__. A brutal and note worthy name. We ended up meeting Sunday for a little study session for this upcoming exam and I should be over prepared for this exam. We discussed so many different aspects of Python. Everything from generator functions to iterable classes and even inheritance and lambda functions. 

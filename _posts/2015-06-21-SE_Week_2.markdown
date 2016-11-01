@@ -4,6 +4,7 @@ title: "Week 2 SE: Using Python Pickle"
 subtitle:  "We can store a bunch of pickles in a binary."
 date:   2015-06-21 21:50:51
 categories: python software_engineering
+status: publish
 ---
 
 Software Engineering has been very enjoyable because I've learned so much about Python. We turned in Collatz last week and started a new project right away based on a Netflix dataset from a contest they ran a couple of years back. After processing the dataset we are supposed to predict the rating a user would give to a movie if they were to watch it, save our predictions, and run a Root Square Mean Error computation on it. The final program needs to run under 1 minute! 

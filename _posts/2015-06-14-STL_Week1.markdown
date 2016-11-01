@@ -4,6 +4,7 @@ title: "Week 1 STL: Introduction to the Standard Templating Library"
 subtitle: "That C++ STL library people talk about."
 date: 2015-06-14 21:50:51
 categories: stl c++ 
+status: publish
 ---
 
 First week of Generic Programming has been pretty much a repeat of OOP (Object Oriented Programming) that I took last semester. Hopefully taking an identical course will only reinforce my C++ capabilities! Go Longhorns! 

@@ -4,6 +4,7 @@ title: "Configuring GTest on Mac"
 subtitle:  "CS N378 Summer 2015"
 date:   2015-06-14 21:50:51
 categories: cs378 STL
+status: publish
 ---
 
 ## Introduction

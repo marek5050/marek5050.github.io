@@ -4,6 +4,7 @@ title: "Week 5 SE: Javascript Harmony"
 subtitle:  "Harmony? Awesome how do I use it?"
 date:   2015-07-12 21:50:51
 categories: python software_engineering
+status: publish
 ---
 
 ##CS373 Summer 2015: Marek Bejda
