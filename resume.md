@@ -98,12 +98,12 @@ font-weight:600;
 ----
 
 #### Skills
-**Languages**	Swift, Java, Javascript, C++, Python
-**Frameworks**	Angular, Knockout, Ext, Bootstrap, jQuery
-**Systems** 	Mac OSX, Linux, VMWare, Windows, Docker
-**Tools**		JIRA, WebStorm, IntelliJ, Jenkins, TravisCI, git, vim
+**Languages**	Python, Java, Javascript, Swift, C++
+**Frameworks**	Pandas, Spring, Angular, jQuery
+**Systems** 	Linux, VMWare, Windows, Docker
+**Tools**		IntelliJ, JIRA, Jenkins, TravisCI, git, vim
 **Data**        MySQL, MongoDB, Hadoop, Spark
-**Other**       DNS, HTTP/s, Apache, nginx
+**Other**       DNS, Apache, nginx
 
 <span class="pull-right">An interactive version of this resume can be found at marek5050.github.io/resume</span>
 
