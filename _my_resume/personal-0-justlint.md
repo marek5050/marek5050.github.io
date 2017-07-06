@@ -1,11 +1,13 @@
 ---
 type: "Personal Project"
-heading: "JustLint.com"
-subheading: "Service - 9/2016"
-duration: "2016"
+heading: "Fantasy NBA roster generator"
+subheading: "Tool - Jan/2017"
+duration: "2017"
 location: "Austin, TX"
-link: "http://justlint.com"
+link: "https://github.com/marek5050/FantasySports"
 ---
 
-An online code linting and pull request verification tool. When working in teams code neatness needs to be ensured, we built this tool to enforce code quality. The service's architecture consists of Lambda, EC2, S3 Route 53, and CloudFront.
-Built using using AngularJS, NodeJS, MySQL, and Firebase for authentication.  
+Aggregated data from stats.nba.com and other data sources using web crawlers. Predicted the player scores
+using neural networks in Keras and experimented with various machine learning models using scikit learn.
+Optimized the player roster using cost and predicted scores using Mathematica.
+

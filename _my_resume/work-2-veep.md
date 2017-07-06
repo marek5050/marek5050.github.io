@@ -2,7 +2,7 @@
 type: "Work Experience"
 heading: "Veepworks"
 subheading: "iOS Developer"
-duration: "05/2016 – current"
+duration: "05/2015 – current"
 location: "Austin, TX"
 link: "http://veepworks.com/"
 ---

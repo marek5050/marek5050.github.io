@@ -17,11 +17,9 @@ permalink: /resume/
 small{
     font-size:60%;
 }
-*{
-font-size:95%;
-}
 p{
 margin-bottom:0px;
+font-size:90%;
 }
 ul{
 margin-bottom:5px;
@@ -75,7 +73,7 @@ font-weight:600;
 
 {% for item in site.my_resume %}
 {% if item.type == "Education" %}
-**{{item.heading}} from {{item.subheading}}** <span class='pull-right'><small>(GPA {{item.gpa}}, {{item.duration}}, {{item.location}})</small></span>
+**{{item.heading}} from {{item.subheading}}** <span class='pull-right'><small>( GPA {{item.gpa}}, {{item.duration}}, {{item.location}})</small></span>
 
 <!-- [{{item.heading}}]({{item.link}}){: target="_blank"} -->
 {% endif %}
@@ -100,7 +98,7 @@ font-weight:600;
 #### Skills
 **Languages**	Python, Java, Javascript, Swift, C++
 **Frameworks**	Pandas, Spring, Angular, jQuery
-**Systems** 	Linux, VMWare, Windows, Docker
+**Systems** 	AWS, Bluemix, Linux, VMWare, Windows, Docker, Vagrant
 **Tools**		IntelliJ, JIRA, Jenkins, TravisCI, git, vim
 **Data**        MySQL, MongoDB, Hadoop, Spark
 **Other**       DNS, Apache, nginx
