@@ -7,5 +7,5 @@ location: "Austin, TX"
 link: "http://soteradefense.com/"
 ---
 
-* Full stack development using Node, Angular, and Twitter Bootstrap. 
-* Rapid creation of minimally viable products, from concept to initial stable.
+* Create minimally viable products for demonstrations and proof of concept.
+* Full stack development using Node, Angular,and MongoDB. 

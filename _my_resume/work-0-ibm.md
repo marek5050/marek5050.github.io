@@ -7,6 +7,6 @@ location: "Austin, TX"
 link: "http://www.ibm.com/"
 ---
  
-* Develop live upgrade capability for the Software Defined Power service.
-* Implemented a Go tool to load Data Center power control points.
+* Enhance the current Software Defined Power service with live upgrade capability. 
+* Develop tools to load Data Center inventory for power management. 
  

@@ -96,9 +96,9 @@ font-weight:600;
 ----
 
 #### Skills
-**Languages**	Python, Java, Javascript, Swift, C++
-**Frameworks**	Pandas, Spring, Angular, jQuery
-**Systems** 	AWS, Bluemix, Linux, VMWare, Windows, Docker, Vagrant
+**Languages**	Java, Javascript, Python, Go, Swift, C++ 
+**Frameworks**	Spring, Angular, jQuery, jUnit, Mocha
+**Systems** 	AWS, Linux, VMWare, Windows, Docker, Vagrant
 **Tools**		IntelliJ, JIRA, Jenkins, TravisCI, git, vim
 **Data**        MySQL, MongoDB, Hadoop, Spark
 **Other**       DNS, Apache, nginx
