@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IBM Week 1: Go, tunnels, scp, and eventually sshuttle!"
+title: "IBM Week 10: Go, vim-go, tunnel go"
 subtitle:  "where ever you go."
 date:   2017-04-04
 categories: go
@@ -37,17 +37,22 @@ So having a tunnel open on port 9022 to the remote machine allows my personal ma
 $ scp -P 9022 ./localfile root@192.168.1.1:/root/
 ```
 
-### Tunnels are nice and handy But!! 
-We have about 15 virtual machines hiding in a subnet far far away. To access these using SSH tunnels would take
-a tremendous amount of work. So instead! There's a very neat Python tool called **[sshuttle](https://github.com/apenwarr/sshuttle)** that allows
-a user to route all traffic to another machine.  The way I use is
-```
-$ sshuttle -r 192.168.100.1 192.168.200.0/24 
-```
-This routes all the traffic heading to the 192.168.200.0 network through the 192.168.100.1 server which knows
-how to route the traffic. 
+### Sure SCP, what about something useful? 
+Well another benefit of this tunneling is that it lets you chain remote machines and it actually forwards any ports you might need. 
+For example I need port 8181 to remote debug a **Go** binary using **dlv**. I started a headless dlv session on the remote machine
+ and was able to connect my local dlv debugger to the remote machine just because of tunneling!
+....
 
-So in theory this is how the network topology would look for this to work.
+## Debugging
+...
+Considering you followed the previous guide on installing the Swift with Perfect on Digital Ocean. 
 
-![connecting remote networks](/static/sshuttle.png)
+## Deploying  
 
+
+
+## Additional information
+[WWDC Video](https://developer.apple.com/videos/play/wwdc2016/415/)  
+Perfect framework and links  
+- [Homepage](http://perfect.org)  
+- [Git Repository](https://github.com/PerfectlySoft/Perfect)  
