@@ -277,6 +277,7 @@ let Chaincode = class {
     }
 shim.start(new Chaincode());
 ```
+
 So the fabric shim initiates the Chaincode class we defined in the file. The Chaincode class has a few __mandatory__
 functions, for example **Invoke**, **Init**, **initLedger**.
 Init is called when the Chaincode is initialized on the peer and initLedger is called shortly after.
