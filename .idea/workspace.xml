@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.markdown" afterPath="$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown" afterPath="$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,21 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-01-29-Blockchain_Getting_Started.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-01-29-Blockchain_Getting_Started.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-01-Updating_the_chaincode.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-02-01-Updating_the_chaincode.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="394">
+              <caret line="266" column="0" lean-forward="true" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -220,8 +219,8 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown" />
       </list>
     </option>
   </component>
@@ -246,7 +245,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-94" />
+    <option name="x" value="-30" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="972" />
@@ -442,7 +441,7 @@
       <workItem from="1500516368041" duration="2438000" />
       <workItem from="1517251788826" duration="88000" />
       <workItem from="1517251935301" duration="12910000" />
-      <workItem from="1517342948068" duration="830000" />
+      <workItem from="1517342948068" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -462,10 +461,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53138000" />
+    <option name="totallyTimeSpent" value="54814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-94" y="23" width="1680" height="972" extended-state="0" />
+    <frame x="-30" y="23" width="1680" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -744,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-AFewWeeksIn.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -771,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -783,6 +774,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="266" column="0" lean-forward="true" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
