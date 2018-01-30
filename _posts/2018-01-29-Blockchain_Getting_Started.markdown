@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hyperledger Fabric - Getting Started"
-subtitle:  "blockchain"
+subtitle:  "Deploying the genesis block."
 date:   2018-01-29
 categories: go
 status: publish
@@ -13,12 +13,10 @@ A few links for reference:
 * [TED Blockchain explained](https://www.youtube.com/watch?v=k53LUZxUF50)
 * [Hyperledger Fabric, Ethereum, and Corda compared](https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6)
 
-Over the last couple of years many of us witnessed the explosion in crypto-currencies from just a few pennies per Bitcoin to
-the extraordinary amount it might be at the time of this reading. While Bitcoin is a currency that can be traded all transactions
-are logged in something called a **Blockchain**. There are a few **Blockchain** technologies and one of them
-happens to be **Hyperledger Fabric**. When I first started the documentation was pretty scarce and most of it didn't work. The following
-series is meant to help developers get started developing with Hyperledger Fabric.
-
+Over the last couple of years many of us witnessed the explosion in cryptocurrencies like Bitcoin that went from just a few pennies to thousands of dollars.
+Bitcoin is a virtual currency that can be traded and all of the transactions are automatically saved in something called a **Blockchain**. There are a few **Blockchain** technologies and one of them
+happens to be **Hyperledger Fabric**. When I first started using **Hyperledger Fabric** the documentation was pretty scarce and overwhelming. The following
+series is meant to help developers start developing with Fabric.
 
 
 A few links to get started with Hyperledger Fabric:
