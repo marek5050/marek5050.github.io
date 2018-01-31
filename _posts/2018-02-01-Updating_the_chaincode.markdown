@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fabric:  Adding new functionality to the chaincode"
+title: "Fabric: Adding new functionality to the blockchain network"
 subtitle:  " maybe we need a version 2. of our todo app"
 date:   2018-02-01
 categories: fabric
@@ -17,11 +17,11 @@ A few links for reference:
 After successfully deploying our network in [Part 1: Building a Todo application](https://github.com/marek5050/Hyperledger_Todo_App/blob/master/Part_1.md)
 we can Create new tasks using `node invoke.js`, and Query all tasks `node query.js`.
 
-Near the end of Part 1 we added **TASK3 - "Grab some lunch"**. Since it's been a few hours and our lunch break is over
-we should mark **TASK3** as finished. But we don't have the functionality to complete a task yet. In this tutorial
-we'll add the ability to **finish a task**.
+Near the end of Part 1 we added **TASK3 - Grab some lunch**. Since it's been a few hours and our lunch break is over
+we should mark **TASK3** as finished. But we don?t have the functionality to complete any tasks yet. In this tutorial we?ll add the ability to
+**finish a task**.
 
-## Adding new functionality to the chaincode
+## Adding new functionality to the Chaincode
 
 Lets create a new version of the todo app. Duplicate the existing chaincode file and put it into a directory called v2.
 
@@ -31,7 +31,7 @@ $ cp ./todo_cc/package.json ./todo_cc/todo.js ./todo_cc/v2
 ```
 
 Open the new chaincode file `./todo_cc/v2/todo.js` and add the **finishTask** function.
-The finishTask function will simply query the Task by it's identifier and update the status field to **Finished**.
+ The finishTask function will simply query the Task by it?s identifier and update the status field to **Finished**.
 
 ```javascript1.6
 async finishTask(stub, args){
@@ -50,18 +50,19 @@ async finishTask(stub, args){
 ```
 
 
-## Changing the client code
-On the client side we just want to call the remote function named **finishTask**.
-Since there's plenty of boilerplate code already in **[invoke.js](https://github.com/marek5050/Hyperledger_Todo_App/blob/master/todo/invoke.js)** we can just duplicate the file and call it **finish.js**.
-Modify the **finish.js** file by changing the **request** variable to include the new function name **finishTask**
+## Update the client code
+On the client side we want to call the remote function named **finishTask**.
+Since there?s plenty of boilerplate code already in **[invoke.js](https://github.com/marek5050/Hyperledger_Todo_App/blob/master/todo/invoke.js)** we just duplicate the file and call it **finish.js**.
+Modify the **finish.js** file by changing the **request** variable to include the new function name **finishTask**.
+
 ```javascript
-	var request = {
-        chaincodeId: 'todo',
-        fcn: 'finishTask',
-        args: ['TASK3'],
-		chainId: 'mychannel',
-		txId: tx_id
-	};
+var request = {
+    chaincodeId: 'todo',
+    fcn: 'finishTask',
+    args: ['TASK3'],
+    chainId: 'mychannel',
+    txId: tx_id
+};
 ```
 
 Great! Drum roll please!!
@@ -91,11 +92,11 @@ no function if name: finishTask found
 ```
 
 
-`no function if name: finishTask found.` We only updated the chaincode locally, we'll actually have to update the network **peer** too.
-Each **peer** has it's own version of the chaincode and just because we updated it locally doesn't mean the *peers** will have the most recent version.
+`no function if name: finishTask found.` We only updated the chaincode locally, we?ll actually have to update the network **peer** too.
+Each **peer** has it?s own version of the chaincode and just because we updated it locally doesn?t mean the **peers** will have the most recent version.
 
-## Deploy the chaincode...
-Since we have the network from part 1 running there's only 1 **peer** to update.
+## Deploying the chaincode?
+Since we have the network from part 1 running there's only 1 **peer** to upgrade.
 
 ```bash
 $ docker ps
@@ -109,17 +110,15 @@ f2314d5a9669        hyperledger/fabric-ca                                       
 4c68506a2ef4        hyperledger/fabric-orderer                                                                             "orderer"                21 hours ago        Up 21 hours         0.0.0.0:7050->7050/tcp                           orderer.example.com
 ```
 
-We would like to "upgrade" the peer's chaincode. It's like upgrading a running application, how hard can it be...
-
 There's a couple of steps that'll need to take place.
-* Access the fabric-tools node
+* Access the fabric-tools container
 * Install the new chaincode
 * Upgrade the existing chaincode
 
-### Step 0. Accessing the Fabric-Tools CLI
-First we need to access the **Fabric-Tools** container named **CLI** and find the chaincode directory. This directory
-was preconfigured to be `/root/todo_cc`. After creating the directory `./v2` above we should also see `./v2` and let's
-`cd` into it.
+### Step 0. Access the Fabric-Tools container
+First we need to access the **Fabric-Tools** container named **cli** and find the chaincode directory.
+This directory was pre-configured to be **/root/todo_cc**. After creating the ./v2 directory above we should
+ also see ./v2 and let's cd into it.
 
 ```bash
 $ docker exec -i -t cli /bin/bash
@@ -129,8 +128,8 @@ hyperledger  package.json  todo.js  v2
 $ cd v2
 ```
 
-We have a few tools available to us inside the **CLI** container. One of them being **peer**.
-**peer** for example can lis all of the installed **chaincode** versions.
+We have a few tools available to us inside the **cli** container. One of them is **peer**. The **peer** command can list all of the installed **chaincode** versions.
+
 ```bash
 $ peer chaincode list --installed
 2018-01-31 14:05:57.038 UTC [msp] GetLocalMSP -> DEBU 001 Returning existing local MSP
@@ -142,8 +141,8 @@ name:"todo" version:"1.0" path:"/root/todo_cc"
 2018-01-31 14:05:57.049 UTC [main] main -> INFO 005 Exiting.....
 ```
 
-Here we can see the system is only aware of **version:"1.0"**.
-We can also get a list of **instantiated** chaincodes. These are the ones currently running on the network.
+Here we can see the system is only aware of **version:"1.0"**. We can also get a list of **instantiated** chaincodes.
+These are the ones currently running on the network.
 
 ```bash
 $ peer chaincode list --instantiated -C mychannel
@@ -152,12 +151,10 @@ name:"todo" version:"1.0" path:"/root/todo_cc" escc:"escc" vscc:"vscc"
 2018-01-31 14:08:35.239 UTC [main] main -> INFO 005 Exiting.....
 ```
 
-Yup v1.0 everywhere! So now we know what needs to be **upgraded**.  First, we need to let the network
-know there's a new piece of chaincode available.
+Yup v1.0 everywhere! So now we know what needs to be **upgraded**. First, we need to let the network know there?s a new piece of chaincode available.
 
-### Step 1. Installing the new chaincode
-Once we are in the peer and found the location of the new chaincode we need to install it. This installs
-the new piece of chaincode on the various peers in the network.
+### Step 1. Install the new chaincode
+Once we are in the peer and found the location of the new chaincode we need to install it. This step will install the new piece of chaincode onto the various peers in the network.
 
 ```bash
 $ peer chaincode install -p `pwd` -n todo  -v 2.0 -l node
@@ -184,18 +181,17 @@ name:"todo" version:"2.0" path:"/root/todo_cc/v2"
 2018-01-30 19:03:13.034 UTC [main] main -> INFO 005 Exiting.....
 ```
 
-Now we can see both versions of the chaincode. However, the old version is still running and we need to replace it
-with the new.
+Above we can see both versions of the chaincode. However, the old version is still running and we need to upgrade it.
 
-### Step 2. Upgrading the chaincode
-Once the **peers** are aware of both versions we can notify them to **upgrade** from V1.0 to V2.0.
+### Step 2. Upgrade the chaincode
+After installing the new chaincode we can notify the network **peers** to upgrade from V1.0 to V2.0 using the command **peer chaincode upgrade**.
 
 ```bash
 $ peer chaincode upgrade -C mychannel -l node -n todo -v 2.0 -c '{"Args":["a","10"]}'
  ```
- There will be a lot of output and the process will take about 30 seconds.
+There will be a lots of output and the process will take about 30 seconds.
 
- ```bash
+```bash
  ....
  2018-01-30 19:06:24.046 UTC [msp] Setup -> DEBU 02c MSP manager setup complete, setup 2 msps
  2018-01-30 19:06:24.046 UTC [policies] NewManagerImpl -> DEBU 02d Proposed new policy Admins for Channel/Application/Org1MSP
@@ -252,18 +248,19 @@ $ peer chaincode upgrade -C mychannel -l node -n todo -v 2.0 -c '{"Args":["a","1
  2018-01-30 19:06:24.051 UTC [chaincodeCmd] upgrade -> DEBU 060 Get upgrade proposal for chaincode <name:"todo" version:"2.0" >
  2018-01-30 19:06:24.051 UTC [msp/identity] Sign -> DEBU 061 Sign: plaintext: 0AA6070A6608031A0B08B084C3D30510...31300A000A04657363630A0476736363
  2018-01-30 19:06:24.051 UTC [msp/identity] Sign -> DEBU 062 Sign: digest: BBDC02BC2D529E3CBE1A50DAD4702D655EB754F77D40478B95D67B84766BEF27
- ```
+```
 
 but eventually we will see this line:
 ```
 2018-01-30 19:06:24.051 UTC [chaincodeCmd] upgrade -> DEBU 060 Get upgrade proposal for chaincode <name:"todo" version:"2.0" >
 ```
+
 which signifies the upgrade was finished.
 
 
 ## Finishing the task, again
 
-The **peer** chaincode was upgraded so let's try to run the client code again.
+The network chaincode was upgraded to the most recent version so let?s try to run the client code again.
 
 ```bash
 $ node todo/finish.js
@@ -279,8 +276,7 @@ Successfully committed the change to the ledger by the peer
 ```
 
 ## Verify the task was finished
-Let's query all tasks just to verify everyone can see that **TASK3 Grab some lunch** was **Finished**.
-
+Query all tasks to verify everyone can see that **TASK3 Grab some lunch** was **Finished**.
 
 ```bash
 $ node todo/query.js
@@ -290,9 +286,12 @@ Response is  [{"Key":"TASK0","Record":{"docType":"task","owner":"Marek","status"
 {"Key":"TASK1","Record":{"docType":"task","owner":"Marek","status":"incomplete","task":"Write a Todo app tutorial"}},
 {"Key":"TASK3","Record":{"docType":"task","owner":"Marek","status":"Finished","task":"Grab some lunch"}}]
 ```
-Notice "TASK3" now reflects the status **Finished**.
 
-and off we go on the "Yellow brick road"
+Notice **TASK3** now reflects the status **Finished**.
+
+
+Great congrats! In this tutorial we added the **Finish Task** functionality to the network, we deployed a new piece of chaincode, and upgraded all the peers from V1.0 to V2.0.
+
+and off we go along the yellow brick road.
+
 <img src="https://redtricom.files.wordpress.com/2015/07/wizard-of-oz_yellowbrickroad6x4.jpg" width="300" />
-
-In part 3 we'll get dirty writing tests.
