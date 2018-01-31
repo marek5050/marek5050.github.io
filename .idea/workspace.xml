@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown" afterPath="$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown" />
     </list>
     <ignored path="marek5050.github.io.iws" />
@@ -111,8 +110,8 @@
       <file leaf-file-name="2018-02-01-Updating_the_chaincode.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="296" column="107" lean-forward="false" selection-start-line="296" selection-start-column="107" selection-end-line="296" selection-end-column="107" />
+            <state relative-caret-position="205">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,6 +154,7 @@
       <find>fabric fabric</find>
       <find>fabric</find>
       <find>hyperledger hyper</find>
+      <find>drum</find>
     </findStrings>
     <replaceStrings>
       <replace>Hyperledger Fabric</replace>
@@ -442,7 +442,7 @@
       <workItem from="1500516368041" duration="2438000" />
       <workItem from="1517251788826" duration="88000" />
       <workItem from="1517251935301" duration="12910000" />
-      <workItem from="1517342948068" duration="4964000" />
+      <workItem from="1517342948068" duration="5293000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -462,7 +462,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57272000" />
+    <option name="totallyTimeSpent" value="57601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="759" y="23" width="1051" height="972" extended-state="0" />
@@ -780,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-01-Updating_the_chaincode.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="296" column="107" lean-forward="false" selection-start-line="296" selection-start-column="107" selection-end-line="296" selection-end-column="107" />
+        <state relative-caret-position="205">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
