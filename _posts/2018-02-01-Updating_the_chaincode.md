@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Fabric: Adding new functionality to the blockchain network"
-subtitle:  " maybe we need a version 2. of our todo app"
-date:   2018-02-01
+subtitle: "maybe we need a version 2 of our todo app"
+date: 2018-02-01
 categories: fabric
 status: publish
 ---
@@ -18,7 +18,7 @@ After successfully deploying our network in [Part 1: Building a Todo application
 we can Create new tasks using `node invoke.js`, and Query all tasks `node query.js`.
 
 Near the end of Part 1 we added **TASK3 - Grab some lunch**. Since it's been a few hours and our lunch break is over
-we should mark **TASK3** as finished. But we don?t have the functionality to complete any tasks yet. In this tutorial we?ll add the ability to
+we should mark **TASK3** as finished. But we don't have the functionality to complete any tasks yet. In this tutorial we?ll add the ability to
 **finish a task**.
 
 ## Adding new functionality to the Chaincode
