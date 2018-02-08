@@ -9,6 +9,7 @@ status: publish
 
 # Why Hyperledger Fabric?
 A few links for reference:
+* [Fabric: Write Your First App](http://hyperledger-fabric.readthedocs.io/en/latest/write_first_app.html)
 * [Khan Academy "What is Bitcoin"](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it)
 * [TED Blockchain explained](https://www.youtube.com/watch?v=k53LUZxUF50)
 * [Hyperledger Fabric, Ethereum, and Corda compared](https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6)

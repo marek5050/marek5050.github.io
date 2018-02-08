@@ -3,7 +3,7 @@ layout: post
 title: "Fabric: Adding new functionality to the blockchain network"
 subtitle: "maybe we need a version 2 of our todo app"
 date: 2018-02-01
-categories: fabric
+categories: go
 status: publish
 ---
 
