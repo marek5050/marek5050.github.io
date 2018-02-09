@@ -4,11 +4,11 @@ title: Fabric 1.1 Deploying a Fabric Composer Network
 subtitle: they say it should make your life easier
 date: 2018-02-09
 categories: go
-status: draft
+status: publish
 ---
 
 
-## 1. Deploy a Fabric 1.1 network 
+## Deploy a Fabric 1.1 network 
 
 For this step we can just follow instructions from the official README.md 
 1. In a directory of your choice (these instructions will assume `~/fabric-tools`), download the archive file that contains these tools. There are both .zip and .tar.gz formats - select one of these options:
@@ -47,7 +47,7 @@ $ ./teardownFabric.sh
 
 
 
-## 2. Install Fabric Composer 
+## Install Fabric Composer 
 
 
 Install the most recent Fabric Composer libraries: 
@@ -56,7 +56,7 @@ $ npm install -g composer-cli@next composer-rest-server@next generator-hyperledg
 ```
 This might take some time. 
 
-## 3. Configure Fabric Composer 
+## Configure Fabric Composer 
 
 Next download the Busines Network Archive file from here: 
 ```
@@ -91,7 +91,7 @@ Successfully created business network card:
 Command succeeded
 ```
 
-## 4. Import the Composer Network Card
+## Import the Composer Network Card
  
  ```
  $composer card import -f ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
@@ -245,9 +245,61 @@ Web server listening at: http://localhost:3000
 Browse your REST API at http://localhost:3000/explorer
 ```
 
-
 Now we can visit http://localhost:3000/explorer to see the API. 
 ![Swagger](/static/bna/swagger.png)
+
+## Install the Yeoman Composer Generator!
+```
+$ npm install -g yo typings bower @angular/cli generator-hyperledger-composer
+....
+```
+
+## Build the Angular App!
+
+```
+$ $ yo hyperledger-composer
+
+Welcome to the Hyperledger Composer Angular project generator
+? Do you want to connect to a running Business Network? Yes
+? Project name: angular-app
+? Description: Hyperledger Composer Angular project
+? Author name: Marek
+? Author email: marek.bejda@gmail.com
+? License: Apache-2.0
+? Name of the Business Network card: admin@carauction-network
+? Do you want to generate a new REST API or connect to an existing REST API?  Connect to an existing REST API
+? REST server address: http://localhost
+? REST server port: 3000
+? Should namespaces be used in the generated REST API? Namespaces are not used
+Created application!
+Completed generation process
+....
+```
+
+now run the app using
+ 
+```
+$ cd angular-app
+$ npm run start
+
+> ng serve
+
+** NG Live Development Server is running on http://localhost:4200 **
+Hash: 9c3a6a67a49da40d5e15                                                               
+Time: 12027ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 267 kB {5} [initial] [rendered]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 69.5 kB {4} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 184 kB {5} [initial] [rendered]
+chunk    {3} scripts.bundle.js, scripts.bundle.js.map (scripts) 439 kB {5} [initial] [rendered]
+chunk    {4} vendor.bundle.js, vendor.bundle.js.map (vendor) 3.84 MB [initial] [rendered]
+chunk    {5} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [rendered]
+webpack: Compiled successfully.
+```
+
+Aim the browser at http://localhost:4200 to see the deployed app.
+Feel free to create some new Coffee assets to test out the UI.
+
+![Deployed App](/static/bna/app.png) 
 
 
 and into the Matrix we run! 
