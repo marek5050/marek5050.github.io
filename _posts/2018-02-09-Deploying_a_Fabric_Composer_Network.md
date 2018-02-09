@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Fabric 1.1 Deploying a Fabric Composer Network
-subtitle: they say it should make your life easier
+title: Fabric 1.1: Deploying a Fabric Composer Network
+subtitle: ...they say it will make your life easier
 date: 2018-02-09
 categories: go
 status: publish
