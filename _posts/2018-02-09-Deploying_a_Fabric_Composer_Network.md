@@ -60,7 +60,7 @@ This might take some time.
 
 Next download the Busines Network Archive file from here: 
 ```
-$ curl https://github.com/marek5050/static/bna/carauction-network.bna
+$ wget https://marek5050.github.io/static/bna/carauction-network.bna
 ``` 
 or feel free to compile your own Business Network Archive from the [fabric composer samples page](https://github.com/hyperledger/composer-sample-networks).
 
@@ -145,7 +145,7 @@ asset Vehicle identified by vin {
 ```
 
 Export the new BNA using the Export button on the bottom left. 
-
+![update the bna gif](/static/bna/update_bnf.gif)
 
 ## Verify the existing network 
 Before we update the network let's verify the existing information using. Notice it doesn't have the Coffee model yet. 
@@ -180,8 +180,8 @@ Command succeeded
 ```
 
 ## Update the existing network
-Once we have the new BNA file we can update the network using the command:
 
+Once we have the new BNA file we can update the network using the command:
 
 ```
 $ composer network update -a  ./carauction-network_new.bna -c admin@carauction-network

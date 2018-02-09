@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bna/carauction-network.bna" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bna/carauction-network_new.bna" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bna/swagger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-08-Deploying_a_Fabric_Composer_Network.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bna/update_bnf.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" afterPath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-02-08-Deploying_a_Fabric_Composer_Network.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-Deploying_a_Fabric_Composer_Network.md">
+      <file leaf-file-name="2018-02-09-Deploying_a_Fabric_Composer_Network.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <first_editor relative-caret-position="75">
+                <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -153,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-07-20-Installing_Swift_and_Perfect_on_Mac.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-01-Installing_Swift_and_Perfect.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-26-STL_Week_7.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-26-SE_Week_7.markdown" />
@@ -204,6 +201,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-10-Deploying_a_Fabric_Composer_Network.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-8-Deploying_a_Fabric_Composer_Network.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-08-Deploying_a_Fabric_Composer_Network.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" />
       </list>
     </option>
   </component>
@@ -439,7 +437,7 @@
       <workItem from="1517251935301" duration="12910000" />
       <workItem from="1517342948068" duration="5388000" />
       <workItem from="1517418473702" duration="1276000" />
-      <workItem from="1518115830127" duration="8436000" />
+      <workItem from="1518115830127" duration="8950000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -459,7 +457,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67408000" />
+    <option name="totallyTimeSpent" value="67922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="6" />
@@ -820,11 +818,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-08-Deploying_a_Fabric_Composer_Network.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <first_editor relative-caret-position="75">
+            <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
