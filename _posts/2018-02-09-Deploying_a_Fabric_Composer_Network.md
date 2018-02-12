@@ -11,7 +11,9 @@ Fabric Composer makes it incredibly easy to prototype a Blockchain network, gene
 
 ## Prototype and deploy a Blockchain network
 
-For this step, we can just follow instructions from the official README.md 
+For this step, we can just follow instructions from the official README.md
+
+ 
 1.. In a directory of your choice (these instructions will assume `~/fabric-tools`), download the archive file that contains these tools. There are both .zip and .tar.gz formats - select one of these options:
 
 ```
