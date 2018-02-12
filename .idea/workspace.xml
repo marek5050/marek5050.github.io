@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" afterPath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_my_resume/work-0-ibm.md" afterPath="$PROJECT_DIR$/_my_resume/work-0-ibm.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-02-09-Deploying_a_Fabric_Composer_Network.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-02-09-Deploying_a_Fabric_Composer_Network.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="66">
+              <first_editor relative-caret-position="210">
                 <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work-0-ibm.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_my_resume/work-0-ibm.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -186,7 +198,6 @@
         <option value="$PROJECT_DIR$/_my_resume/work-2-veep.md" />
         <option value="$PROJECT_DIR$/_my_resume/work-1-cat.md" />
         <option value="$PROJECT_DIR$/resume.md" />
-        <option value="$PROJECT_DIR$/_my_resume/work-0-ibm.md" />
         <option value="$PROJECT_DIR$/_posts/2017-04-04-FirstWeekAtIBM.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-19-AFewWeeksIn.md" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
@@ -203,6 +214,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-8-Deploying_a_Fabric_Composer_Network.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-08-Deploying_a_Fabric_Composer_Network.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" />
+        <option value="$PROJECT_DIR$/_my_resume/work-0-ibm.md" />
       </list>
     </option>
   </component>
@@ -263,6 +275,11 @@
               <item name="marek5050.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="marek5050.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marek5050.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marek5050.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_my_resume" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marek5050.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -439,7 +456,7 @@
       <workItem from="1517342948068" duration="5388000" />
       <workItem from="1517418473702" duration="1276000" />
       <workItem from="1518115830127" duration="12769000" />
-      <workItem from="1518362695629" duration="2850000" />
+      <workItem from="1518362695629" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -459,7 +476,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74591000" />
+    <option name="totallyTimeSpent" value="74667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="972" extended-state="0" />
@@ -603,13 +620,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_my_resume/report-2-conoco.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_my_resume/work-0-ibm.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -816,8 +826,24 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="66">
+          <first_editor relative-caret-position="210">
             <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_my_resume/work-0-ibm.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
