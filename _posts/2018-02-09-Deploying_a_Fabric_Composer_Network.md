@@ -12,7 +12,7 @@ Fabric Composer makes it incredibly easy to prototype a Blockchain network, gene
 ## Prototype and deploy a Blockchain network
 
 For this step, we can just follow instructions from the official README.md 
-1. In a directory of your choice (these instructions will assume `~/fabric-tools`), download the archive file that contains these tools. There are both .zip and .tar.gz formats - select one of these options:
+1.. In a directory of your choice (these instructions will assume `~/fabric-tools`), download the archive file that contains these tools. There are both .zip and .tar.gz formats - select one of these options:
 
 ```
 $ mkdir ~/fabric-tools && cd ~/fabric-tools
@@ -20,14 +20,14 @@ $ curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/pa
 $ unzip fabric-dev-servers.zip
 ```
 
-2. Select the version of Hyperledger Fabric you wish to use. If for example you are using Hyperledger Composer v0.17
+2.. Select the version of Hyperledger Fabric you wish to use. If for example you are using Hyperledger Composer v0.17
 or higher then you should select Hyperledger Fabric V1.1 usually by exporting the environment variable as follows
 
 ```
 export FABRIC_VERSION=hlfv11
 ```
 
-3. If this is the first time that you have run these scripts, you'll need to download Hyperledger Fabric first. If you have already downloaded Hyperledger Fabric, then first start Hyperledger Fabric, and then create a Hyperledger Composer PeerAdmin card. After that you can then choose to stop Hyperledger Fabric, and start it again later. Alternatively, to completely clean up, you can teardown Hyperledger Fabric.
+3.. If this is the first time that you have run these scripts, you'll need to download Hyperledger Fabric first. If you have already downloaded Hyperledger Fabric, then first start Hyperledger Fabric, and then create a Hyperledger Composer PeerAdmin card. After that you can then choose to stop Hyperledger Fabric, and start it again later. Alternatively, to completely clean up, you can teardown Hyperledger Fabric.
 
 All the scripts will be available in the directory `~/fabric-tools`. A typical sequence of commands for using these scripts with Hyperledger Composer would be:
 

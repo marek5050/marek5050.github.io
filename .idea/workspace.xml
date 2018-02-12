@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" afterPath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
@@ -28,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <first_editor relative-caret-position="66">
+                <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -438,7 +439,7 @@
       <workItem from="1517342948068" duration="5388000" />
       <workItem from="1517418473702" duration="1276000" />
       <workItem from="1518115830127" duration="12769000" />
-      <workItem from="1518362695629" duration="2742000" />
+      <workItem from="1518362695629" duration="2850000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -458,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74483000" />
+    <option name="totallyTimeSpent" value="74591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="972" extended-state="0" />
@@ -815,8 +816,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <first_editor relative-caret-position="66">
+            <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
