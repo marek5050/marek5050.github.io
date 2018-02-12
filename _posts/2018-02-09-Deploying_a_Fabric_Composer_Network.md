@@ -7,8 +7,11 @@ categories: go
 status: publish
 ---
 
+Fabric Composer makes it incredibly easy to prototype a Blockchain network, generate the RESTful API, and even creating the Angular front-end. The tutorial will guide you through those three components of Fabric Composer.
 
-For this step we can just follow instructions from the official README.md 
+## Prototype and deploy a Blockchain network
+
+For this step, we can just follow instructions from the official README.md 
 1. In a directory of your choice (these instructions will assume `~/fabric-tools`), download the archive file that contains these tools. There are both .zip and .tar.gz formats - select one of these options:
 
 ```
@@ -52,15 +55,19 @@ Install the most recent Fabric Composer libraries:
 ```
 $ npm install -g composer-cli@next composer-rest-server@next generator-hyperledger-composer@next composer-playground@next
 ```
-This might take some time. 
+
+The installation process might take some time.
+
 
 ## Configure Fabric Composer 
 
-Next download the Busines Network Archive file from here: 
+Next download the Business Network Archive file from here: 
+
 ```
 $ wget https://marek5050.github.io/static/bna/carauction-network.bna
 ``` 
-or feel free to compile your own Business Network Archive from the [fabric composer samples page](https://github.com/hyperledger/composer-sample-networks).
+
+alternatively, feel free to compile your own Business Network Archive from the [fabric composer samples page](https://github.com/hyperledger/composer-sample-networks).
 
 Then deploy the network using:
 
@@ -91,14 +98,14 @@ Command succeeded
 
 ## Import the Composer Network Card
  
- ```
- $composer card import -f ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
- 
- Successfully imported business network card
-         Card file: ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
-         Card name: admin@carauction-network
- 
- Command succeeded
+```
+$composer card import -f ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
+
+Successfully imported business network card
+     Card file: ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
+     Card name: admin@carauction-network
+
+Command succeeded
 ```
 
 List the available cards.  
@@ -124,12 +131,12 @@ Command succeeded
 
 
 ## Run the Composer Playground
-After running the Composer you should see the admin@carauction-network card and click Connect. 
-Here go to the Model file and make changes to the model. 
-Let's make a minor change and just add a year field to the car model and add a new coffee model. 
+After deploying the BNA, you should see the admin@carauction-network card in the Composer web 
+interface and click Connect. Go to the Model file and make a few minor changes, add a year
+field to the Vehicle model and add a new Coffee model.
 
+The new models should look like this:
 
-It'll look like this:
 ```
 asset Coffee identifier by name {
     o String name
@@ -142,11 +149,11 @@ asset Vehicle identified by vin {
 }
 ```
 
-Export the new BNA using the Export button on the bottom left. 
+Click the Export button to save the Business Network Archive file locally. 
 ![update the bna gif](/static/bna/update_bnf.gif)
 
 ## Verify the existing network 
-Before we update the network let's verify the existing information using. Notice it doesn't have the Coffee model yet. 
+We can verify the current business logic using the following command. Notice it does not have the Coffee model yet. 
 
 ```
 $ composer network list -c admin@carauction-network
@@ -195,6 +202,7 @@ Command succeeded
 ```
 
 ## Verify changes
+Finally, we should see the Coffee model we created above.
 
 ```
 $ composer network list -c admin@carauction-network✔ List business network from card admin@carauction-network
@@ -230,7 +238,8 @@ Command succeeded
 
 
 ## Build the REST Api
-To Deploy the REST Api we use the composer-rest-server command. 
+To build the REST API we use the *composer-rest-server* command.
+ 
 ```
 $ composer-rest-server -c admin@carauction-network -n required -w true
 Discovering types from business network definition ...
@@ -243,19 +252,27 @@ Web server listening at: http://localhost:3000
 Browse your REST API at http://localhost:3000/explorer
 ```
 
-Now we can visit http://localhost:3000/explorer to see the API. 
+We can explore the API by visiting http://localhost:3000/explorer 
+
 ![Swagger](/static/bna/swagger.png)
 
-## Install the Yeoman Composer Generator!
+## Generate the Angular front-end
+
+To generate the Angular front-end we'll need a few tools. For example Yeoman, Angular-cli, 
+and the Yeoman generator. We can install them all with the below command.
+
+### Install the Yeoman Composer Generator
 ```
 $ npm install -g yo typings bower @angular/cli generator-hyperledger-composer
 ....
 ```
 
-## Build the Angular App!
+### Build the Angular App!
+Once we have all the required tools, we can use the Composer Yeoman generator we just installed. 
+This will create an Angular baseline project with tests and models.
 
 ```
-$ $ yo hyperledger-composer
+$ yo hyperledger-composer
 
 Welcome to the Hyperledger Composer Angular project generator
 ? Do you want to connect to a running Business Network? Yes
@@ -274,7 +291,7 @@ Completed generation process
 ....
 ```
 
-now run the app using
+and run the app using
  
 ```
 $ cd angular-app
@@ -294,12 +311,11 @@ chunk    {5} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [re
 webpack: Compiled successfully.
 ```
 
-Aim the browser at http://localhost:4200 to see the deployed app.
-Feel free to create some new Coffee assets to test out the UI.
+Aim the browser at http://localhost:4200 to see the running application. Feel free to create some new assets to test out the UI functionality.
 
 ![Deployed App](/static/bna/app.png) 
 
 
-and into the Matrix we run! 
+and deeper into the Matrix we go! 
 
 <img src="https://nerdist.com/wp-content/uploads/2017/10/The-Matrix-code.jpg" width="300" />
