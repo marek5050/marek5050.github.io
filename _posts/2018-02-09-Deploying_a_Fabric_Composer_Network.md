@@ -9,7 +9,17 @@ status: publish
 
 Fabric Composer makes it incredibly easy to prototype a Blockchain network, generate the RESTful API, and even creating the Angular front-end. The tutorial will guide you through those three components of Fabric Composer.
 
-## Prototype and deploy a Blockchain network
+## Install Fabric Composer 
+
+Install the most recent Fabric Composer libraries:
+ 
+```
+$ npm install -g yo composer-cli@next composer-rest-server@next generator-hyperledger-composer@next composer-playground@next
+```
+
+The installation process might take some time.
+
+## Create the Blockchain network
 
 For this step, we can just follow instructions from the official README.md
 
@@ -38,7 +48,7 @@ $ cd ~/fabric-tools
 $ ./downloadFabric.sh
 $ ./startFabric.sh
 $ ./createPeerAdminCard.sh
-```
+``` 
 
 Then at the end of your development session:
 
@@ -47,19 +57,6 @@ $ cd ~/fabric-tools
 $ ./stopFabric.sh
 $ ./teardownFabric.sh
 ```
-
-
-
-## Install Fabric Composer 
-
-
-Install the most recent Fabric Composer libraries: 
-```
-$ npm install -g composer-cli@next composer-rest-server@next generator-hyperledger-composer@next composer-playground@next
-```
-
-The installation process might take some time.
-
 
 ## Configure Fabric Composer 
 
@@ -101,7 +98,7 @@ Command succeeded
 ## Import the Composer Network Card
  
 ```
-$composer card import -f ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
+$ composer card import -f ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
 
 Successfully imported business network card
      Card file: ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
