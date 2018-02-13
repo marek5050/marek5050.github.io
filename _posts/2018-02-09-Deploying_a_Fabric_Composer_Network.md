@@ -98,10 +98,10 @@ Command succeeded
 ## Import the Composer Network Card
  
 ```
-$ composer card import -f ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
+$ composer card import -f ./PeerAdmin@hlfv1.card
 
 Successfully imported business network card
-     Card file: ./fabric-scripts/hlfv1/PeerAdmin@hlfv1.card
+     Card file: ./PeerAdmin@hlfv1.card
      Card name: admin@carauction-network
 
 Command succeeded
@@ -165,6 +165,7 @@ We can verify the current business logic using the following command. Notice it 
 
 ```
 $ composer network list -c admin@carauction-network
+
 ✔ List business network from card admin@carauction-network
 models: 
   - org.hyperledger.composer.system
@@ -213,7 +214,9 @@ Command succeeded
 Finally, we should see the Coffee model we created above.
 
 ```
-$ composer network list -c admin@carauction-network✔ List business network from card admin@carauction-network
+$ composer network list -c admin@carauction-network
+
+✔ List business network from card admin@carauction-network
 models: 
   - org.hyperledger.composer.system
   - org.acme.vehicle.auction
