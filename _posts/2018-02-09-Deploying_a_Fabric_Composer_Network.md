@@ -145,6 +145,7 @@ PlaygroundAPI           :createServer()           <
 Once we navigate to the appropriate web address we should see the new "admin@carauction-network" card. 
 Click Connect and go to the Model file to make a few minor changes. Let us add a year field to the Vehicle model and add a new Coffee model.
 
+```
 asset Coffee identifier by name {
     o String name
 }
