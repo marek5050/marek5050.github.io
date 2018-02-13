@@ -109,7 +109,8 @@ Command succeeded
 
 List the available cards.  
 ```
-composer card list
+$ composer card list
+
 The following Business Network Cards are available:
 
 Connection Profile: hlfv1

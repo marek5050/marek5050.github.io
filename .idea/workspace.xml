@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="272">
-                <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <first_editor relative-caret-position="382">
+                <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -41,8 +41,8 @@
       <file leaf-file-name="github.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/github.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10620">
-              <caret line="708" column="19" lean-forward="false" selection-start-line="708" selection-start-column="19" selection-end-line="708" selection-end-column="19" />
+            <state relative-caret-position="372">
+              <caret line="701" column="23" lean-forward="true" selection-start-line="701" selection-start-column="23" selection-end-line="701" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -106,7 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slider</find>
       <find>slide</find>
       <find>nivo slider</find>
       <find>docker logs</find>
@@ -136,6 +135,7 @@
       <find>onfigure Fabric Compo</find>
       <find>./</find>
       <find>$com</find>
+      <find>composer card</find>
     </findStrings>
     <replaceStrings>
       <replace>Hyperledger Fabric</replace>
@@ -445,7 +445,7 @@
       <workItem from="1517418473702" duration="1276000" />
       <workItem from="1518115830127" duration="12769000" />
       <workItem from="1518362695629" duration="3411000" />
-      <workItem from="1518532293707" duration="123000" />
+      <workItem from="1518532293707" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -465,7 +465,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75275000" />
+    <option name="totallyTimeSpent" value="75575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="972" extended-state="0" />
@@ -704,14 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/github.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10620">
-          <caret line="708" column="19" lean-forward="false" selection-start-line="708" selection-start-column="19" selection-end-line="708" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-07-01-Installing_Swift_and_Perfect.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -827,11 +819,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/github.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="701" column="23" lean-forward="true" selection-start-line="701" selection-start-column="23" selection-end-line="701" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="272">
-            <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <first_editor relative-caret-position="382">
+            <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
