@@ -131,13 +131,20 @@ Command succeeded
 
 
 ## Run the Composer Playground
-After deploying the BNA, you should see the admin@carauction-network card in the Composer web 
-interface and click Connect. Go to the Model file and make a few minor changes, add a year
-field to the Vehicle model and add a new Coffee model.
-
-The new models should look like this:
+To run the Composer Playground we execute in a new terminal.
 
 ```
+$ composer-playground
+
+Composer                :main()                   >
+PlaygroundAPI           :createServer()           > 8080, false
+PlaygroundAPI           :createServer()           Playground API started on port 8080
+PlaygroundAPI           :createServer()           <
+```
+
+Once we navigate to the appropriate web address we should see the new "admin@carauction-network" card. 
+Click Connect and go to the Model file to make a few minor changes. Let us add a year field to the Vehicle model and add a new Coffee model.
+
 asset Coffee identifier by name {
     o String name
 }
