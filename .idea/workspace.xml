@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" afterPath="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,21 +65,11 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="253" lean-forward="false" selection-start-line="10" selection-start-column="253" selection-end-line="10" selection-end-column="253" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -97,12 +87,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-15-SAP_Generating_GS1_XML_documents.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-02-15-SAP_Generating_GS1_XML_documents.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="133">
-                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="147" />
+                <caret line="9" column="146" lean-forward="true" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -155,7 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fabric</find>
       <find>hyperledger hyper</find>
       <find>drum</find>
       <find>font-sty</find>
@@ -185,6 +174,7 @@
       <find>api_ss</find>
       <find>api_scc</find>
       <find>p</find>
+      <find>and then</find>
     </findStrings>
     <replaceStrings>
       <replace>Hyperledger Fabric</replace>
@@ -252,8 +242,8 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
       </list>
     </option>
   </component>
@@ -466,7 +456,7 @@
       <workItem from="1518115830127" duration="12769000" />
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
-      <workItem from="1518822080869" duration="10417000" />
+      <workItem from="1518822080869" duration="10512000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -486,7 +476,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93741000" />
+    <option name="totallyTimeSpent" value="93836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="970" extended-state="0" />
@@ -871,33 +861,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="147" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="253" lean-forward="false" selection-start-line="10" selection-start-column="253" selection-end-line="10" selection-end-column="253" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="9" column="146" lean-forward="true" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
