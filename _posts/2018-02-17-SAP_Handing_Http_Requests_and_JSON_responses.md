@@ -125,3 +125,5 @@ WRITE out-id_token .
 ENDFORM.
 
 ```
+
+![We should see the tokens](/static/sap/print_token.png)
