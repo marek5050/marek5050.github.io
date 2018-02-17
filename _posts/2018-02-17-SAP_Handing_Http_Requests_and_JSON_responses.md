@@ -8,7 +8,7 @@ status: publish
 ---
 
 
-*The last few weeks I've been involved with GS1 standards and SAP. I've put together a list of interesting problems and experiences.*
+*In the API economy the systems communicate via HTTP Requests. HTTP requests are critical in enterprise and typically return a JSON formatted response. I'll cover sending the request and then parsing the JSON response into something more ABAP friendly.*
 
 
 Reference:   

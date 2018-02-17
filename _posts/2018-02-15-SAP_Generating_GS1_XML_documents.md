@@ -7,7 +7,7 @@ categories: sap
 status: publish
 ---
 
-*The last few weeks I've been involved with GS1 standards and SAP. I've put together a list of interesting problems and experiences.*
+*Generating XMLs to communicate with external systems is critical in the enterprise. I'd love to share a method I discovered in the last few days.* 
 
 Generating XML files in SAP ABAP is fairly straight forward. Then further the `xstring -> string` conversion 
 isn't too bad either. Once we are done with this process we will be able to send an http request with the XML in the request's body. This will be in the next SAP post.    

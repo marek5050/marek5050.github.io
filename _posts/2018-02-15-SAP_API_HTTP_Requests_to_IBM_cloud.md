@@ -7,7 +7,9 @@ categories: sap
 status: publish
 ---
 
-*The last few weeks I've been involved with GS1 standards and SAP. I've put together a list of interesting problems and experiences.*
+
+*In the last few weeks I've come across a couple of interesting SAP ABAP challenges. For example sending a simple HTTP Post request to a IBM Cloud service.
+ This was more difficult than expected, because of the self-signed certificate bluemix uses.*
 
 
 Reference:   
