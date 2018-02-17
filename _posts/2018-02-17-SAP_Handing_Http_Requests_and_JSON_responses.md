@@ -2,7 +2,7 @@
 layout: post
 title: "SAP: Handling HTTP requests and JSON responses"
 subtitle: "...it's so easy in other languages..."
-date: 2018-02-10
+date: 2018-02-17
 categories: sap
 status: publish
 ---

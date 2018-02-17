@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" afterPath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Handing_Http_Requests_and_JSON_responses.md" afterPath="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-15-SAP_Parsing_JSON_documents.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md">
+      <file leaf-file-name="2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -193,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2015-07-13-SE_Week_5.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-06-STL_Week_4.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-06-SE_Week_4.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-06-28-SE_Week_3.markdown" />
@@ -244,6 +242,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
       </list>
     </option>
   </component>
@@ -482,7 +481,7 @@
       <workItem from="1518115830127" duration="12769000" />
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
-      <workItem from="1518822080869" duration="8710000" />
+      <workItem from="1518822080869" duration="8797000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -502,7 +501,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92034000" />
+    <option name="totallyTimeSpent" value="92121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="970" extended-state="0" />
@@ -904,11 +903,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
