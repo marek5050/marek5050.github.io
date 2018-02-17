@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" afterPath="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -60,6 +71,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,16 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2018-01-29-Blockchain_Getting_Started.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -141,24 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-19-AFewWeeksIn.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-AFewWeeksIn.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fabric fabric</find>
       <find>fabric</find>
       <find>hyperledger hyper</find>
       <find>drum</find>
@@ -188,6 +185,7 @@
       <find>lo_item_data_notification</find>
       <find>api_ss</find>
       <find>api_scc</find>
+      <find>p</find>
     </findStrings>
     <replaceStrings>
       <replace>Hyperledger Fabric</replace>
@@ -206,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2015-07-06-STL_Week_4.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-06-SE_Week_4.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-06-28-SE_Week_3.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-06-21-STL_Week_2.markdown" />
@@ -235,7 +232,6 @@
         <option value="$PROJECT_DIR$/resume.md" />
         <option value="$PROJECT_DIR$/_posts/2017-04-04-FirstWeekAtIBM.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-19-AFewWeeksIn.md" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2018-01-29-Blockchain_Getting_Started.markdown" />
         <option value="$PROJECT_DIR$/css/main.scss" />
@@ -257,6 +253,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-17-SAP_Handing_Http_Requests_and_JSON_responses.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -319,11 +317,6 @@
               <item name="marek5050.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="marek5050.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marek5050.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marek5050.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marek5050.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -495,7 +488,7 @@
       <workItem from="1518115830127" duration="12769000" />
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
-      <workItem from="1518822080869" duration="8984000" />
+      <workItem from="1518822080869" duration="9635000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -515,7 +508,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92308000" />
+    <option name="totallyTimeSpent" value="92959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="970" extended-state="0" />
@@ -677,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -768,13 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="76" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -925,6 +904,22 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

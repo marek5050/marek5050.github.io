@@ -8,13 +8,13 @@ url: "http://marek5050.github.io" # the base hostname & protocol for your site
 twitter_username: marek5050
 github_username:  marek5050
 
-# Build settings
-# markdown: kramdown
-# highlighter: true
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
 highlighter: rouge
 collections:
  - my_resume
+plugins:
+  - jekyll-seo-tag
