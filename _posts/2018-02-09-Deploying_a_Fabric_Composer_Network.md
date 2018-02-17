@@ -36,7 +36,7 @@ $ unzip fabric-dev-servers.zip
 or higher then you should select Hyperledger Fabric V1.1 usually by exporting the environment variable as follows
 
 ```
-export FABRIC_VERSION=hlfv11
+$ export FABRIC_VERSION=hlfv11
 ```
 
 3.. If this is the first time that you have run these scripts, you'll need to download Hyperledger Fabric first. If you have already downloaded Hyperledger Fabric, then first start Hyperledger Fabric, and then create a Hyperledger Composer PeerAdmin card. After that you can then choose to stop Hyperledger Fabric, and start it again later. Alternatively, to completely clean up, you can teardown Hyperledger Fabric.
@@ -131,6 +131,7 @@ Command succeeded
 
 
 ## Run the Composer Playground
+
 To run the Composer Playground we execute in a new terminal.
 
 ```
@@ -249,6 +250,7 @@ Command succeeded
 
 
 ## Build the REST Api
+
 To build the REST API we use the *composer-rest-server* command.
  
 ```
