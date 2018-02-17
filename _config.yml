@@ -18,3 +18,13 @@ collections:
  - my_resume
 plugins:
   - jekyll-seo-tag
+
+twitter:
+  username: marek5050
+
+social:
+  name: Marek Bejda
+  links:
+   - https://linked.com/in/marek5050
+   - https://github.com/marek5050
+   - https://twitter.com/marek5050
