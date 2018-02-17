@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sap/lxml_write.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sap/run_xml_gen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sap/xml_saved.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-15-Deploying_a_Fabric_Composer_Network_on_Ubuntu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" afterPath="$PROJECT_DIR$/_posts/2018-02-09-Deploying_a_Fabric_Composer_Network.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" afterPath="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,12 +38,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-15-SAP_Parsing_JSON_documents.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-02-15-SAP_Parsing_JSON_documents.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -58,12 +51,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="44">
-                <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+              <first_editor relative-caret-position="412">
+                <caret line="101" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -200,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2015-07-13-STL_Week_5.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-13-SE_Week_5.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-06-STL_Week_4.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-07-06-SE_Week_4.markdown" />
@@ -251,6 +243,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_XML_documents.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Generating_GS1_XML_documents.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md" />
       </list>
     </option>
   </component>
@@ -489,7 +482,7 @@
       <workItem from="1518115830127" duration="12769000" />
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
-      <workItem from="1518822080869" duration="6899000" />
+      <workItem from="1518822080869" duration="8710000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -509,7 +502,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90223000" />
+    <option name="totallyTimeSpent" value="92034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="434" y="23" width="1246" height="970" extended-state="0" />
@@ -878,17 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-Deploying_a_Fabric_Composer_Network_on_Ubuntu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -914,8 +896,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_API_HTTP_Requests_to_IBM_cloud.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <first_editor relative-caret-position="412">
+            <caret line="101" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-02-15-SAP_Parsing_JSON_documents.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />
