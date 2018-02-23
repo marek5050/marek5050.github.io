@@ -61,24 +61,23 @@ Change:
 ```
 
 ```  
-make docker-clean docker
- 
-cd examples/e2e_cli
-
-./network_setup.sh up mychannel
-
+$ make docker-clean docker
+$ cd examples/e2e_cli
+$ ./network_setup.sh up mychannel
 ```
  
 4 peer network will be up now, and chaincode will be installed.  Do the remaining steps via CLI:
 
 ``` 
-docker exec -it cli bash
+$ docker exec -it cli bash
 ```
  
-Marblesp
+ 
+## Marblesp in CLI container
+
 Instantiate chaincode on org1/peer0
 ```
-peer chaincode instantiate -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem -C mychannel -n marblesp -v 1.0 -c '{"Args":["init"]}' -P "OR ('Org0MSP.member','Org1MSP.member')" --collections-config collections.json
+$ peer chaincode instantiate -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem -C mychannel -n marblesp -v 1.0 -c '{"Args":["init"]}' -P "OR ('Org0MSP.member','Org1MSP.member')" --collections-config collections.json
 ```
 Output
 ```
@@ -96,7 +95,7 @@ Output
  
 Create marble1 on org1/peer0
 ```
-peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem -C mychannel -n marblesp -c '{"Args":["initMarble","marble1","blue","35","tom","99"]}'
+$ peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem -C mychannel -n marblesp -c '{"Args":["initMarble","marble1","blue","35","tom","99"]}'
 ```
 Output
 ```

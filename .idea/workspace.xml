@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52678d43-c4d7-4c84-b4e2-2ac268bd0180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md" afterPath="$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md" />
     </list>
     <ignored path="marek5050.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,8 +130,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <first_editor relative-caret-position="757">
+                <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -195,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2015-06-21-SE_Week_2.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-06-19-Introduction_to_iPython_Notebook.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-06-14-STL_Week1.markdown" />
         <option value="$PROJECT_DIR$/_posts/2015-06-14-SE_Week1.markdown" />
@@ -246,6 +244,7 @@
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/2018-02-24-Fabric_Private_Collection_Alpha.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md" />
       </list>
     </option>
   </component>
@@ -469,7 +468,7 @@
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
       <workItem from="1518822080869" duration="12131000" />
-      <workItem from="1519401616396" duration="1571000" />
+      <workItem from="1519401616396" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -489,7 +488,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97026000" />
+    <option name="totallyTimeSpent" value="97082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="6" />
@@ -903,8 +902,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <first_editor relative-caret-position="757">
+            <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
