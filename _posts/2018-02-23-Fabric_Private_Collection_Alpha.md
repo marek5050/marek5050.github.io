@@ -29,16 +29,14 @@ Script for testing private data e2e:
 
 Make these changes:
 
-In: 
-`/examples/e2e_cli/docker-compose-cli.yaml`  
+In:  `/examples/e2e_cli/docker-compose-cli.yaml`  
 change command from:
 `./scripts/script.sh`
 to
 `./scripts/script_marbles_private.sh`
 
 
-In:  
-/examples/e2e_cli/base/peer-base.yaml
+In:  `/examples/e2e_cli/base/peer-base.yaml`
 
 Add:  
 ``` 
@@ -49,8 +47,7 @@ Add:
        - CORE_LEDGER_PVTDATA_BTLPOLICY_MYCHANNEL_MARBLESP_COLLECTIONMARBLEPRIVATEDETAILS=3
 ```
  
-In:   
-examples/e2e_cli/configtx.yaml   
+In:   `examples/e2e_cli/configtx.yaml`   
 Change:
 ``` 
     Application: &ApplicationCapabilities
