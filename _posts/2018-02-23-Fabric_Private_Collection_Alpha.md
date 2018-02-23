@@ -11,8 +11,9 @@ status: publish
 ## Enabling Private Collections in Fabric 1.1
 
 References:  
-https://gerrit.hyperledger.org/r/#/c/14769/  
-https://jira.hyperledger.org/browse/FAB-6600  
+[Side DB: Private collections in Fabric](https://jira.hyperledger.org/browse/FAB-1151)  
+[Sample chaincode for prvt data](https://gerrit.hyperledger.org/r/#/c/14769/)    
+[Sample chaincode using private data collections](https://jira.hyperledger.org/browse/FAB-6600)    
 
 
 ```
