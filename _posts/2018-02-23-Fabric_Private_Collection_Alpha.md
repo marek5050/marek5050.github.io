@@ -1,20 +1,21 @@
 ---
 layout: post
-title: "Fabric: Working with private collections"
+title: "Fabric: Marbles example with Private Collections"
 subtitle: "...we'd like to hide information in the blockchain"
 date: 2018-02-23
 categories: fabric
 status: publish
 ---
 
-
-## Enabling Private Collections in Fabric 1.1
-
 References:  
 [Side DB: Private collections in Fabric](https://jira.hyperledger.org/browse/FAB-1151)  
 [Sample chaincode for prvt data](https://gerrit.hyperledger.org/r/#/c/14769/)    
 [Sample chaincode using private data collections](https://jira.hyperledger.org/browse/FAB-6600)    
 
+## Description
+The example adds the private collection functionality to Marbles.   
+
+## Marbles example with Private Collections in Fabric
 
 ```
 $ git clone https://gerrit.hyperledger.org/r/fabric 

@@ -130,8 +130,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="316">
-                <caret line="210" column="27" lean-forward="false" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="56" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -268,10 +268,9 @@
     <dismissed value="$PROJECT_DIR$/static/serenity/jqueryui/1.11.2-start/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1543" />
+    <option name="width" value="1680" />
     <option name="height" value="970" />
   </component>
   <component name="ProjectView">
@@ -468,7 +467,7 @@
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
       <workItem from="1518822080869" duration="12131000" />
-      <workItem from="1519401616396" duration="2516000" />
+      <workItem from="1519401616396" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -488,10 +487,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97971000" />
+    <option name="totallyTimeSpent" value="98231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -902,8 +901,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="316">
-            <caret line="210" column="27" lean-forward="false" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="56" />
             <folding />
           </first_editor>
           <second_editor />
