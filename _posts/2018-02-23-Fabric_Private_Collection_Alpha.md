@@ -36,10 +36,11 @@ change command from:
 to
 `./scripts/script_marbles_private.sh`
 
-In: 
+
+In:  
 /examples/e2e_cli/base/peer-base.yaml
 
-Add:
+Add:  
 ``` 
        - CORE_LOGGING_LEVEL=INFO
        - CORE_LOGGING_GOSSIP=DEBUG
@@ -48,8 +49,8 @@ Add:
        - CORE_LEDGER_PVTDATA_BTLPOLICY_MYCHANNEL_MARBLESP_COLLECTIONMARBLEPRIVATEDETAILS=3
 ```
  
-In: 
-examples/e2e_cli/configtx.yaml
+In:   
+examples/e2e_cli/configtx.yaml   
 Change:
 ``` 
     Application: &ApplicationCapabilities
@@ -61,6 +62,8 @@ Change:
         V1_1_PVTDATA_EXPERIMENTAL: true  
 ```
 
+Build the docker containers:
+ 
 ```  
 $ make docker-clean docker
 $ cd examples/e2e_cli
@@ -116,8 +119,9 @@ Output
  
 Query marble on org1/peer0
 ```
-peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarble","marble1"]}'
+$ peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarble","marble1"]}'
 ```
+
 Output
 ```
 2018-02-22 14:43:19.676 UTC [msp] GetLocalMSP -> DEBU 001 Returning existing local MSP
@@ -130,8 +134,9 @@ Output
 Query Result: {"docType":"marble","name":"marble1","color":"blue","size":35,"owner":"tom"}
 2018-02-22 14:43:19.682 UTC [main] main -> INFO 008 Exiting.....
 ```
+
 ```
-peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarblePrivateDetails","marble1"]}'
+$ peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarblePrivateDetails","marble1"]}'
 ```
 Output
 ```
@@ -149,7 +154,7 @@ Query Result: {"docType":"marblePrivateDetails","name":"marble1","price":99}
  
 Query marble on org1/peer1
 ```
-CORE_PEER_ADDRESS=peer1.org1.example.com:7051  peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarblePrivateDetails","marble1"]}'
+$ CORE_PEER_ADDRESS=peer1.org1.example.com:7051  peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarblePrivateDetails","marble1"]}'
 ```
 
 Output
@@ -168,8 +173,9 @@ Query Result: {"docType":"marblePrivateDetails","name":"marble1","price":99}
  
 Query marble on org2/peer0
 ```
-CORE_PEER_ADDRESS=peer0.org2.example.com:7051 CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/server.crt peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarblePrivateDetails","marble1"]}'
+$ CORE_PEER_ADDRESS=peer0.org2.example.com:7051 CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/server.crt peer chaincode query -C mychannel -n marblesp -c '{"Args":["readMarblePrivateDetails","marble1"]}'
 ```
+
 Output
 ```
 2018-02-22 14:44:55.054 UTC [msp] GetLocalMSP -> DEBU 001 Returning existing local MSP
@@ -205,8 +211,9 @@ Global Flags:
 ```
 
  
+Display logs from peer0.org1
 ```
-docker logs peer0.org1.example.com 2>&1 | grep -i -a -E 'private'
+$ docker logs peer0.org1.example.com 2>&1 | grep -i -a -E 'private'
 ```
 
 Output:

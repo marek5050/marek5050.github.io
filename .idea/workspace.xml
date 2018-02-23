@@ -131,8 +131,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <first_editor relative-caret-position="-234">
+                <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -469,7 +469,7 @@
       <workItem from="1518362695629" duration="3411000" />
       <workItem from="1518532293707" duration="8172000" />
       <workItem from="1518822080869" duration="12131000" />
-      <workItem from="1519401616396" duration="1712000" />
+      <workItem from="1519401616396" duration="2336000" />
     </task>
     <task id="LOCAL-00001" summary="Added filtering of &quot;drafts&quot;">
       <created>1477959562327</created>
@@ -489,7 +489,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97167000" />
+    <option name="totallyTimeSpent" value="97791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="970" extended-state="6" />
@@ -903,8 +903,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-02-23-Fabric_Private_Collection_Alpha.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <first_editor relative-caret-position="-234">
+            <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
