@@ -208,7 +208,7 @@ Global Flags:
 ```
 
  
-Display logs from peer0.org1
+View logs from org1/peer0  
 ```
 $ docker logs peer0.org1.example.com 2>&1 | grep -i -a -E 'private'
 ```
