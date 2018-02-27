@@ -3,6 +3,7 @@ type: "Report"
 heading: "1st Place - ConocoPhillips Innovation Challenge"
 duration: "05/2014"
 location: "Bartlesville, OK"
+link: "/static/Conoco.jpeg"
 ---
 
 <details class="hidden-print">
