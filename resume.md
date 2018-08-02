@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-##### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/twitter.jpg){:.somes_stu style="width: 19px"}@marek5050 ![email](/static/wordpress.png){:.some-css-class style="width: 18px"} marek5050.github.io </small>
+##### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/blog.svg){:.some-css-class style="width: 18px"} marek5050.github.io </small>
 
 ----
 <style  media="print">
@@ -96,9 +96,9 @@ font-weight:600;
 ----
 
 #### Skills
-**Languages**	Java, Javascript, Python, Go, Swift, C++ 
+**Languages**	Java, Javascript, Python, Go 
 **Frameworks**	Spring, Angular, jQuery, jUnit, Mocha
-**Systems** 	AWS, Linux, VMWare, Windows, Docker, Vagrant
+**Systems** 	Kubernetes, AWS, Linux, Windows, Docker
 **Tools**		IntelliJ, JIRA, Jenkins, TravisCI, git, vim
 **Data**        MySQL, MongoDB, Hadoop, Spark
 **Other**       DNS, Apache, nginx

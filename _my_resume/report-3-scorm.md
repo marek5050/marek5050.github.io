@@ -1,7 +1,7 @@
 ---
 type: "Report"
 heading: "SCORM Javascript Injection"
-duration: "09/2013"
+duration: "09/2012"
 location: "Austin, TX"
 link: "/static/Javascript.pdf"
 ---
