@@ -17,3 +17,9 @@ U
 %_my_resume/personal-4-amodernstory.md,6/4/64c9effd51db542e6ac7e49c61035c48772194d7
 M
 _my_resume/report-2-conoco.md,0/6/06e7a39fb1aa6cd481f855e6c5cd2a4be2bf3c83
+K
+_my_resume/work-3-sotera.md,a/9/a9c5e9edd4f4a8c005e2e1a19666972c409bca05
+I
+cut_resume/work-2-veep.md,9/2/92946e948ddec9a6306561d3abd70e3f1f6ced25
+L
+_my_resume/report-3-scorm.md,3/7/37525e5cb38e84a5b8944587decc43aa0ef4fb7d
