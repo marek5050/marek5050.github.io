@@ -96,8 +96,8 @@ font-weight:600;
 ----
 
 #### Skills
-**Languages**	Java, Javascript, Python, Go 
-**Frameworks**	Spring, jUnit, Pytest, Pandas
+**Languages**	Java, Python, Javascript, Go, C++
+**Frameworks**	Spring, jUnit, PyTest, Pandas
 **Systems** 	Kubernetes, AWS, Linux, Docker
 **Tools**		IntelliJ, JIRA, TravisCI, git, vim
 **Data**        Tableau, PostgreSQL, MongoDB, ELK
