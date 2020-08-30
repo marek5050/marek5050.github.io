@@ -1,6 +1,6 @@
 ---
 type: "Work Experience"
-heading: "IBM"
+heading: "IBM Blockchain"
 subheading: "Software Engineer"
 duration: "03/2017 – 03/2019"
 location: "Chicago, IL"

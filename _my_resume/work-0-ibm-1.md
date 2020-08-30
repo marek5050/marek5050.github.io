@@ -1,6 +1,6 @@
 ---
 type: "Work Experience"
-heading: "IBM"
+heading: "IBM Blockchain"
 subheading: "Software Architect"
 duration: "03/2019 – current"
 location: "New York, NY"
