@@ -1,5 +1,5 @@
 ---
-type: "Work Experience"
+type: "Work Experience-old"
 heading: "Sotera Defense"
 subheading: "Software Engineering Intern"
 duration: "01/2015 – 12/2015"

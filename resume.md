@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-##### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/blog.svg){:.some-css-class style="width: 18px"} marek5050.github.io </small>
+##### Marek Bejda <small>![email](/static/emails.png){:.some-css-class style="width: 20px"}  marek.bejda@gmail.com ![email](/static/github.jpeg){:.some-css-class style="width: 20px"}  github.com/marek5050 ![email](/static/blog.svg){:.some-css-class.icon-linkedin style="width: 18px"} linkedin.com/in/marek5050 </small>
 
 ----
 <style  media="print">
@@ -97,12 +97,11 @@ font-weight:600;
 
 #### Skills
 **Languages**	Java, Javascript, Python, Go 
-**Frameworks**	Spring, Angular, jQuery, jUnit, Mocha
-**Systems** 	Kubernetes, AWS, Linux, Windows, Docker
-**Tools**		IntelliJ, JIRA, Jenkins, TravisCI, git, vim
-**Data**        MySQL, MongoDB, Hadoop, Spark
+**Frameworks**	Spring, jUnit, Pytest, Pandas
+**Systems** 	Kubernetes, AWS, Linux, Docker
+**Tools**		IntelliJ, JIRA, TravisCI, git, vim
+**Data**        Tableau, PostgreSQL, MongoDB, ELK
 **Other**       DNS, Apache, nginx
 
 <span class="pull-right">An interactive version of this resume can be found at marek5050.github.io/resume</span>
-
 
