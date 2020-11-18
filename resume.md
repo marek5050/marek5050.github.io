@@ -87,7 +87,6 @@ font-weight:600;
 {% if item.type == "Report" %}
 [{{item.heading}}]({{item.link}}){: target="_blank"}
 <span class='pull-right'><small>( {{item.duration}}, {{item.location}})</small></span>
-
 {{item.content}}
 
 {% endif %}
@@ -96,12 +95,11 @@ font-weight:600;
 ----
 
 #### Skills
-**Languages**	Java, Python, Javascript, Go, C++
-**Frameworks**	Spring, jUnit, PyTest, Pandas
-**Systems** 	Kubernetes, AWS, Linux, Docker
-**Tools**		IntelliJ, JIRA, TravisCI, git, vim
-**Data**        Tableau, PostgreSQL, MongoDB, ELK
-**Other**       DNS, Apache, nginx
+**Languages**	Java, Python, Go, C++
+**Frameworks**	jUnit, PyTest, Pandas
+**Systems** 	Kubernetes, AWS, Linux, Docker, Spark, Hadoop
+**Tools**		Jupyter, IntelliJ, JIRA, TravisCI, git, vim
+**Data**        Tableau, PostgreSQL, MongoDB, ELK, SQL Query
 
 <span class="pull-right">An interactive version of this resume can be found at marek5050.github.io/resume</span>
 

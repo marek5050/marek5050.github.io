@@ -1,7 +1,7 @@
 ---
 type: "Personal Project"
 heading: "Marek5050.github.io"
-subheading: "Blog - 5/2014"
+subheading: "Blog"
 duration: "2012 – current"
 location: "Austin, TX"
 link: "https://marek5050.github.io"

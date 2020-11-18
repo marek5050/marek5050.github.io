@@ -8,5 +8,4 @@ link: "http://jpmorgan.com"
 ---
 
 + Led the development of an internal website built using Knockout and integrated various online services such as Google Maps, Places, and News.
-+ Present the project's status and progress to various directors. 
 + Mentor others in web development principles, cascade style sheets, and usage of REST APIs.

@@ -5,6 +5,5 @@ duration: "05/2015"
 location: "Austin, TX"
 link: "/static/TACC_PROJECT_SIGNED_FINAL.pdf"
 ---
-<details class="hidden-print">
-There are a number of ways of integrating R and Hadoop. We explored RHIPE, Rhadoop, and R Streaming and measured their performance. 
-</details>
+There are a number of ways of integrating R with Hadoop and Spark. We explored RHIPE, Rhadoop, R Streaming, and SparkR and measured their performance.
+During the project we also compared the performance of Hadoop and Spark on open public datasets on the TACC super computer Stampede.

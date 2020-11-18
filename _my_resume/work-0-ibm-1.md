@@ -8,6 +8,6 @@ link: "https://www.ibm.com/"
 ---
 
 * Lead and support the technical integration efforts of various organizations with the TradeLens platform.
-* Design and develop a business intelligence solution and data pipeline with Tableau, Python, and PostgreSQL.
+* Design and develop a data analytics solution using SQL Query-Spark, Watson Studio, Tableau, Python, and PostgreSQL.
 * Design and implement solutions for continuous monitoring and raise awareness of data quality.
 * Provide guidance on CI/CD, versioning, and engineering best practices.
